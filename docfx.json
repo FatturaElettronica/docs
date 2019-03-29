@@ -1,7 +1,41 @@
 {
-  "metadata": [],
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "**/*.csproj"
+          ],
+          "exclude": [
+            "**/Test/**",
+            "**/bin/**",
+            "**/obj/**"
+          ],
+          "cwd": "FatturaElettronica.NET/"
+        }
+      ],
+      "dest": "obj/api/FatturaElettronica",
+      "properties": {
+        "TargetFramework": "netstandard1.1"
+      }
+    }
+  ],
   "build": {
     "content": [
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "cwd": "obj/api/FatturaElettronica",
+        "dest": "docs/api"
+      },
+      {
+        "files": [
+          "**.md"
+        ],
+        "cwd": "FatturaElettronica.NET/docs",
+        "dest": "docs"
+      },
       {
         "files": [
           "api/**.yml",
@@ -10,12 +44,17 @@
       },
       {
         "files": [
-          "FatturaElettronica.NET/docs/**.md",
-          "FatturaElettronica.NET/docs/toc.md",
           "articles/**.md",
           "articles/**/toc.yml",
           "toc.yml",
           "*.md"
+        ]
+      },
+      {
+        "files": [
+          "*.md",
+          "dev/**.md",
+          "toc.yml"
         ]
       }
     ],
