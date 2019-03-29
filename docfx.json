@@ -10,6 +10,8 @@
       },
       {
         "files": [
+          "FatturaElettronica.NET/docs/**.md",
+          "FatturaElettronica.NET/docs/toc.md",
           "articles/**.md",
           "articles/**/toc.yml",
           "toc.yml",
