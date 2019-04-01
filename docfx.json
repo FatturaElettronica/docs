@@ -79,7 +79,7 @@
     "dest": "_site",
     "globalMetadata": {
       "_appTitle": "Fattura Elettronica Open Source",
-      "_appFooter": "© Copyright 2019 Nicola Iarocci",
+      "_appFooter": "© Copyright 2015-2019 <a href=https://nicolaiarocci.com>Nicola Iarocci</a> e <a href=https://gestionaleamica.com/>Gestionali Amica</a>",
       "_appLogoPath": "images/logo.svg",
       "_enableSearch": true
     },
