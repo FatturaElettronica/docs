@@ -44,12 +44,12 @@ formato XML che JSON.
 
 ### FatturaElettronica.Extensions
 
-FatturaElettronica.Extensions offre una serie di extension methods che
+FatturaElettronica.Extensions offre una serie di extension method che
 arricchiscono il pacchetto principale con caratteristiche quali la lettura e
 apposizione di firme digitali (p7m), l'esportazione in formato HTML, ed
 altro.
 
-- [Documentazione](/docs/extensions/)
+- [Documentazione](/extensions/)
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.Extensions)
 
 ### FatturaElettronica.Core
