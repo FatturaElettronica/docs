@@ -2,5 +2,7 @@
   href: /
 - name: FatturaElettronica
   href: FatturaElettronica.NET/docs/
+- name: Extensions
+  href: FatturaElettronica.Extensions/docs/
 - name: GitHub
   href: https://github.com/FatturaElettronica
