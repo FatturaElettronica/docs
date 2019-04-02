@@ -1,0 +1,571 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Changelog | Fattura Elettronica Open Source per piattaforme .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Changelog | Fattura Elettronica Open Source per piattaforme .NET ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="changelog">Changelog</h1>
+
+<h2 id="in-development">In Development</h2>
+<ul>
+<li>Refactoring: classe Allegati spostata in FatturaElettronica.Common (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/179">#179</a>)</li>
+</ul>
+<h2 id="v202">v2.0.2</h2>
+<p>Released on March 19, 2019</p>
+<ul>
+<li>Fix: il root node della fattura semplificata ha il namespace sbagliato. Addresses #176.</li>
+</ul>
+<h2 id="v201">v2.0.1</h2>
+<p>Released on March 19, 2019</p>
+<ul>
+<li>Fix: il root node della fattura semplificata ha il nome sbagliato. Closes #176.</li>
+</ul>
+<h2 id="v20">v2.0</h2>
+<p>Released on March 13, 2019</p>
+<ul>
+<li><p>New: Supporto per fattura semplificata (Gaetano Pizzol). Closes #137.</p>
+</li>
+<li><p>BREAKING: classe Fattura (Fattura.cs) rinominata FatturaOrdinaria (Ordinaria/FatturaOrdinaria.cs).</p>
+</li>
+<li><p>BREAKING: gerarchia di classi per fattura ordinaria spostata nel namespace FatturaElettronica.Ordinaria.</p>
+</li>
+<li><p>Fix: warning NU5125: The 'licenseUrl' element will be deprecated. Closes #166.</p>
+</li>
+<li><p>Fix: Proprietà di tipo oggetto opzionali sollevano &quot;Object reference not set to an instance of an object&quot; quando nulle. Closes #165.</p>
+</li>
+<li><p>Fix: DatiTrasporto.PesoLordo e DatiTrasporto.PesoNetto non possono superare il valore 9999.99m. Closes #157.</p>
+</li>
+<li><p>Bump FatturaElettronica.Core a 2.0.</p>
+</li>
+<li><p>Bump Microsoft.NET.Test.Sdk to 16.0.1.</p>
+</li>
+<li><p>Bump FluentValidation to 8.1.3.</p>
+</li>
+<li><p>Bump Newtonsoft.Json to 12.0.1.</p>
+</li>
+<li><p>Bump MSTest.TestAdapter to 1.4.0</p>
+</li>
+<li><p>Bump MSTest.TestFramework to 1.4.0</p>
+</li>
+<li><p>Switch CI da AppVeyor ad Azure Pipelines.</p>
+</li>
+</ul>
+<h2 id="v115">v1.1.5</h2>
+<p>Released on February 2, 2019</p>
+<ul>
+<li>Fix: Tabella CausalePagamento aggiornata al 2019. Closes #151.</li>
+</ul>
+<h2 id="v114">v1.1.4</h2>
+<p>Released on January 31, 2019</p>
+<ul>
+<li>Fix: ScontoMaggiorazione può accettare sia Importo che Percentuale. Closes #146.</li>
+<li>Fix: IdPaese.Irlanda è duplicato mentre Islanda è assente. Closes #144.</li>
+<li>README: aggiunto esempio di inserimento elemento Body. Addresses #141.</li>
+</ul>
+<h2 id="v113">v1.1.3</h2>
+<p>Released on January 23, 2019</p>
+<ul>
+<li>New: nuovo logo per il progetto FatturaElettronica, by Roberto &quot;Kalamun&quot; Pasini. Closes 101.</li>
+<li>Fix: Link obsoleto alle specifiche tecniche ufficiali. Closes #139.</li>
+<li>Fix: ScontoMaggiorazione deve accettare Importo o Percentuale a 0. Addresses #136.</li>
+<li>Fix: ScontoMaggiorazione non deve accettare Importo e Percentuale entrambi valorizzati. Addresses #136.</li>
+</ul>
+<h2 id="v112">v1.1.2</h2>
+<p>Released on January 21, 2019</p>
+<ul>
+<li>Fix: Validazione ScontoMaggiorazione dovrebbe accettare Importo o Percentuale a 0. Closes #136.</li>
+</ul>
+<h2 id="v111">v1.1.1</h2>
+<p>Released on January 17, 2019</p>
+<ul>
+<li>Fix: Tabella CausalePagamento completata coi nomi di ogni pagamento (Michael Mairegger). Pull #127.</li>
+<li>Fix: Convalida Provincia non conforme ai controlli lato AgEntrate. Closes #129.</li>
+<li>Fix: CessionarioCommittente.RappresentanteFiscale, errore &quot;sequenza tag errata&quot;. Closes #133.</li>
+<li>Fix: Supporto per 8 decimali nel PrezzoUnitario (Claudio Lepri). Pull #130; Closes #125.</li>
+<li>Bump FatturaElettronica.Core a 1.1.1.</li>
+</ul>
+<h2 id="v11">v1.1</h2>
+<p>Released on January 6, 2019</p>
+<ul>
+<li>New: NetStandard 2.0 aggiunto ai target framework (Federico Dipuma). Closes #119.</li>
+<li>New: costruttore classe Fattura ora è pubblico. Closes #99.</li>
+<li>New: performance migliorata (Federico Dipuma). See #120.</li>
+<li>Fix: Quantità non può assumere valore negativo. Closes #115.</li>
+<li>Fix: Small typos. Closes #116.</li>
+</ul>
+<h2 id="v104">v1.0.4</h2>
+<p>Released on January 2, 2019</p>
+<ul>
+<li>Fix: Aggiunta &quot;Sud Sardegna&quot; alla lista provincie (Massimo Linossi). Pull #111.</li>
+</ul>
+<h2 id="v103">v1.0.3</h2>
+<p>Released on December 30, 2018</p>
+<ul>
+<li>Fix: UnitaMisura è opzionale. Addresses #102.</li>
+</ul>
+<h2 id="v102">v1.0.2</h2>
+<p>Released on December 20, 2018.</p>
+<ul>
+<li>Fix: Titolo e CodEORI ignorano ordinamento. Closes #103.</li>
+<li>Fix: controllo UnitaMisura consente campo vuoto. Closes #102.</li>
+</ul>
+<h2 id="v101">v1.0.1</h2>
+<p>Released on November 9, 2018.</p>
+<ul>
+<li>Bump: FatturaElettronica.Core to 1.0.</li>
+</ul>
+<h2 id="v10">v1.0</h2>
+<p>Released on November 9, 2018.</p>
+<ul>
+<li><p>BREAKING: proprietà Fattura.Header rinominata in FatturaElettronicaHeader. Closes #83.</p>
+</li>
+<li><p>BREAKING: proprietà Fattura.Body rinominata in FatturaElettronicaBody. Closes #83.</p>
+</li>
+<li><p>BREAKING: namespace FatturaElettronica.Impostazioni rinominato FatturaElettronica.Defaults.</p>
+</li>
+<li><p>Fix: Aggiornati codici INCOTERMS (Marco Tessitore). Pull #89; Pull #91.</p>
+</li>
+<li><p>Fix: Rimosso controllo 00426 su campo PECDestinatario (Gaetano Pizzol). Pull #88.</p>
+</li>
+<li><p>Fix: Anagrafica.CognomeNome non deve essere serializzato in JSON. Closes #86.</p>
+</li>
+<li><p>Fix: DettaglioPagamento.IBAN deve essere formalmente corretto. Closes #84.</p>
+</li>
+<li><p>Fix: Campo RiferimentoNumero dovrebbe essere opzionale (Gaetano Pizzol). Pull #82.</p>
+</li>
+<li><p>Fix: Aggiunto setter mancante a DettaglioLinee.AltriDatiGestionali. Addresses #81.</p>
+</li>
+<li><p>Fix: Header e Body vanno JSON-serializzati come FatturaElettronicaHeader e FatturaElettronicaBody. Closes #83.</p>
+</li>
+<li><p>Bump: FatturaElettronica.Core to 0.5.</p>
+</li>
+<li><p>Bump: Newtonsoft.Json to 11.0.2.</p>
+</li>
+<li><p>Bump: MSTest.TestFramework to 1.3.2.</p>
+</li>
+<li><p>Bump: MSTest.TestAdapter to 1.3.2.</p>
+</li>
+<li><p>Bump: Microsoft.NET.Test.Sdk to 15.9.0.</p>
+</li>
+</ul>
+<h2 id="v09">v0.9</h2>
+<p>Released on October 26, 2018.</p>
+<ul>
+<li>New: FromJson() de-serializza stream JSON.</li>
+<li>Fix: PECDestinatario può essere vuoto quando CodiceDestinatario è 0000000. Closes #75.</li>
+<li>Fix: Le proprietà di tipo Class non sono scrivibili. Closes #76.</li>
+<li>Fix: ToJson() serializza proprietà che non dovrebbero comparire nel JON.</li>
+<li>I test ora girano come app NetCore 2.1. Addresses FatturaElettronica/FatturaElettronica.Core#4.</li>
+</ul>
+<h2 id="v085">v0.8.5</h2>
+<p>Released on October 16, 2018.</p>
+<ul>
+<li>New: Validazione errore 00426 per campo 1.1.6 PECDestinatario. Closes #74.</li>
+<li>Fix: errore descrizione in RegimeFiscale &quot;RF17&quot;. Closes #72.</li>
+<li>Fix: &quot;Nullable object must have a value&quot; in validazione di blocco ScontoMaggiorazione con Importo = 0. Closes #71.</li>
+</ul>
+<h2 id="v084">v0.8.4</h2>
+<p>Released on October 4, 2018.</p>
+<ul>
+<li>Upgrade: FluentValidation to v8.0.100.</li>
+</ul>
+<h2 id="v083">v0.8.3</h2>
+<p>Released on October 2, 2018.</p>
+<ul>
+<li>Fix: DettaglioLineeValidator: 00423 non supporta tolleranca di 1 centesimo. Closes #66.</li>
+</ul>
+<h2 id="v082">v0.8.2</h2>
+<p>Released on October 1, 2018.</p>
+<ul>
+<li>FatturaElettronica.Core dependency bumped to v0.2.</li>
+<li>Cleanup and refactoring: use auto-properties; remove unnecessary usings.</li>
+</ul>
+<h2 id="v081">v0.8.1</h2>
+<p>Rilasciata il 4.7.2018</p>
+<ul>
+<li>Fix: errore lunghezza PECDestinatario in v0.8. Closes #58.</li>
+</ul>
+<h2 id="v08">v0.8</h2>
+<p>Rilasciata il 3.7.2018</p>
+<ul>
+<li>Recepite specifiche tecniche Allegato A del 22.6.2018. Closes #52.</li>
+<li>New: rimossi controlli su campo PECDestinatario. Addresses #52.</li>
+<li>New: supporto per TipoDocumento TD020 autofattura. Addresses #52</li>
+<li>Passata la test suite da NET461 a NETCore. Closes #57.</li>
+</ul>
+<h2 id="v07">v0.7</h2>
+<p>Rilasciata il 4.10.2017</p>
+<ul>
+<li>Spostata serializzazione su package indipendente FatturaElettronica.Core.</li>
+<li>Abbandonato il profilo PCL in favore di NetStandard 1.1.</li>
+</ul>
+<h2 id="v063">v0.6.3</h2>
+<p>Rilasciata il 17.7.2017</p>
+<ul>
+<li>Fix: RappresentanteFiscale viene erroneamente serializzato come 'Rappresentante' causando errore convalida 200
+da parte del sistema PA. Closes #49.</li>
+<li>README: Aggiunta opzione IgnoreComments a XmlReader per evitare crash nel caso di commenti nel XML. Closes #45.</li>
+</ul>
+<h2 id="v062">v0.6.2</h2>
+<p>Rilasciata il 23.5.2017.</p>
+<ul>
+<li>Fix: Falso errore di convalida 00423 quando PrezzoTotale � valorizzato con piu di due decimali. Closes #45.</li>
+</ul>
+<h2 id="v061">v0.6.1</h2>
+<p>Rilasciata il 5.5.2017.</p>
+<ul>
+<li>Fix: Falso errore di convalida 00415 quando DatiCassaPrevidenziale � valorizzato ma non ha Ritenuta=&quot;SI&quot;. Closes #44.</li>
+</ul>
+<h2 id="v060">v0.6.0</h2>
+<p>Rilasciata il 27.4.2017.</p>
+<ul>
+<li>Assembly non pi� strong-named. Closes #41.</li>
+<li>README: aggiunti esempi di introspezione e modifica degli elementi FatturaElettronicaBody. Closes #38.</li>
+</ul>
+<h2 id="v051">v0.5.1</h2>
+<p>Rilasciata il 26.4.2017.</p>
+<ul>
+<li>Fix: Errore 00421 non tiene conto della tolleranza garantita di 0.01 centesimi. Closes #43.</li>
+</ul>
+<h2 id="v050">v0.5.0</h2>
+<p>Rilasciata il 30.3.2017.</p>
+<p>Questa versione recepisce le modifiche introdotte con la v1.2.1 delle specifiche tecniche PA.</p>
+<ul>
+<li>Regime Fiscale RF03 � abrogato. Viene restituito errore 00459 se utilizzato.</li>
+<li>Natura N5: descrizione aggiornata a &quot;regime del margine / IVA non esposta in fattura&quot;.</li>
+<li>Le propriet� Codice e Nome della classe astratta Tabella non sono pi� protette in scrittura.</li>
+</ul>
+<h2 id="v043">v0.4.3</h2>
+<p>Rilasciata il 23.3.2017.</p>
+<ul>
+<li>Fix: Validazione conformit� ai gruppi IsBasicLatin e IsLatin-1Supplement. Closes #29.</li>
+<li>Fix: Non includere il folder Artwork nel package NuGet. Closes #37.</li>
+</ul>
+<h2 id="v042">v0.4.2</h2>
+<p>Rilascata il 17.3.2017.</p>
+<ul>
+<li>Fix: Convalida DatiCassaPrevidenziale.Natura va fatta solo quando Aliquota uguale a
+zero. Closes #36.</li>
+</ul>
+<h2 id="v041">v0.4.1</h2>
+<p>Rilasciata il 14.3.2017.</p>
+<ul>
+<li>Fix: Nomi delle nazioni ISO-3166 Alpha 2 sono in Inglese. Closes #35.</li>
+<li>Fix: Elementi FatturaElettronicaBody sono serializzati come 'Body'. Closes #34.</li>
+<li>Aggiunto file .editconfig</li>
+</ul>
+<h2 id="v040">v0.4.0</h2>
+<p>Rilasciata il 9.3.2017.</p>
+<ul>
+<li>Rinominata classe FatturaElettronica in Fattura.</li>
+<li>Rinominata classe FatturaElettronicaHeader in Header.</li>
+<li>Rinominata classe FatturaElettronicaBody in Body.</li>
+<li>Rinominata propriet� Fattura.FatturaElettronicaHeader in Fattura.Header.</li>
+<li>Rinominata propriet� Fattura.FatturaElettronicaBody in Fattura.Body.</li>
+<li>Alcune classi spostate da FatturaElettronica.Common a FatturaElettronica.Tabelle</li>
+<li>Classe BusinessObjects.BusinessObjectBase rinominata FatturaElettronica.BaseClass.</li>
+<li>Classe BusinessObjects.BusinessObject rinominata FatturaElettronica.BaseClassSerializable.</li>
+<li>Classe FatturaElettronica.Common.BusinessObject eliminata.</li>
+<li>Persa dipendenza dal package BusinessObjects.</li>
+<li>Acquisita dipendenza dal package FluentValidation.</li>
+<li>Aggiunto namespace FatturaElettronica.Validators.</li>
+<li>Aggiunta serie di classi dedicate alla convalida (FatturaValidator; HeaderValidator; ecc.)</li>
+<li>Rimosso metodo IsValid(). Al suo posto usare propriet� ValidationResult.IsValid.</li>
+<li>Rimossa propriet� Error. Al suo posto usare ValidationFailure.Errors.</li>
+<li>Nuovo extension method Fattura.Validate(). Equivalente a FatturaValidator.Validate() (shortcut).</li>
+<li>Consultare il README per esempi di codice aggiornati.</li>
+</ul>
+<h2 id="v037">v0.3.7</h2>
+<p>Rilasciata il 7.3.2017.</p>
+<ul>
+<li>Fix: Errore in convalida del campo Riferimento Testo: sono consentiti fino
+a 60 caratteri. Closes #33.</li>
+</ul>
+<h2 id="v036">v0.3.6</h2>
+<p>Rilasciata il 10.2.2017.</p>
+<ul>
+<li>Aggiunto supporto per .NET Core.</li>
+<li>Abbandonato supporto per .NET Framework 4.0 e Silverlight.</li>
+<li>Fix: Falso negativo (errore 423) in convalida DettaglioLinee. Closes #31.</li>
+<li>Fix: Correzione messaggio di errore per Divisa non corretta (Fabio Calvigioni).</li>
+</ul>
+<h2 id="v035">v0.3.5</h2>
+<p>Rilasciata il 2.2.2017.</p>
+<ul>
+<li>Fix: Crash con ScontoMaggiorazione.Importo non impostato (null). Closes #28.</li>
+</ul>
+<h2 id="v034">v0.3.4</h2>
+<p>Rilasciata il 1.2.2017.</p>
+<ul>
+<li>Fix: Crash quando ScontoMaggiorazione.Importo ha valore negativo. Closes #27.</li>
+</ul>
+<h2 id="v033">v0.3.3</h2>
+<p>Rilasciata il 18.1.2017.</p>
+<ul>
+<li>Fix: Consenti serializzazione di valori numerici fino a 5 decimali (minimo 2).</li>
+<li>Fix: Arrotonda valori numerici fino a 5 decimali (minimo 2).</li>
+</ul>
+<h2 id="v032">v0.3.2</h2>
+<p>Rilasciata il 17.1.2017.</p>
+<ul>
+<li>Fix: Convalida errore 00415. Se almeno un DatiCassaPrevidenziale ha Ritenuta = &quot;SI&quot;, allora DatiRitenuta deve essere valorizzato. Closes #22.</li>
+<li>Fix: Convalida errore 00411. Se almeno un DettaglioLinee ha Ritenuta = &quot;SI&quot;, allora DatiRitenuta deve essere valorizzato. Closes #22.</li>
+<li>Fix: Convalida errore 00423 nel caso di campo Quantit� a null. Closes #20.</li>
+</ul>
+<h2 id="v031">v0.3.1</h2>
+<p>Rilasciata il 16.1.2017.</p>
+<ul>
+<li>New: aggiunte propriet� Sigla e Sigle[] alla classe FormatoTrasmissione</li>
+<li>New: aggiunta propriet� Descrizione alla classe FormatoTrasmissione</li>
+</ul>
+<h2 id="v03">v0.3</h2>
+<p>Rilasciata il 13.1.2017</p>
+<h2 id="breaking-changes">BREAKING CHANGES</h2>
+<p>Questa release introduce una serie di cambianti importanti che rompono la
+compatibilit� con l'API precedente.</p>
+<ul>
+<li>Il package NuGet cambia nome. Ora si chiama FatturaElettronica (era FatturaElettronicaPA).</li>
+<li>Il namespace diventa FatturaElettronica (era FatturaElettronicaPA)</li>
+<li>Il package FatturaElettronicaPA verr� marcato come obsoleto su NuGet.</li>
+<li>Il costruttore della classe FatturaElettronica � ora protetto.</li>
+<li>Usare il factory method CreateInstance() per ottenere una istanza della classe.</li>
+<li>CreateInstance() consente di scegliere se ottenere una fattura tra soggetti privati o per la Pubblica Amministrazione.</li>
+<li>La fattura restituita da CreateInstance() ha gi� il campo FormatoTrasmissione correttamente impostato a FPA12 o FPR12.</li>
+<li>Nel caso di fattura tra privati, per default la fattura ha il CodiceDestinatario impostato a &quot;0000000&quot; (sar� cura del utente impostare in seguito il nuovo campo PECDestinatario o aggiornare il CodiceDestinatario col codice canale del destinatario)</li>
+</ul>
+<h2 id="altre-modifiche">Altre modifiche</h2>
+<ul>
+<li>New: attributo xmlns:ds nel root elemento del documento xml.</li>
+<li>New: attributo xmlns:xsi nel root elemento del documento xml.</li>
+<li>New: attributo xsi:schemaLocation nel root elemento del documento xml.</li>
+<li>New: campo 1.4.4 RappresentanteFiscale.</li>
+<li>New: campo 1.4.3 StabileOrganizzazione.</li>
+<li>New: campo 1.1.6 PECDestinatario e relavite convalide.</li>
+<li>Fix: modificato campo 2.4.2.13 IBAN per recepire da 15 a 34 caratteri.</li>
+<li>Fix: aggiunto valore N7 ai campi 2.2.2.2 e 2.1.1.7.7 Natura.</li>
+<li>Fix: aggiunto valore MP22 al campo 2.4.2.2 ModalitaPagamento.</li>
+<li>Fix: campo 1.1.4 FormatoTrasmissione supporta valori FPA12 (Pubblica Amministrazione) e FPR12 (Privati)</li>
+<li>Fix: campo 1.1.4 CodiceDestinatario, adeguate le convalide per tenere conto del FormatoTrasmissione impostato.</li>
+<li>Aggiunta la test suite. Mancano test delle convalide implementate prima della v0.3.</li>
+</ul>
+<h2 id="v026">v0.2.6</h2>
+<p>Rilasciata il 13.1.2017</p>
+<ul>
+<li>Questa release serve solo a segnalare su NuGet che FatturaElettronicaPA � obsoleto.</li>
+<li>Scaricare e installare il package FatturaElettronica v0.3 e successivi da ora in poi.</li>
+</ul>
+<h2 id="v025">v0.2.5</h2>
+<p>Rilasciata il 17.6.2016</p>
+<ul>
+<li>Fix: PrezzoTotale ora prevede tolleranza &quot;accettabile&quot; su seconda cifra
+decimale. Closes #19.</li>
+</ul>
+<h2 id="v024">v0.2.4</h2>
+<p>Rilasciata il 25.5.2016</p>
+<ul>
+<li>Fix: Validazione 00423: calcolo in base a percentuale sconto. Closes #18.</li>
+</ul>
+<h2 id="v023">v0.2.3</h2>
+<p>Rilasciata il 24.5.2016</p>
+<ul>
+<li>Fix: Serializzare valori decimali con piu' di 2 decimali.</li>
+</ul>
+<h2 id="v022">v0.2.2</h2>
+<p>Rilasciata il 24.5.2016</p>
+<ul>
+<li>New: Errore 00400 aggiunto alla convalida.</li>
+<li>New: Errore 00401 aggiunto alla convalida.</li>
+<li>Fix: Errore 00424 non consente aliquota IVA impostata al valore 1.</li>
+</ul>
+<h2 id="v021">v0.2.1</h2>
+<p>Rilasciata il 23.5.2016</p>
+<ul>
+<li>New: Errore 00422, aggiunta tolleranza di 1 Euro come da specifiche PA
+aggiornate.</li>
+</ul>
+<h2 id="v02">v0.2</h2>
+<p>Rilasciata il 20.5.2016</p>
+<ul>
+<li>New: Errore 00418 aggiunto alla convalida. Addresses #16.</li>
+<li>New: Errore 00419 aggiunto alla convalida. Addresses #16.</li>
+<li>New: Errore 00420 aggiunto alla convalida. Addresses #16.</li>
+<li>New: Errore 00421 aggiunto alla convalida. Addresses #16.</li>
+<li>New: Errore 00422 aggiunto alla convalida. Addresses #16.</li>
+<li>New: Errore 00423 aggiunto alla convalida. Closes #17. Addresses #16.</li>
+<li>New: Errore 00424 aggiunto alla convalida. Addresses #16.</li>
+<li>New: Errore 00425 aggiunto alla convalida. Addresses #16.</li>
+</ul>
+<h2 id="v018">v0.1.8</h2>
+<p>Rilasciata il 24.8.2015</p>
+<ul>
+<li>Fix: 2.1.8.3 RiferimentoNumeroLinea in deserializzazione manda applicazione in loop. Closes #14.</li>
+</ul>
+<h2 id="v017">v0.1.7</h2>
+<p>Rilasciata il 7.8.2015</p>
+<ul>
+<li>Fix: 2.1.9.4 NumeroColli in deserializzazione si ha errore conversione Nullable. Closes #12.</li>
+<li>Fix: 2.4.2.4 GiorniTerminiPagamento in deserializzazione si ha errore conversione Nullable. Closes #12.</li>
+<li>Upgrade to BusinessObjects v0.1.4</li>
+</ul>
+<h2 id="v016">v0.1.6</h2>
+<p>Rilasciata il 31.7.2015</p>
+<ul>
+<li>Upgrade to BusinessObjects v0.1.3</li>
+<li>New: Convalida per 2.1.1.11 Causale.</li>
+<li>Fix: 2.1.2.1 RiferimentoNumeroLinea non gestito come lista 0..N, ma come valore singolo.</li>
+<li>Fix: 2.1.2.1 RiferimentoNumeroLinea in deserializzazione si ha errore conversione Nullable. Closes #9.</li>
+<li>Fix: 2.1.1.11 Causale. Se sono presenti 2+ righe allora il codice va in loop. Closes #8.</li>
+<li>Fix: Crash in deserializzazione di tag XML vuoti (es: <code>&lt;ContattiTrasmittente /&gt;</code>). Closes #7.</li>
+<li>Fix: 2.1.9.13 DataOraConsegna serializza a MinValue quando non valorizzato. Closes #10.</li>
+<li>Fix: 2.2.1.16.4 RiferimentoData serializza a MinValue quando non valorizzato.</li>
+<li>Fix: 2.4.2.5 DataScadenzaPagamento serializza a MinValue quando non valorizzato. Closes #10.</li>
+<li>Fix: 2.4.2.18 DataLimitePagamentoAnticipato � di tipo errato (decimal? invece di DateTime?).</li>
+</ul>
+<h2 id="v015">v0.1.5</h2>
+<p>Rilasciata il 15.7.2015</p>
+<ul>
+<li>Fix: 2.2.1.10.1 ScontoMaggiorazione.Tipo: convalida valori corretti SC e MG.</li>
+<li>Fix: 2.4.2.2 ModalitaPagamento: non veniva convalidato valore MP05.</li>
+</ul>
+<h2 id="v014">v0.1.4</h2>
+<p>Rilasciata il 14.7.2015</p>
+<ul>
+<li>Upgrade to BusinessObject v0.1.2</li>
+<li>Fix: Convalida di FatturaElettronicaBody. Chiude #4.</li>
+</ul>
+<h2 id="v013">v0.1.3</h2>
+<p>Rilasciata il 7.4.2015</p>
+<ul>
+<li>Upgrade to BusinessObject v0.1.1</li>
+<li>Upgrade to Json.NET v6.0.8</li>
+<li>Fix: ReadXML crash su valori Decimal?</li>
+</ul>
+<h2 id="v012">v0.1.2</h2>
+<p>Rilasciata il 16.2.2015</p>
+<ul>
+<li>Supporto per valori L1, M1, O1, V1 per DatiRitenuta.CausalePagamento.</li>
+<li>Risolto problema col validatore di DatiRitenuta.CausalePagamento.</li>
+<li>Supporto per valore RF19 per campo RegimeFiscale.</li>
+</ul>
+<h2 id="v011">v0.1.1</h2>
+<p>Rilasciata il 16.2.2015</p>
+<ul>
+<li>Supporto per Split Payment.</li>
+</ul>
+<h2 id="v01">v0.1</h2>
+<p>Rilasciata il 9.2.2015</p>
+<ul>
+<li>Release iniziale.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/docs/docs/changelog.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright 2015-2019 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

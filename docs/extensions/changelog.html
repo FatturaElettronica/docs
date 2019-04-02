@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Changelog | Fattura Elettronica Open Source per piattaforme .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Changelog | Fattura Elettronica Open Source per piattaforme .NET ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="changelog">Changelog</h1>
+
+<h2 id="in-development">In Development</h2>
+<ul>
+<li>hic sunt leones.</li>
+</ul>
+<h2 id="v20">v2.0</h2>
+<p>Released on March 13, 2019.</p>
+<ul>
+<li>Fix: warning NU5125: The 'licenseUrl' element will be deprecated. Closes #23.</li>
+<li>Bump FatturaElettronica to 2.0.</li>
+<li>Bump Microsoft.NET.Test.Sdk to 16.0.1.</li>
+<li>Bump Portable.BouncyCastle to 1.8.5.</li>
+<li>Bump System.Security.Cryptography.Pkcs to 4.5.2.</li>
+<li>Bump Newtonsoft.Json to 12.0.1.</li>
+<li>CI: switch da AppVeyor a Azure Pipelines. Closes #52.</li>
+</ul>
+<h2 id="v15">v1.5</h2>
+<p>Released on February 26, 2019</p>
+<ul>
+<li>New: <code>WriteHtml(string outPath, string xslPath)</code> crea HTML della fattura usando un foglio di stile.</li>
+</ul>
+<h2 id="v14">v1.4</h2>
+<p>Released on February 12, 2019</p>
+<ul>
+<li>New: <code>ReadXmlSigned(Stream stream)</code>. Closes #39.</li>
+<li>Bump FatturaElettronica to 1.1.5</li>
+</ul>
+<h2 id="v13">v1.3</h2>
+<p>Released on January 18, 2019</p>
+<ul>
+<li>New: <code>ReadXmlSignedBase64()</code> method. Addresses #30.</li>
+<li>New: <code>ReadXml(Stream stream)</code> (Daniele Bochicchio). Pull #19.</li>
+<li>Fix: <code>ReadXmlSigned()</code> does not support Base64-encoded files. Closes #30.</li>
+<li>Fix: Improved <code>ReadXmlSigned()</code> performance.</li>
+<li>Bump FatturaElettronica to 1.1.1.</li>
+</ul>
+<h2 id="v12">v1.2</h2>
+<p>Released on December 30, 2018</p>
+<ul>
+<li>New: <code>validateSignature</code> option for <code>ReadXMLSigned</code> method. Closes #21.</li>
+<li>Fix: <code>ReadXmlSigned</code> doesn't release the input file. Closes #17.</li>
+<li>Dump FatturaElettronica to 1.0.2.</li>
+</ul>
+<h2 id="v11">v1.1</h2>
+<p>Released on December 1, 2018</p>
+<ul>
+<li>New: <code>WriteXmlSigned</code> method.</li>
+<li>Bump MSTest.TestFramework to 1.4.0</li>
+<li>Bump MSTest.TestAdapter to 1.4.0</li>
+</ul>
+<h2 id="v101">v1.0.1</h2>
+<p>Released on November 9, 2018</p>
+<ul>
+<li>Bump Portable.BouncyCastle to 1.8.4.</li>
+<li>Bump MSTest.TestFramework to 1.3.2.</li>
+<li>Bump MSTest.TestAdapter to 1.3.2.</li>
+<li>Bump Microsoft.Net.Test.Sdk to 15.9.0.</li>
+</ul>
+<h2 id="v10">v1.0</h2>
+<p>Released on November 9, 2018</p>
+<ul>
+<li>Bump FatturaElettronica to 1.0.1.</li>
+</ul>
+<h2 id="v04">v0.4</h2>
+<p>Released on October 27, 2018</p>
+<ul>
+<li>New: <code>FromJson(string json)</code> extesion method.</li>
+<li>Dependency: FatturaElettronica 0.9.</li>
+<li>Dependency: Newtonsoft.Json (new).</li>
+</ul>
+<h2 id="v03">v0.3</h2>
+<p>Released on October 12, 2018</p>
+<ul>
+<li>New: <code>FatturaElettronicaFileNameGenerator</code> class.</li>
+<li>Fix: Wrong BouncyCastle dependency. Closes #4.</li>
+<li>Fix: <code>FatturaElettronicaSignatureException</code> doesn't report the correct error description.</li>
+<li>Dependency: FatturaElettronica v0.8.4.</li>
+<li>CI integration on AppVeyor. Closes #2.</li>
+</ul>
+<h2 id="v02">v0.2</h2>
+<p>Released on October 1, 2018</p>
+<ul>
+<li>New: <code>WriteXML(string filePath)</code> extension method.</li>
+<li>New: <code>ReadXML(string filePath)</code> extension method.</li>
+<li>Fix: open the signed file in Read mode.</li>
+<li>Enhancement: improve the signature-stripping algorithm. We don't really need a temporary folder.</li>
+</ul>
+<h2 id="v010">v0.1.0</h2>
+<p>Released on September 27, 2018.</p>
+<ul>
+<li>Initial release.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.Extensions/blob/master/docs/changelog.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright 2015-2019 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

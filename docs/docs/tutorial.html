@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Guida all'uso | Fattura Elettronica Open Source per piattaforme .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Guida all'uso | Fattura Elettronica Open Source per piattaforme .NET ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="guida-alluso">Guida all'uso</h1>
+
+<p>Sono supportate sie fatture ordinarie che seplificate. Qui
+viene usata una <code>FatturaOrdinaria</code>, ma gli esempi sono validi quasi sempre
+anche per una instanza di <code>FatturaSemplificata</code>.</p>
+<h2 id="instanziare-la-fattura">Instanziare la fattura</h2>
+<pre><code class="lang-cs">    var fattura = new FatturaOrdinaria();
+
+    // In alternativa usare CreateInstance() per ottenere una istanza già tipizzata.
+    // Questa chiamata restituisce fattura con CodiceDestinatario = &quot;0000000&quot;
+    // FormatoTrasmissione = &quot;FPR12&quot;:
+    fattura = FatturaOrdinaria.CreateInstance(Instance.Privati);
+</code></pre>
+<h2 id="caricare-la-fattura-da-xml">Caricare la fattura da XML</h2>
+<pre><code class="lang-cs">    // Lettura da file XML
+    var readerSettings = new XmlReaderSettings
+    {
+        IgnoreWhitespace = true,
+        IgnoreComments = true
+    };
+    using (var r = XmlReader.Create(&quot;IT01234567890_12345.xml&quot;, readerSettings))
+    {
+        fattura.ReadXml(r);
+    }
+</code></pre>
+<h2 id="consultare-la-fattura">Consultare la fattura</h2>
+<pre><code class="lang-cs">    // Ogni file di fattura contiene un array di elementi FatturaElettronicaBody.
+    Console.WriteLine($&quot;Numero documenti: {fattura.FatturaElettronicaBody.Count}.&quot;);
+
+    // Iterazione documenti presenti nel file.
+    Console.WriteLine(&quot;Documenti inclusi nel file FatturaPA:&quot;);
+    foreach (var doc in fattura.FatturaElettronicaBody)
+    {
+        var datiDocumento = doc.DatiGenerali.DatiGeneraliDocumento;
+        Console.WriteLine($&quot;Numero: {datiDocumento.Numero}&quot;);
+        Console.WriteLine($&quot;Data: {datiDocumento.Data.ToShortDateString()}&quot;);
+        Console.WriteLine($&quot;Importo totale: {datiDocumento.ImportoTotaleDocumento}&quot;);
+        Console.WriteLine();
+    }
+</code></pre>
+<h2 id="convalidare-la-fattura">Convalidare la fattura</h2>
+<pre><code class="lang-cs">    // Convalida del documento.
+    var validator = new FatturaOrdinariaValidator();
+    var result = validator.Validate(fattura);
+    Console.WriteLine(result.IsValid);
+
+    // Introspezione errori di convalida.
+    foreach (var error in result.Errors)
+    {
+        Console.WriteLine(error.PropertyName);
+        Console.WriteLine(error.ErrorMessage);
+
+        // ErrorCode conterrà il codice errore (es: &quot;00423&quot;).
+        Console.WriteLine(error.ErrorCode);
+    }
+
+    // Per brevità è possibile usare un extension method.
+    result = fattura.Validate();
+    Console.WriteLine(result.IsValid);
+
+    // Sono disponibili validatori per ogni classe esposta da FatturaElettronica.
+    var anagrafica = new DatiAnagraficiCedentePrestatore();
+    var anagraficaValidator = new DatiAnagraficiCedentePrestatoreValidator();
+    Console.WriteLine(anagraficaValidator.Validate(anagrafica).IsValid);
+
+    // Oppure, come già visto:
+    Console.WriteLine(anagrafica.Validate().IsValid);
+</code></pre>
+<h2 id="modificare-e-aggiungere-elementi-alla-fattura">Modificare e aggiungere elementi alla fattura</h2>
+<pre><code class="lang-cs">    // Modifica proprietà Header.
+    var header = fattura.FatturaElettronicaHeader;
+    header.CedentePrestatore.DatiAnagrafici.Anagrafica.Denominazione = &quot;Bianchi Srl&quot;;
+
+    //  Modifica proprietà Body
+    var body = fattura.FatturaElettronicaBody[0];
+    body.DatiGenerali.DatiGeneraliDocumento.Numero = &quot;12345&quot;;
+
+    // Aggiunta di un nuovo elemento Body.
+    body = new FatturaElettronicaBody();
+    body.DatiGenerali.DatiGeneraliDocumento.Numero = &quot;99&quot;;
+    fattura.FatturaElettronicaBody.Add(body);
+</code></pre>
+<h2 id="salvare-la-fattura-su-xml">Salvare la fattura su XML</h2>
+<pre><code class="lang-cs">    // Serializzazione XML
+    var writerSettings = new XmlWriterSettings { Indent = true };
+    using (var w = XmlWriter.Create(&quot;IT01234567890_FPA01.xml&quot;, writerSettings))
+    {
+        fattura.WriteXml(w);
+    }
+</code></pre>
+<h2 id="scrittura-e-lettura-da-json">Scrittura e lettura da JSON</h2>
+<pre><code class="lang-cs">    // Serializzazione JSON.
+    var json = fattura.ToJson(JsonOptions.Indented);
+    Console.WriteLine(json);
+
+    // Deserializzazione da JSON.
+    var fatturaFromJson = new FatturaOrdinaria();
+    fatturaFromJson.FromJson(new JsonTextReader(new StringReader(json)));
+</code></pre>
+<h2 id="esempio-completo">Esempio completo</h2>
+<pre><code class="lang-cs">using FatturaElettronica.Ordinaria;
+using FatturaElettronica.Common;
+using FatturaElettronica.Defaults;
+using FatturaElettronica.Validators;
+using FatturaElettronica.Ordinaria.FatturaElettronicaBody;
+using FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore;
+
+using System;
+using System.Xml;
+using System.IO;
+
+using Newtonsoft.Json;
+using FatturaElettronica;
+
+namespace DemoApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            var fattura = new FatturaOrdinaria();
+            // In alternativa usare CreateInstance() per ottenere una istanza già tipizzata.
+            // Questa chiamata restituisce fattura con CodiceDestinatario = &quot;0000000&quot; 
+            // FormatoTrasmissione = &quot;FPR12&quot;:
+            fattura = FatturaOrdinaria.CreateInstance(Instance.Privati);
+
+            // Lettura da file XML
+            var readerSettings = new XmlReaderSettings
+            {
+                IgnoreWhitespace = true,
+                IgnoreComments = true
+            };
+            using (var r = XmlReader.Create(&quot;IT01234567890_12345.xml&quot;, readerSettings))
+            {
+                fattura.ReadXml(r);
+            }
+
+            // Ogni file di fattura contiene un array di elementi FatturaElettronicaBody.
+            Console.WriteLine($&quot;Numero documenti: {fattura.FatturaElettronicaBody.Count}.&quot;);
+
+            // Iterazione documenti presenti nel file.
+            Console.WriteLine(&quot;Documenti inclusi nel file FatturaPA:&quot;);
+            foreach (var doc in fattura.FatturaElettronicaBody)
+            {
+                var datiDocumento = doc.DatiGenerali.DatiGeneraliDocumento;
+                Console.WriteLine($&quot;Numero: {datiDocumento.Numero}&quot;);
+                Console.WriteLine($&quot;Data: {datiDocumento.Data.ToShortDateString()}&quot;);
+                Console.WriteLine($&quot;Importo totale: {datiDocumento.ImportoTotaleDocumento}&quot;);
+                Console.WriteLine();
+            }
+
+            // Convalida del documento.
+            var validator = new FatturaOrdinariaValidator();
+            var result = validator.Validate(fattura);
+            Console.WriteLine(result.IsValid);
+
+            // Introspezione errori di convalida.
+            foreach (var error in result.Errors)
+            {
+                Console.WriteLine(error.PropertyName);
+                Console.WriteLine(error.ErrorMessage);
+
+                // ErrorCode conterrà il codice errore (es: &quot;00423&quot;).
+                Console.WriteLine(error.ErrorCode);
+            }
+
+            // Per brevità è possibile usare un extension method.
+            result = fattura.Validate();
+            Console.WriteLine(result.IsValid);
+
+            // Sono disponibili validatori per ogni classe esposta da FatturaElettronica.
+            var anagrafica = new DatiAnagraficiCedentePrestatore();
+            var anagraficaValidator = new DatiAnagraficiCedentePrestatoreValidator();
+            Console.WriteLine(anagraficaValidator.Validate(anagrafica).IsValid);
+
+            // Oppure, come già visto:
+            Console.WriteLine(anagrafica.Validate().IsValid);
+
+            // Modifica proprietà Header.
+            var header = fattura.FatturaElettronicaHeader;
+            header.CedentePrestatore.DatiAnagrafici.Anagrafica.Denominazione = &quot;Bianchi Srl&quot;;
+
+            //  Modifica proprietà Body
+            var body = fattura.FatturaElettronicaBody[0];
+            body.DatiGenerali.DatiGeneraliDocumento.Numero = &quot;12345&quot;;
+
+            // Aggiunta di un nuovo elemento Body.
+            body = new FatturaElettronicaBody();
+            body.DatiGenerali.DatiGeneraliDocumento.Numero = &quot;99&quot;;
+            fattura.FatturaElettronicaBody.Add(body);
+
+            // Serializzazione XML
+            var writerSettings = new XmlWriterSettings { Indent = true };
+            using (var w = XmlWriter.Create(&quot;IT01234567890_FPA01.xml&quot;, writerSettings))
+            {
+                fattura.WriteXml(w);
+            }
+
+            // Serializzazione JSON.
+            var json = fattura.ToJson(JsonOptions.Indented);
+            Console.WriteLine(json);
+
+            // Deserializzazione da JSON.
+            var fatturaFromJson = new FatturaOrdinaria();
+            fatturaFromJson.FromJson(new JsonTextReader(new StringReader(json)));
+        }
+    }
+}
+</code></pre>
+<h2 id="limitazioni">Limitazioni</h2>
+<p>In convalida non sono supportati gli errori di tipo <code>3xx</code> in quanto risultato dei riscontri fatti da PA sui propri server.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/docs/docs/tutorial.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright 2015-2019 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

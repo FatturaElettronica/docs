@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>FatturaElettronica.Extensions | Fattura Elettronica Open Source per piattaforme .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="FatturaElettronica.Extensions | Fattura Elettronica Open Source per piattaforme .NET ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="fatturaelettronicaextensions">FatturaElettronica.Extensions</h1>
+
+<p><a href="https://dev.azure.com/FatturaElettronicaNET/FatturaElettronica.Extensions/_build/latest?definitionId=3&amp;branchName=master"><img src="https://dev.azure.com/FatturaElettronicaNET/FatturaElettronica.Extensions/_apis/build/status/FatturaElettronica.FatturaElettronica.Extensions?branchName=master" alt="Build Status"></a> <a href="https://dependabot.com"><img src="https://api.dependabot.com/badges/status?host=github&amp;repo=FatturaElettronica/FatturaElettronica.Extensions" alt="Dependabot Status"></a></p>
+<p>Extension methods per <a href="http://github.com/FatturaElettronica/FatturaElettronica.NET">FatturaElettronica.NET</a></p>
+<h2 id="caratteristiche">Caratteristiche</h2>
+<h3 id="xml">XML</h3>
+<ul>
+<li><code>ReadXml(string filePath)</code>: deserializza da file XML;</li>
+<li><code>ReadXml(Stream stream)</code>: deserializza da stream;</li>
+<li><code>ReadXmlSigned(string filePath)</code>: deserializza da XML firmato con algoritmo CADES (.p7m). Supporta anche file codificati Base64;</li>
+<li><code>ReadXmlSigned(Stream stream)</code>: deserializza da stream firmato con algoritmo CADES (.p7m). Supporta anche file codificati Base64;</li>
+<li><code>ReadXmlSignedBase64(string filePath)</code>: consigliato quando si sa in anticipo che il file è codificato Base64;</li>
+<li><code>WriteXml(string filePath)</code>: serializza su file XML non firmato;</li>
+<li><code>WriteXmlSigned(string pfxFile, string pfxPassword, string p7mFilePath)</code>: serializza su file XML, firmando con algoritmo CADES (.p7m);</li>
+</ul>
+<h3 id="html">HTML</h3>
+<ul>
+<li><code>WriteHtml(string outPath, string xslPath)</code>: crea un HTML con rappresentazione della fattura, usando un foglio di stile;</li>
+</ul>
+<h3 id="json">JSON</h3>
+<ul>
+<li><code>FromJson(string json)</code>: deserializza da JSON;</li>
+</ul>
+<h3 id="altro">Altro</h3>
+<ul>
+<li><code>FatturaElettronicaFileNameGenerator</code>: classe per la generazione di nomi file conformi allo standard fattura elettronica.</li>
+</ul>
+<h2 id="installazione">Installazione</h2>
+<p>FatturaElettronica.Extensions è su <a href="https://www.nuget.org/packages/FatturaElettronica.Extensions/">NuGet</a>.</p>
+<p>Dalla command line, con .NET Core:</p>
+<pre><code class="lang-Shell">    dotnet add package FatturaElettronica.Extensions
+</code></pre>
+<p>Dalla Package Console, in Visual Studio:</p>
+<pre><code class="lang-PowerShell">    PM&gt; Install-Package FatturaElettronica.Extensions
+</code></pre>
+<p>Oppure usare il comando equivalente nella UI di Visual Studio.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Extensions supporta <a href="https://github.com/dotnet/standard/blob/master/docs/versions/netstandard2.0.md">.NET Standard v2.0</a>, quindi gira su NET Framework 4.6.1 o superiori.</p>
+</div>
+<h2 id="licenza">Licenza</h2>
+<p>FatturaElettronica.Extensions è un progetto open source di <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="http://gestionaleamica.com">Gestionale Amica</a> rilasciato sotto licenza <a href="http://github.com/FatturaElettronica/FatturaElettronica.Extensions/blob/master/LICENSE.txt">BSD</a>.
+BouncyCastle, Copyright (c) 2000 - 2017 The Legion of the Bouncy Castle Inc. (<a href="http://www.bouncycastle.org/csharp/licence.html">licenza</a>).</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.Extensions/blob/master/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright 2015-2019 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

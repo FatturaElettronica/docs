@@ -105,11 +105,11 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "docs/**"
         ]
       }
     ],
-    "dest": "_site",
+    "dest": "docs",
     "globalMetadata": {
       "_appTitle": "Fattura Elettronica Open Source per piattaforme .NET",
       "_appFooter": "© Copyright 2015-2019 <a href=https://nicolaiarocci.com>Nicola Iarocci</a> e <a href=https://gestionaleamica.com/>Gestionali Amica</a>",
@@ -120,7 +120,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default",
+      "default"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

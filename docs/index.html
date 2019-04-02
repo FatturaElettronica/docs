@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>La Fattura Elettronica per .NET | Fattura Elettronica Open Source per piattaforme .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="La Fattura Elettronica per .NET | Fattura Elettronica Open Source per piattaforme .NET ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="la-fattura-elettronica-per-net">La Fattura Elettronica per .NET</h1>
+
+<p>FatturaElettronica è una libreria open source per .NET che permette di
+leggere, scrivere, e convalidare offline la Fattura Elettronica secondo
+le <a href="https://www.agenziaentrate.gov.it/wps/content/Nsilib/Nsi/Schede/Comunicazioni/Fatture+e+corrispettivi/Fatture+e+corrispettivi+ST/ST+invio+di+fatturazione+elettronica/?page=ivacomimp">specifiche del sistema di interscambio</a> della Pubblica Amministrazione
+Italiana.</p>
+<p>Fattura Elettronica è un progetto creato da <a href="https://nicolaiarocci.com">Nicola Iarocci</a> per
+<a href="https://gestionaleamica.com">Gestionali Amica</a> che lo ha rilasciato al pubblico con licenza <a href="http://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/LICENSE.txt">open
+source</a>. Fattura Elettronica è libero, sviluppato in pubblico, ed aperto
+alla collaborazione di tutti.</p>
+<h2 id="il-contesto">Il contesto</h2>
+<p>Il lavoro su questo progetto comincia nel 2014 e viene rilasciato in open
+source nel Febbraio del 2015. A quel tempo la fattura elettronica muoveva i
+primi passi ed era obbligatoria solo per i documenti emessi verso la
+pubblica amministrazione. Nell'<a href="https://nicolaiarocci.com/fattura-elettronica-open-source/">articolo di presentazione</a> scrivevamo:</p>
+<blockquote>
+<p>L’adozione della fattura elettronica è in pieno svolgimento e non crediamo
+di sbagliarci immaginando un futuro non troppo remoto in cui questo formato
+verrà adottato (per imposizione, come ci pare probabile, o per comodità)
+anche dal settore privato, diventando di fatto lo standard di riferimento.</p>
+</blockquote>
+<p>Avanti veloce di qualche anno ed eccoci qua, con la fattura elettronica
+obbligatoria per (quasi) tutti. In questi anni il progetto è stato adottato
+da numerose aziende Italiane ed ha visto crescere il numero di sviluppatori
+che vi contribuiscono, continuando nel frattempo a espandersi fino a
+raggiungere la versione 2.0 che aggiunge il supporto per le fatture
+semplificate.</p>
+<h2 id="i-progetti-di-fattura-elettronica-per-net">I progetti di Fattura Elettronica per .NET</h2>
+<h3 id="fatturaelettronica">FatturaElettronica</h3>
+<p>È la libreria pricipale. Offre una gerarchia di classi per la gestione
+completa di fatture ordinarie e semplificate. Un sistema di convalida offline
+consente di verificare che le istanze siano conformi alle regole di convalida
+previste dallo standard. Gli oggetti possono essere letti e scritti sia in
+formato XML che JSON.</p>
+<ul>
+<li><a href="/docs/">Documentazione</a></li>
+<li><a href="https://github.com/FatturaElettronica/FatturaElettronica.NET">GitHub (sviluppo, tickets)</a></li>
+</ul>
+<h3 id="fatturaelettronicaextensions">FatturaElettronica.Extensions</h3>
+<p>FatturaElettronica.Extensions offre una serie di extension methods che
+arricchiscono il pacchetto principale con caratteristiche quali la lettura e
+apposizione di firme digitali (p7m), l'esportazione in formato HTML, ed
+altro.</p>
+<ul>
+<li><a href="/docs/extensions/">Documentazione</a></li>
+<li><a href="https://github.com/FatturaElettronica/FatturaElettronica.Extensions">GitHub (sviluppo, tickets)</a></li>
+</ul>
+<h3 id="fatturaelettronicacore">FatturaElettronica.Core</h3>
+<p>Contiene le classi di base, principalmente dedicate alla serializzazione
+da/verso XML e JSON. Normalmente non è necessario installarlo direttamente, è
+una dipendenza degli altri progetti.</p>
+<ul>
+<li><a href="https://github.com/FatturaElettronica/FatturaElettronica.Core">GitHub (sviluppo, tickets)</a></li>
+</ul>
+<h3 id="fatturaelettronicaforms">FatturaElettronica.Forms</h3>
+<p>Espone un Windows Form per la compilazione del <code>Header</code> della fattura oltre
+che per la convalida e il salvataggio della fattura elettronica.</p>
+<ul>
+<li><a href="https://github.com/FatturaElettronica/FatturaElettronica.Forms">GitHub (sviluppo, tickets)</a></li>
+</ul>
+<h3 id="spesometro">Spesometro</h3>
+<p>Spesometro o comunicazione delle fatture emesse e ricevute. Progetto
+&quot;laterale&quot; alla fattura elettronica, usa FatturaElettronica.Core per la
+serializzazione/deserializzazione su file.</p>
+<ul>
+<li><a href="https://github.com/FatturaElettronica/Spesometro.NET">GitHub (sviluppo, tickets)</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FatturaElettronica/docs/blob/master/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright 2015-2019 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
