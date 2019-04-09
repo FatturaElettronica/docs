@@ -7214,6 +7214,23 @@ references:
   fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).IsValid
   nameWithType: LatinBaseValidator<T>.IsValid
   nameWithType.vb: LatinBaseValidator(Of T).IsValid
+- uid: FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+  name: PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+  href: docs/api/FatturaElettronica.Validators.LatinBaseValidator-1.html#FatturaElettronica_Validators_LatinBaseValidator_1_PrepareMessageFormatterForValidationError_PropertyValidatorContext_
+  commentId: M:FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+  fullName: FatturaElettronica.Validators.LatinBaseValidator<T>.PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+  fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+  nameWithType: LatinBaseValidator<T>.PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+  nameWithType.vb: LatinBaseValidator(Of T).PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+- uid: FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError*
+  name: PrepareMessageFormatterForValidationError
+  href: docs/api/FatturaElettronica.Validators.LatinBaseValidator-1.html#FatturaElettronica_Validators_LatinBaseValidator_1_PrepareMessageFormatterForValidationError_
+  commentId: Overload:FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError
+  isSpec: "True"
+  fullName: FatturaElettronica.Validators.LatinBaseValidator<T>.PrepareMessageFormatterForValidationError
+  fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).PrepareMessageFormatterForValidationError
+  nameWithType: LatinBaseValidator<T>.PrepareMessageFormatterForValidationError
+  nameWithType.vb: LatinBaseValidator(Of T).PrepareMessageFormatterForValidationError
 - uid: FatturaElettronica.Validators.LocalitàBaseValidator`1
   name: LocalitàBaseValidator<T>
   href: docs/api/FatturaElettronica.Validators.Localit%C3%A0BaseValidator-1.html
