@@ -41,6 +41,7 @@ formato XML che JSON.
 
 - [Documentazione](/docs/)
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.NET)
+- [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.svg)](https://badge.fury.io/nu/FatturaElettronica)
 
 ### FatturaElettronica.Extensions
 
@@ -51,6 +52,7 @@ altro.
 
 - [Documentazione](/extensions/)
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.Extensions)
+- [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Extensions.svg)](https://badge.fury.io/nu/FatturaElettronica.Extensions)
 
 ### FatturaElettronica.Core
 
@@ -59,6 +61,7 @@ da/verso XML e JSON. Normalmente non è necessario installarlo direttamente, è
 una dipendenza degli altri progetti.
 
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.Core)
+- [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Core.svg)](https://badge.fury.io/nu/FatturaElettronica.Core)
 
 ### FatturaElettronica.Forms
 
@@ -66,6 +69,7 @@ Espone un Windows Form per la compilazione del `Header` della fattura oltre
 che per la convalida e il salvataggio della fattura elettronica.
 
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.Forms)
+- [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Forms.svg)](https://badge.fury.io/nu/FatturaElettronica.Forms)
 
 ### Spesometro
 
@@ -74,6 +78,7 @@ Spesometro o comunicazione delle fatture emesse e ricevute. Progetto
 serializzazione/deserializzazione su file.
 
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/Spesometro.NET)
+- [![NuGet version](https://badge.fury.io/nu/Spesometro.svg)](https://badge.fury.io/nu/Spesometro)
 
 [1]: https://nicolaiarocci.com/fattura-elettronica-open-source/
 [2]: https://www.agenziaentrate.gov.it/wps/content/Nsilib/Nsi/Schede/Comunicazioni/Fatture+e+corrispettivi/Fatture+e+corrispettivi+ST/ST+invio+di+fatturazione+elettronica/?page=ivacomimp

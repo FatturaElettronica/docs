@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/changelog.html",
-          "hash": "gKy4dWJ9YtM/Vz2PO/eNYA=="
+          "hash": "ST9zQgTgmAv45J1s7Gw//Q=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/index.html",
-          "hash": "VET7PurzFBiNbZ44KH1EZg=="
+          "hash": "Q+XNY4myOKaQpmlr/M3/2Q=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/changelog.html",
-          "hash": "kMtY9ZoTNjINj7+IMixUdA=="
+          "hash": "RaiG1E8wmSxldN7XbqvSqw=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/index.html",
-          "hash": "YACw7AzUrsSvTCaqZRzSdg=="
+          "hash": "ZEm7Vu688rDQ+IMeZKCUNQ=="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "B8xBFRgzI7Hsboen/G/fwQ=="
+          "hash": "VV/YOwrdSlcFfMX1Wg7cvA=="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html",
-          "hash": "ZYl4iC8vvtE8RnVDlow1lg=="
+          "hash": "lZt0Kzs+7NH/rVofgUTwnA=="
         }
       },
       "is_incremental": false,
@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html",
-          "hash": "og5JNH6+gHhZIjTeuuPUBQ=="
+          "hash": "qwVYZlD/yZKuF4dSRHYXVA=="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.html",
-          "hash": "EYUYv5RrgTuUybaknH/k/A=="
+          "hash": "VewB1cJ4RDvHldFLbfQXWg=="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.html",
-          "hash": "at4iiKLgvCY0C5Ym0kjwFw=="
+          "hash": "tYunv90avNW0CRzNaD6jKQ=="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignatureException.html",
-          "hash": "lHSQItTCbf5hWj/MgO9g5Q=="
+          "hash": "IXJGuM0Elx1hjRyJ8DrgFQ=="
         }
       },
       "is_incremental": false,
@@ -280,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html",
-          "hash": "HqlfOFeyvXZU1Vwcm+L4Qg=="
+          "hash": "9gzlcIu9fA1ybjX01y8dxA=="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.html",
-          "hash": "baN8VH9mFHu9gFsXCGRdnw=="
+          "hash": "C3wQ+jy+jIrHNrh0bwAiBg=="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html",
-          "hash": "JbfIOYxs+WwMXC+m3tEWjg=="
+          "hash": "oB0jjuYUwQ35AfHsH51dxA=="
         }
       },
       "is_incremental": false,
@@ -2792,12 +2792,11 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 12,
+          "skipped_file_count": 12
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
@@ -2805,11 +2804,12 @@
           "total_file_count": 211,
           "skipped_file_count": 211
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 12,
-          "skipped_file_count": 12
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
