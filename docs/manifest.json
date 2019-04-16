@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/changelog.html",
-          "hash": "rJA5s+Kx6LhzdW/DyEkprg=="
+          "hash": "oKoaCUJZC5IQZuCRiM4asA=="
         }
       },
       "is_incremental": false,
@@ -568,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.FatturaElettronicaExtensions.html",
-          "hash": "m40Ih1aXRWliEFC1SaSrOw=="
+          "hash": "tEz2UzWF9+HxBZyLut+T3w=="
         }
       },
       "is_incremental": false,
@@ -2792,9 +2792,9 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
@@ -2803,7 +2803,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 211,
-          "skipped_file_count": 211
+          "skipped_file_count": 38
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
@@ -2811,9 +2811,9 @@
           "total_file_count": 12,
           "skipped_file_count": 11
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
