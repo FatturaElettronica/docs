@@ -6022,6 +6022,25 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.Tabelle.Natura.List
   nameWithType: Natura.List
+- uid: FatturaElettronica.Tabelle.NaturaSemplificata
+  name: NaturaSemplificata
+  href: docs/api/FatturaElettronica.Tabelle.NaturaSemplificata.html
+  commentId: T:FatturaElettronica.Tabelle.NaturaSemplificata
+  fullName: FatturaElettronica.Tabelle.NaturaSemplificata
+  nameWithType: NaturaSemplificata
+- uid: FatturaElettronica.Tabelle.NaturaSemplificata.List
+  name: List
+  href: docs/api/FatturaElettronica.Tabelle.NaturaSemplificata.html#FatturaElettronica_Tabelle_NaturaSemplificata_List
+  commentId: P:FatturaElettronica.Tabelle.NaturaSemplificata.List
+  fullName: FatturaElettronica.Tabelle.NaturaSemplificata.List
+  nameWithType: NaturaSemplificata.List
+- uid: FatturaElettronica.Tabelle.NaturaSemplificata.List*
+  name: List
+  href: docs/api/FatturaElettronica.Tabelle.NaturaSemplificata.html#FatturaElettronica_Tabelle_NaturaSemplificata_List_
+  commentId: Overload:FatturaElettronica.Tabelle.NaturaSemplificata.List
+  isSpec: "True"
+  fullName: FatturaElettronica.Tabelle.NaturaSemplificata.List
+  nameWithType: NaturaSemplificata.List
 - uid: FatturaElettronica.Tabelle.Provincia
   name: Provincia
   href: docs/api/FatturaElettronica.Tabelle.Provincia.html
@@ -6264,6 +6283,25 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.Tabelle.TipoDocumento.List
   nameWithType: TipoDocumento.List
+- uid: FatturaElettronica.Tabelle.TipoDocumentoSemplificata
+  name: TipoDocumentoSemplificata
+  href: docs/api/FatturaElettronica.Tabelle.TipoDocumentoSemplificata.html
+  commentId: T:FatturaElettronica.Tabelle.TipoDocumentoSemplificata
+  fullName: FatturaElettronica.Tabelle.TipoDocumentoSemplificata
+  nameWithType: TipoDocumentoSemplificata
+- uid: FatturaElettronica.Tabelle.TipoDocumentoSemplificata.List
+  name: List
+  href: docs/api/FatturaElettronica.Tabelle.TipoDocumentoSemplificata.html#FatturaElettronica_Tabelle_TipoDocumentoSemplificata_List
+  commentId: P:FatturaElettronica.Tabelle.TipoDocumentoSemplificata.List
+  fullName: FatturaElettronica.Tabelle.TipoDocumentoSemplificata.List
+  nameWithType: TipoDocumentoSemplificata.List
+- uid: FatturaElettronica.Tabelle.TipoDocumentoSemplificata.List*
+  name: List
+  href: docs/api/FatturaElettronica.Tabelle.TipoDocumentoSemplificata.html#FatturaElettronica_Tabelle_TipoDocumentoSemplificata_List_
+  commentId: Overload:FatturaElettronica.Tabelle.TipoDocumentoSemplificata.List
+  isSpec: "True"
+  fullName: FatturaElettronica.Tabelle.TipoDocumentoSemplificata.List
+  nameWithType: TipoDocumentoSemplificata.List
 - uid: FatturaElettronica.Tabelle.TipoResa
   name: TipoResa
   href: docs/api/FatturaElettronica.Tabelle.TipoResa.html
