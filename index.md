@@ -10,6 +10,17 @@ Fattura Elettronica è un progetto creato da [Nicola Iarocci][ni] per
 source][bsd]. Fattura Elettronica è libero, sviluppato in pubblico, ed aperto
 alla collaborazione di tutti.
 
+### Sponsorship
+
+Se usi FatturaElettronica.NET o qualcun altro dei miei progetti in un
+prodotto che genera profitto, buon senso vorrebbe che tu sponsorizzassi la
+mia attività open source. Contribuiresti a far sì che il progetto su cui si
+basa il tuo prodotto rimanga sano, attivo, e mantenuto nel tempo. Avresti
+inoltre, se lo desideri, un premio in visibilità per te o la tua azienda.
+Ogni singola sottoscrizione ha un impatto significante.
+
+Scopri come puoi partecipare sulla mia pagina [GitHub Sponsors][ghs].
+
 ## Il contesto
 
 Il lavoro su questo progetto comincia nel 2014 e viene rilasciato in open
@@ -85,3 +96,4 @@ serializzazione/deserializzazione su file.
 [ni]: https://nicolaiarocci.com
 [ga]: https://gestionaleamica.com
 [bsd]: http://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/LICENSE.txt
+[ghs]: https://github.com/sponsors/nicolaiarocci
