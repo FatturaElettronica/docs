@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Nicola/dev/FatturaElettronica/docs",
+  "source_base_path": "/Users/nicola/code/FatturaElettronica/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/authors.html",
-          "hash": "EWDUZ41X7POu7EzY50pjJA=="
+          "hash": "HqVk0y+uH8IOoZ5Ts/qv7w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/changelog.html",
-          "hash": "p6l9K7nJssE6qIafwRPENw=="
+          "hash": "3Yck5yyRUqPmFNNY4CG7dw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/faq.html",
-          "hash": "aKNa1hRpqUJyGvtgc5t3Jg=="
+          "hash": "5BTOreeqAlQ6sx6keR7Z7Q=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/index.html",
-          "hash": "1UBgt+wfFPbRyI+V4nBOBw=="
+          "hash": "6FxsV0dTWUIn6UeecmxfQg=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/tutorial.html",
-          "hash": "psuzcWQCFtaeuEYbAxIijw=="
+          "hash": "iK4eu1I8yn0NJo07KLtVWw=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/authors.html",
-          "hash": "bWxcCYnJ9WvXxutcele8uw=="
+          "hash": "BDazk4JEUfmpvKRQDVjXmg=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/changelog.html",
-          "hash": "/kOCu0KPMdeyangdOq+QxA=="
+          "hash": "1ul1QpRUSGhlw2WsJkYLRA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/faq.html",
-          "hash": "7+AUBo4tSYizW2sSwGnHTg=="
+          "hash": "bKJasMI2aNMdrnTxKka1iQ=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/index.html",
-          "hash": "LZq3qJjTEj+qj/kSqyRaPw=="
+          "hash": "kjLQ513GPZtXY2nuBeGBhQ=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/tutorial.html",
-          "hash": "lcA4EbSqqNWDZwtyG82XlA=="
+          "hash": "S+tfxeGNN2waxZYVSH0pyg=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "m6qebHbHKGtjapMNZgxspw=="
+          "hash": "sJMUktzyz2tHv2IWTxPuHg=="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "juguxKUtmVW4KiNcfejzCA=="
+          "hash": "SiV/tcqBiZdxNjL4vG5Fzw=="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html",
-          "hash": "nLvt/S3YwlmexBcIRPCNvg=="
+          "hash": "w6vGoRV6vpNfEYXee19pUA=="
         }
       },
       "is_incremental": false,
@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html",
-          "hash": "P0II1F/Z3OWinUOP3mhnEA=="
+          "hash": "ti24uF6B88VJJp/MEQF+0w=="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.html",
-          "hash": "vTKAYqB/PoJCsPI3JAqAwg=="
+          "hash": "mxjkUZU4/XsRFtKiqV/hiA=="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.html",
-          "hash": "Rpsi9uizAIX61+F147m8qA=="
+          "hash": "2EkjGAL1uaGbMZAvyxBMTQ=="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignatureException.html",
-          "hash": "pez8r5QUMOyoYc/0lCAdNw=="
+          "hash": "v+UEd7t6qwIiWmHmBii+mw=="
         }
       },
       "is_incremental": false,
@@ -280,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html",
-          "hash": "stI47pZMTd4cODx7J9QEvg=="
+          "hash": "pRwEcSkO5u1oyh8cY0gFzQ=="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.html",
-          "hash": "2CyYfFgZW4I+ao8iCKX1OQ=="
+          "hash": "lfNZ6jRn+rxtOezo7KEz8Q=="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html",
-          "hash": "xOma43sB/UIof1UTk/UAkg=="
+          "hash": "CLT00PVuLg6qZIwRsrABMQ=="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.Resources.html",
-          "hash": "Ol16rR1aJJbaqFXAE8KsEw=="
+          "hash": "ILgUPmk16SUXOyUiN9rjEg=="
         }
       },
       "is_incremental": false,
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "extensions/api/FatturaElettronica.Extensions.html",
-          "hash": "nna4GAFxBcY2uonQGkYajQ=="
+          "hash": "f+X+7fricS3CxLX5Xb/aYw=="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.Allegati.html",
-          "hash": "HoS9qNTYUeBBRXGyH671Mw=="
+          "hash": "bknTswXw3XQ/gflRDsXQpw=="
         }
       },
       "is_incremental": false,
@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.Anagrafica.html",
-          "hash": "4xuBtNFROIXIJ/+jisZEbw=="
+          "hash": "rQpYQxID/RCJnejSqrGDMA=="
         }
       },
       "is_incremental": false,
@@ -376,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.DatiAnagrafici.html",
-          "hash": "MF7nt67cTYLy1rIqFse5Gw=="
+          "hash": "g/rygyLW1X/uf1FpShdnIQ=="
         }
       },
       "is_incremental": false,
@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.DatiDocumento.html",
-          "hash": "fRPo1Rl8jwJlrtW64n7l1w=="
+          "hash": "Vzi9kOBzeIOBMfUsgADW6g=="
         }
       },
       "is_incremental": false,
@@ -400,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.DenominazioneNomeCognome.html",
-          "hash": "PnndWW2yS1pSvORFDyBLOw=="
+          "hash": "sGjWWXA/MM0/+xdLjaaELw=="
         }
       },
       "is_incremental": false,
@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.IdFiscaleIVA.html",
-          "hash": "Zo3NneUxAh+raxtf6Uo/Iw=="
+          "hash": "pzNm3CKM/E27p293/qNY0w=="
         }
       },
       "is_incremental": false,
@@ -424,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.Località.html",
-          "hash": "GdiWgvq6eW+xYQMSDXemEw=="
+          "hash": "GZKmvP3u3LvwUhqX7LSiTg=="
         }
       },
       "is_incremental": false,
@@ -436,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.RappresentanteFiscale.html",
-          "hash": "OGYO20bKArCMIFm0pg6geA=="
+          "hash": "TrkeamZLjtoDH0qIw2DI3A=="
         }
       },
       "is_incremental": false,
@@ -448,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.ScontoMaggiorazione.html",
-          "hash": "PCXeKejITuQUagVC+g2fvw=="
+          "hash": "FDUUS29l2Osg7A0O7oUApg=="
         }
       },
       "is_incremental": false,
@@ -460,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.StabileOrganizzazione.html",
-          "hash": "MW80haOElD6dpeppgfkBSg=="
+          "hash": "/i1ynvRI81SBcQF7sNMr7A=="
         }
       },
       "is_incremental": false,
@@ -472,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Common.html",
-          "hash": "igA4hMbYOW7fcYTF3guEAA=="
+          "hash": "LENM1DRX8lCE5Ne52RUdSw=="
         }
       },
       "is_incremental": false,
@@ -484,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Defaults.FormatoTrasmissione.html",
-          "hash": "JDwFeDajqW6+0K94sciCXw=="
+          "hash": "rzITUebXPtOVwH8IYkwBlg=="
         }
       },
       "is_incremental": false,
@@ -496,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Defaults.Instance.html",
-          "hash": "i4hmW2IYiKjbTVScdvQ5Ew=="
+          "hash": "FrkSXqjlrTjOdiVXy9tlcQ=="
         }
       },
       "is_incremental": false,
@@ -508,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Defaults.RootElement.XmlAttributeString.html",
-          "hash": "/L3PmdVdronsYk3N6uNu5g=="
+          "hash": "OsFZSmdqXyv1Ps2FHegTTw=="
         }
       },
       "is_incremental": false,
@@ -520,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Defaults.RootElement.html",
-          "hash": "fxvl/PMQZCsTRGimERE2DQ=="
+          "hash": "msaHFyO1120evMbL+PGtdA=="
         }
       },
       "is_incremental": false,
@@ -532,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Defaults.Versione.html",
-          "hash": "KyqNsdM4AD3XifBvuv/MIw=="
+          "hash": "1az4A0CE2C/LJAjSuSNI3Q=="
         }
       },
       "is_incremental": false,
@@ -544,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Defaults.html",
-          "hash": "h8eFLoINsprA0XiHrRSCLw=="
+          "hash": "eN/esAu2hVdtqCfaz1+geQ=="
         }
       },
       "is_incremental": false,
@@ -556,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.FatturaBase.html",
-          "hash": "12bAtwHh88gbjRENSwuHvQ=="
+          "hash": "humUHtIhpe5kTSEVro5oSA=="
         }
       },
       "is_incremental": false,
@@ -568,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.FatturaElettronicaExtensions.html",
-          "hash": "VMVo30h+bub8GgPeGkIdzQ=="
+          "hash": "cSxYPxlmZ9A/+wqwF3mO4A=="
         }
       },
       "is_incremental": false,
@@ -580,7 +580,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.html",
-          "hash": "H0Q2ZIJnrUAcupCuZZ5dkg=="
+          "hash": "7xxn/qpHXfVU5vlwGhRRYg=="
         }
       },
       "is_incremental": false,
@@ -592,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.html",
-          "hash": "i5qa008hDeuHKYEIhkpO7Q=="
+          "hash": "kq9T6KbcsaapMSiMKS+isg=="
         }
       },
       "is_incremental": false,
@@ -604,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html",
-          "hash": "iWwSXyxMw6EMJg8sjY2Yng=="
+          "hash": "LrxbFtd8M2YbqJfKDJk9aA=="
         }
       },
       "is_incremental": false,
@@ -616,7 +616,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.html",
-          "hash": "lHy9ISYqdDZnL9zO9a+E2Q=="
+          "hash": "dTIfcWY8GTI6wpYp9cm0AQ=="
         }
       },
       "is_incremental": false,
@@ -628,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.html",
-          "hash": "v901PAQZ1E6jHNEsBmitiw=="
+          "hash": "0vyIpwRwaxJsXSqxX1XcLA=="
         }
       },
       "is_incremental": false,
@@ -640,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.html",
-          "hash": "r/BnfZhiQZMUpZipXhhMew=="
+          "hash": "6heseSbwxPdJMREXweVXgw=="
         }
       },
       "is_incremental": false,
@@ -652,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.html",
-          "hash": "qBHQCIzlutVQ/HHK5cDDOQ=="
+          "hash": "cgY7iIEQ3cyf1UDswF4Gew=="
         }
       },
       "is_incremental": false,
@@ -664,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.html",
-          "hash": "egMcfLcLEySv2TSf/EDiBA=="
+          "hash": "DY+cnB70LQqZ8Z3GNHe17g=="
         }
       },
       "is_incremental": false,
@@ -676,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.html",
-          "hash": "1MbYawGsh26GuVyQfCmp4w=="
+          "hash": "8sr9tbdZloMgbfIXjMoCNQ=="
         }
       },
       "is_incremental": false,
@@ -688,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.html",
-          "hash": "JAxEYYFNEkh9CFgrIqVZTQ=="
+          "hash": "i7fHytWXj9N7syYwUoXjZA=="
         }
       },
       "is_incremental": false,
@@ -700,7 +700,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.html",
-          "hash": "Vbi8U1ddoSH7hdT+wkxXbw=="
+          "hash": "ll3cJhT0ivCsktaJzqHs2w=="
         }
       },
       "is_incremental": false,
@@ -712,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.html",
-          "hash": "KYxHjtDz1cGeBu/friDdZA=="
+          "hash": "GqHrWMx08mO8UHFw2DpFOA=="
         }
       },
       "is_incremental": false,
@@ -724,7 +724,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.html",
-          "hash": "7nkfLyiVzvnJ6FSeNATSpQ=="
+          "hash": "qgCxkp+PgVpXf0Go2OiFMA=="
         }
       },
       "is_incremental": false,
@@ -736,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html",
-          "hash": "PfsrgCwomXWe93+dPMXjNA=="
+          "hash": "U3vp16+wRUzThvJLqkE5yg=="
         }
       },
       "is_incremental": false,
@@ -748,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html",
-          "hash": "98rRnlnipj9x0Y9LfKThIA=="
+          "hash": "8rRb7J7EiAmZ1dUvpktFhg=="
         }
       },
       "is_incremental": false,
@@ -760,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.html",
-          "hash": "sh/3+g2sBQ6jjC+2gaANog=="
+          "hash": "y7f+79d4lI3by5523QwMyg=="
         }
       },
       "is_incremental": false,
@@ -772,7 +772,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.html",
-          "hash": "XM4VDwGX2KL3dzXfTsCW+A=="
+          "hash": "jfU+GJicFIHNfof6CtLriQ=="
         }
       },
       "is_incremental": false,
@@ -784,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.html",
-          "hash": "rNCvLtw0iO+j9kWdag+27A=="
+          "hash": "FTaGBAHNyQNCyMccIbwXYg=="
         }
       },
       "is_incremental": false,
@@ -796,7 +796,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.html",
-          "hash": "OPTTvVystDlSnYOf4Zud6A=="
+          "hash": "zqZErzcj45+6EDUuuFeUzw=="
         }
       },
       "is_incremental": false,
@@ -808,7 +808,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.html",
-          "hash": "vKg3ZELp2h1lZLI5dg9lHg=="
+          "hash": "ug1/S22EDvtz30svvf+2MA=="
         }
       },
       "is_incremental": false,
@@ -820,7 +820,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.html",
-          "hash": "+SAKtkywPVA8Hg2uf+/HiA=="
+          "hash": "ViK1g6rxm7d208Bbh7Mqhg=="
         }
       },
       "is_incremental": false,
@@ -832,7 +832,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.html",
-          "hash": "nT9+bkpdQQ1Qn6F0yz1okg=="
+          "hash": "zi1m/oFEN0HSMjuAGbnkzg=="
         }
       },
       "is_incremental": false,
@@ -844,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.html",
-          "hash": "QJLvO0fhzfNdDG2omm5DzA=="
+          "hash": "+UuNFAj97WbGPXSIlgcCLw=="
         }
       },
       "is_incremental": false,
@@ -856,7 +856,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.html",
-          "hash": "GqXRkdUr7K+M8Aigt974Ug=="
+          "hash": "xIYPeipM+SqWqxrfltqEig=="
         }
       },
       "is_incremental": false,
@@ -868,7 +868,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.html",
-          "hash": "bsY8Bgj1EuvAQx2oTIs7kw=="
+          "hash": "v2tHoXpMbhWy4Qg3B+N+bQ=="
         }
       },
       "is_incremental": false,
@@ -880,7 +880,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.html",
-          "hash": "X9eMoYwQ0U4oshZDU+BGKw=="
+          "hash": "3PdBUZTsoercUarLM4PuPA=="
         }
       },
       "is_incremental": false,
@@ -892,7 +892,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.html",
-          "hash": "sauN+8Gvq3LfX3kMx5Iomw=="
+          "hash": "ZHeqn/eMerOTqs0W5/v9eg=="
         }
       },
       "is_incremental": false,
@@ -904,7 +904,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.html",
-          "hash": "GakMHL6J3yJAAK/hxDVb0Q=="
+          "hash": "t/PeqONkJi8aHZgM2le2cw=="
         }
       },
       "is_incremental": false,
@@ -916,7 +916,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.html",
-          "hash": "lNe8g5xx5VIbY+WSF/3j0Q=="
+          "hash": "SgG22gKtqWxqHXtPAXJZWA=="
         }
       },
       "is_incremental": false,
@@ -928,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.html",
-          "hash": "UvGVOEAho+zUzt+5Y4znhQ=="
+          "hash": "yE5SdEIOnQwyejCq9sFTAw=="
         }
       },
       "is_incremental": false,
@@ -940,7 +940,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html",
-          "hash": "Zy8l7l1ZwycUZaAvqDKyPg=="
+          "hash": "LkE65jZTTydUmm7o9w9QSw=="
         }
       },
       "is_incremental": false,
@@ -952,7 +952,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.html",
-          "hash": "E9gtGKTSN27f9YCrdFcG+w=="
+          "hash": "JSkEHtrQSlCjSB6wnHqKvA=="
         }
       },
       "is_incremental": false,
@@ -964,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.html",
-          "hash": "ehpTdGBZIey7q/cDQ11BQw=="
+          "hash": "4bwv3HuNbtzX61apKaRtbw=="
         }
       },
       "is_incremental": false,
@@ -976,7 +976,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html",
-          "hash": "qWNB7yxfKlRKnX1ppCcZbw=="
+          "hash": "BLkpV4tFKJnOo5veJdqOoQ=="
         }
       },
       "is_incremental": false,
@@ -988,7 +988,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.html",
-          "hash": "97vKsQhzqzHTuDB6LE7U5w=="
+          "hash": "fRNOoXt+5Gc+aqBC9yH0dA=="
         }
       },
       "is_incremental": false,
@@ -1000,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.html",
-          "hash": "LK57EgckH+YQjHssr3OzKw=="
+          "hash": "jjwysVu/tAB/2cY5NaB39Q=="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1012,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html",
-          "hash": "DaLwS0ATi5LNEIinlzz+Ng=="
+          "hash": "QHZbY0kUhrEuAq2vEHdahw=="
         }
       },
       "is_incremental": false,
@@ -1024,7 +1024,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.html",
-          "hash": "1XqhQnF9GJ/apmU1reXJPA=="
+          "hash": "856lptLPyAM9M0bazF+8Yg=="
         }
       },
       "is_incremental": false,
@@ -1036,7 +1036,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.html",
-          "hash": "ctb6YPdFp0m1mF5lMQGX7g=="
+          "hash": "5FMKtIitX+Mh8cwfwJWa0Q=="
         }
       },
       "is_incremental": false,
@@ -1048,7 +1048,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.html",
-          "hash": "N0WgGQ9vX1qS9/dq+DbrEQ=="
+          "hash": "WulPNVkJ1nfXgZUjTwubLA=="
         }
       },
       "is_incremental": false,
@@ -1060,7 +1060,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.html",
-          "hash": "O0LEc9m/gCj1TSu5C0aYlw=="
+          "hash": "GmGD42ZCCVcc7NH/I7LbkQ=="
         }
       },
       "is_incremental": false,
@@ -1072,7 +1072,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.html",
-          "hash": "u1cRkA3Dl4Jti6N28JTjRw=="
+          "hash": "L49rZI3+Lg5++hPCwilgaA=="
         }
       },
       "is_incremental": false,
@@ -1084,7 +1084,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html",
-          "hash": "Ez6OGdmwx5VM9AM5rJK4TA=="
+          "hash": "WUzDjxdmSlgUWmuKmM9p2g=="
         }
       },
       "is_incremental": false,
@@ -1096,7 +1096,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html",
-          "hash": "sOKcG3F1xdlSy1PcqIGQiA=="
+          "hash": "BTWlP/GyFE6xJfxs3dHGow=="
         }
       },
       "is_incremental": false,
@@ -1108,7 +1108,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.html",
-          "hash": "r5NjukNcCkMqKj2x3BpxZA=="
+          "hash": "cpeDfHOFBrLOh1TUkrm1Gg=="
         }
       },
       "is_incremental": false,
@@ -1120,7 +1120,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.html",
-          "hash": "IMMhtnO2HWwmh59mFQOHag=="
+          "hash": "1+NnPza2KDm2j1q2LUc2wg=="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1132,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.RappresentanteFiscale.RappresentanteFiscale.html",
-          "hash": "8Wh76wBQ7jRfpR0Vgx1afw=="
+          "hash": "Xtb6aghoAY2NIc1vjRbP7Q=="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.RappresentanteFiscale.html",
-          "hash": "XoN0jr/j7B4hhcP+PkS1ww=="
+          "hash": "KBcEBXSE9LOILTotWHAR+w=="
         }
       },
       "is_incremental": false,
@@ -1156,7 +1156,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.TerzoIntermediarioOSoggettoEmittente.TerzoIntermediarioOSoggettoEmittente.html",
-          "hash": "7N9wJVJ2UwvN7WHRJup5EQ=="
+          "hash": "qAcuk8zjNkYjpIX62QwcAw=="
         }
       },
       "is_incremental": false,
@@ -1168,7 +1168,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.TerzoIntermediarioOSoggettoEmittente.html",
-          "hash": "AjpE/8+NJRiKcZ0Rl2E8PA=="
+          "hash": "ubW2xzy3smTIvm1NJSp+MA=="
         }
       },
       "is_incremental": false,
@@ -1180,7 +1180,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.html",
-          "hash": "8ljol2uIrLnm3oRew/srgw=="
+          "hash": "XKNE+7t0F1ussaCGw5BaAg=="
         }
       },
       "is_incremental": false,
@@ -1192,7 +1192,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.FatturaOrdinaria.html",
-          "hash": "v//8XZFss+1QsBJaMM8Y0A=="
+          "hash": "RXSzUJKhA7Pp5dGkwEk0YQ=="
         }
       },
       "is_incremental": false,
@@ -1204,7 +1204,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Ordinaria.html",
-          "hash": "t9q3wIgv5g8fAD338HSCmA=="
+          "hash": "VrwGqW5UBhrN2f9zIUbeZg=="
         }
       },
       "is_incremental": false,
@@ -1216,7 +1216,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html",
-          "hash": "TFgMYPuhxAbDqv3NjfuSnw=="
+          "hash": "OrAXgh89fNxLmX+k/LmyoA=="
         }
       },
       "is_incremental": false,
@@ -1228,7 +1228,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.html",
-          "hash": "Xlru+CiYyR6vimNyzJhQhw=="
+          "hash": "Fjis7vh+PirMeDbRmNDeYw=="
         }
       },
       "is_incremental": false,
@@ -1240,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.html",
-          "hash": "rBnM7H/EFOLcKC2oAu5oyA=="
+          "hash": "oxPCJWSYfQfBM8d5mKqd8w=="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.html",
-          "hash": "2amH5O2xUnNCyFGrC9qWKQ=="
+          "hash": "wm1Zt7AZFGToT5VHjLu1ZA=="
         }
       },
       "is_incremental": false,
@@ -1264,7 +1264,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html",
-          "hash": "QkHNL8wePl8sYzixu9WAkQ=="
+          "hash": "oq1zxDqoGLXZVm/sZZDSwQ=="
         }
       },
       "is_incremental": false,
@@ -1276,7 +1276,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html",
-          "hash": "ITNrXwIlccQyzCiy72v1kg=="
+          "hash": "deUjf6oiMfA85HlwD4rNxg=="
         }
       },
       "is_incremental": false,
@@ -1288,7 +1288,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.html",
-          "hash": "A+evwD9VplLro+VARTniJw=="
+          "hash": "vI7JiS2r2Z444G7lpOSmmQ=="
         }
       },
       "is_incremental": false,
@@ -1300,7 +1300,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.html",
-          "hash": "q6WDDNNbCWeb/tSz82/F3w=="
+          "hash": "/6fFP7Qqx41UJ55fQP6oxQ=="
         }
       },
       "is_incremental": false,
@@ -1312,7 +1312,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.html",
-          "hash": "4zHAxxjAk90RO3xDp+LbqQ=="
+          "hash": "7h4kiRc6uXAwYpOFyx1tdA=="
         }
       },
       "is_incremental": false,
@@ -1324,7 +1324,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html",
-          "hash": "QBktJgyRuK/WGj9/u3ulpg=="
+          "hash": "NJkCMsIS6ITCKU2psl83ig=="
         }
       },
       "is_incremental": false,
@@ -1336,7 +1336,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html",
-          "hash": "Llm0Dc4ojKxFz4/TKzc/6g=="
+          "hash": "i2dz/cGLJYiWTEJe6bBiJg=="
         }
       },
       "is_incremental": false,
@@ -1348,7 +1348,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.html",
-          "hash": "U8KRIhZ8N2o8Qe1zxHNo7A=="
+          "hash": "oK8q/LI65eakH/tCY+BiVQ=="
         }
       },
       "is_incremental": false,
@@ -1360,7 +1360,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.html",
-          "hash": "oPoYa+JuhmUYp7yf7/s9WA=="
+          "hash": "UA9pWceZ/mmKV0kkVMiuxA=="
         }
       },
       "is_incremental": false,
@@ -1372,7 +1372,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.html",
-          "hash": "AvoGWHNWz7UQEoVF7mvQ4A=="
+          "hash": "i5+ApK7Tik+aM2Qf0Cxgbw=="
         }
       },
       "is_incremental": false,
@@ -1384,7 +1384,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html",
-          "hash": "voeZXkqBp3R/de5sTeJu3w=="
+          "hash": "IHrzv4NwnGaNdJyiul6WfQ=="
         }
       },
       "is_incremental": false,
@@ -1396,7 +1396,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.html",
-          "hash": "MvfpNlyHbxRecyRB4nKuiQ=="
+          "hash": "iyUEE5ta3yGOkUY9DWkCYQ=="
         }
       },
       "is_incremental": false,
@@ -1408,7 +1408,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.html",
-          "hash": "m/7EpndiGAyu/kdW6qWRMw=="
+          "hash": "Kr+vSA1qmiKHJmr6jG/3CA=="
         }
       },
       "is_incremental": false,
@@ -1420,7 +1420,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.html",
-          "hash": "4hntCl6v6uIrMa8rEO/S8g=="
+          "hash": "RWfMT+KdW8DhGsgLL6KuEA=="
         }
       },
       "is_incremental": false,
@@ -1432,7 +1432,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.html",
-          "hash": "KitDWqks2aLJ7D+3mDj9FA=="
+          "hash": "414VBDFyu2SvyluiNT8jZA=="
         }
       },
       "is_incremental": false,
@@ -1444,7 +1444,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html",
-          "hash": "8V6P5e+db/sbv2/biekL8g=="
+          "hash": "ZeMNvFYUfKMSv2YN8/Hu7A=="
         }
       },
       "is_incremental": false,
@@ -1456,7 +1456,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html",
-          "hash": "klIdLkb02VL4nZ0mJ2P5rQ=="
+          "hash": "jmwyR5ys9ZpVfTyTEvj/kQ=="
         }
       },
       "is_incremental": false,
@@ -1468,7 +1468,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.html",
-          "hash": "HPdcxs24ltmx/2waosDhVw=="
+          "hash": "BWQMcjgHzyVVo2rSszYfJQ=="
         }
       },
       "is_incremental": false,
@@ -1480,7 +1480,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.html",
-          "hash": "aWDXkcNeCWc4ghL0lX1iwA=="
+          "hash": "TPCBJ2YneCWtK8JA7HxC4A=="
         }
       },
       "is_incremental": false,
@@ -1492,7 +1492,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.html",
-          "hash": "0u/BxSOXm8Fr9/+CzIw1Rg=="
+          "hash": "gyQqv5Tu9sIIHCdlgMKe2A=="
         }
       },
       "is_incremental": false,
@@ -1504,7 +1504,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.html",
-          "hash": "XLyaVGVJJx1Z68C66Kqnkw=="
+          "hash": "thWHrh54PymcGvPZidf1sw=="
         }
       },
       "is_incremental": false,
@@ -1516,7 +1516,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.FatturaSemplificata.html",
-          "hash": "duChZnmQ4q+eoj4ayqCbDA=="
+          "hash": "HR7T53JzfXetPd/DFuYmFw=="
         }
       },
       "is_incremental": false,
@@ -1528,7 +1528,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Semplificata.html",
-          "hash": "oBTT1q+Djbls8WhFtFGyXA=="
+          "hash": "uDPNwk2Fpl5YoihK8m0DtQ=="
         }
       },
       "is_incremental": false,
@@ -1540,7 +1540,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.CausalePagamento.html",
-          "hash": "shnFrj2fBH/2nHXudUkidg=="
+          "hash": "KRpNEzVg1+sFflT+JLC8Gg=="
         }
       },
       "is_incremental": false,
@@ -1552,7 +1552,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.CondizioniPagamento.html",
-          "hash": "kF0I3AlyTwkjM4S7NwIQHA=="
+          "hash": "rp5dnImSKwTKGx6sil88sQ=="
         }
       },
       "is_incremental": false,
@@ -1564,7 +1564,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.Divisa.html",
-          "hash": "2CMye9VoFszCyyTVkpubog=="
+          "hash": "TQa7bBQAC8dTT87X8qrtNA=="
         }
       },
       "is_incremental": false,
@@ -1576,7 +1576,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.EsigibilitaIVA.html",
-          "hash": "mju270uaAyFwoaUostLvCA=="
+          "hash": "DoG8l/CFdwIz0yfMp26QrA=="
         }
       },
       "is_incremental": false,
@@ -1588,7 +1588,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.FormatoTrasmissione.html",
-          "hash": "0xyPz1GktE5bHYZPQ9sg4Q=="
+          "hash": "bizebU5vnDh3xSz4iXZzqg=="
         }
       },
       "is_incremental": false,
@@ -1600,7 +1600,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.IdPaese.html",
-          "hash": "V3GQPQTPgVBEQxoGP+swWA=="
+          "hash": "F7o0eE+AYUgJ9Nm9zF69qg=="
         }
       },
       "is_incremental": false,
@@ -1612,7 +1612,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.ModalitaPagamento.html",
-          "hash": "TZYCNUOhJdmQK33zL3Olrg=="
+          "hash": "aoqLjCk3AKZyYO5b82ehBw=="
         }
       },
       "is_incremental": false,
@@ -1624,7 +1624,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.Natura.html",
-          "hash": "ByyLv4Ac412MEi07mihAIA=="
+          "hash": "5UrQnUczm/11W33pJ7YPXw=="
         }
       },
       "is_incremental": false,
@@ -1636,7 +1636,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.NaturaSemplificata.html",
-          "hash": "QowNuHQ3ieX284K7qNA2/g=="
+          "hash": "HsfuEqXIuy9QSQSNjHfS2A=="
         }
       },
       "is_incremental": false,
@@ -1648,7 +1648,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.Provincia.html",
-          "hash": "1lbfOPNJ3N7iO1c9q9HosQ=="
+          "hash": "E/RH/vQZGivI3xWVTeD/Ew=="
         }
       },
       "is_incremental": false,
@@ -1660,7 +1660,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.RegimeFiscale.html",
-          "hash": "yBBYbegD0zXfjDVbnGC6FA=="
+          "hash": "7o2hbt/WJU07f4OaRuli/A=="
         }
       },
       "is_incremental": false,
@@ -1672,7 +1672,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.ScontoMaggiorazione.html",
-          "hash": "iMrurQTRTUNp11aAecxlXw=="
+          "hash": "9mGuZWk1AWWimugGlZi/JQ=="
         }
       },
       "is_incremental": false,
@@ -1684,7 +1684,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.SocioUnico.html",
-          "hash": "n8qCaMCJ2vXovC+dBmHFiA=="
+          "hash": "Vd0v9Eu8kkyBipyPDwqsFQ=="
         }
       },
       "is_incremental": false,
@@ -1696,7 +1696,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.SoggettoEmittente.html",
-          "hash": "m/RgReK9+e8VQp1/K+TEIw=="
+          "hash": "IvlvRuaLC1tkJtPl8+rY/Q=="
         }
       },
       "is_incremental": false,
@@ -1708,7 +1708,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.StatoLiquidazione.html",
-          "hash": "Q9rqL41rp4WaQ1PX/LqLoQ=="
+          "hash": "0ilVnwXG46Be+1Cbz3OmUQ=="
         }
       },
       "is_incremental": false,
@@ -1720,7 +1720,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.Tabella.html",
-          "hash": "eVLxQcIPZLvATztM+WOZ1A=="
+          "hash": "GmWbrE+RS7O6G51qM+Kf/g=="
         }
       },
       "is_incremental": false,
@@ -1732,7 +1732,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.TipoCassa.html",
-          "hash": "QHrSmqr0yuDQK13T+aXWFw=="
+          "hash": "JHraMTzbTdh+tFpyEB1etg=="
         }
       },
       "is_incremental": false,
@@ -1744,7 +1744,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.TipoCessionePrestazione.html",
-          "hash": "2/uTg6IoQJaYNOCMHPKqtQ=="
+          "hash": "aOwhLoO3aRupnf0TtRrx9A=="
         }
       },
       "is_incremental": false,
@@ -1756,7 +1756,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.TipoDocumento.html",
-          "hash": "Xd+OdTO94xoWTPz2gnAiIQ=="
+          "hash": "CtKPkMSg0TWZhbly3UolOw=="
         }
       },
       "is_incremental": false,
@@ -1768,7 +1768,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.TipoDocumentoSemplificata.html",
-          "hash": "ZyKTfHS24H9xiK+gCrK9NA=="
+          "hash": "gQTDTaVlnzCDvqq800Pvfg=="
         }
       },
       "is_incremental": false,
@@ -1780,7 +1780,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.TipoResa.html",
-          "hash": "LHfqrracNcYQn4YUiqt2fA=="
+          "hash": "9/dYVy2gXcSkrotuxpVHMQ=="
         }
       },
       "is_incremental": false,
@@ -1792,7 +1792,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.TipoRitenuta.html",
-          "hash": "V1ti7TSzNt0lB2J4eJXGSw=="
+          "hash": "L1TM2JTu6Tgbon5E6y/dNQ=="
         }
       },
       "is_incremental": false,
@@ -1804,7 +1804,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Tabelle.html",
-          "hash": "k+m5voYq4TTv4a6rU3PIbQ=="
+          "hash": "lwWzeJCpu07boItPI2+txA=="
         }
       },
       "is_incremental": false,
@@ -1816,7 +1816,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.AllegatiValidator.html",
-          "hash": "5IkQTI5YAw0pAk80po/kkg=="
+          "hash": "GvVEZhB9/orMv5XPI9RFVQ=="
         }
       },
       "is_incremental": false,
@@ -1828,7 +1828,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.AltriDatiGestionaliValidator.html",
-          "hash": "LT+nHuKV5J647eca9mvj2g=="
+          "hash": "23VA0B6pQsFaqqJF0iWlcA=="
         }
       },
       "is_incremental": false,
@@ -1840,7 +1840,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.AnagraficaValidator.html",
-          "hash": "7MIUMdI8wLNlZ96l9iz1nA=="
+          "hash": "j4X2pii5UyRge3phIL03YA=="
         }
       },
       "is_incremental": false,
@@ -1852,7 +1852,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.BasicLatinValidator-1.html",
-          "hash": "uSFSJnlqdtduH8lB30RizQ=="
+          "hash": "Mkq5SsthLvQJN4hHh9+pUA=="
         }
       },
       "is_incremental": false,
@@ -1864,7 +1864,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.CausaleValidator.html",
-          "hash": "KPIep+XUysk5Dl9OWC1EbA=="
+          "hash": "t2D9T8d3ibtm7GgiF/a9GA=="
         }
       },
       "is_incremental": false,
@@ -1876,7 +1876,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.CedentePrestatoreValidator.html",
-          "hash": "aJnpiXUk3wBrnwM9qHv6wA=="
+          "hash": "1Ilj0/U19ts7QVt2AgLV9Q=="
         }
       },
       "is_incremental": false,
@@ -1888,7 +1888,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.CessionarioCommittenteValidator.html",
-          "hash": "2nVcwN1goUS3hm34dtf0jw=="
+          "hash": "EvAyc9uITtOv6jYolwnwzA=="
         }
       },
       "is_incremental": false,
@@ -1900,7 +1900,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Charsets.html",
-          "hash": "vnWU82MkS696dG5onrWs3Q=="
+          "hash": "zP97dUaoQdwja/MZ2JIGNQ=="
         }
       },
       "is_incremental": false,
@@ -1912,7 +1912,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.CodiceArticoloValidator.html",
-          "hash": "xwJABJI7yoY522pJTVLX2Q=="
+          "hash": "Ar8F4BUBIjtU8lUWG4Npzw=="
         }
       },
       "is_incremental": false,
@@ -1924,7 +1924,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.ContattiTrasmittenteValidator.html",
-          "hash": "WsKdGsZvSyGN9aYTSB5vug=="
+          "hash": "VHwmgCG1/+Y2+GS/7/+ACA=="
         }
       },
       "is_incremental": false,
@@ -1936,7 +1936,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.ContattiValidator.html",
-          "hash": "bmHMxyxnq42epZWq0Wm/2Q=="
+          "hash": "tvg3t5PlxAVzxyST0YXQgg=="
         }
       },
       "is_incremental": false,
@@ -1948,7 +1948,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiAnagraficiCedentePrestatoreValidator.html",
-          "hash": "cBCGcWE/aPndyRXiaYMI8g=="
+          "hash": "BfOaz3sOtRLzDp066NdFJw=="
         }
       },
       "is_incremental": false,
@@ -1960,7 +1960,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiAnagraficiCessionarioCommittenteValidator.html",
-          "hash": "jrty+EfwqQyblT9Sv/RyWA=="
+          "hash": "Ny4jtW1FktZWeAEWRDsMng=="
         }
       },
       "is_incremental": false,
@@ -1972,7 +1972,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiAnagraficiRappresentanteFiscaleValidator.html",
-          "hash": "+6tkbimhBvbfcYIpnrb9DQ=="
+          "hash": "jM5nOciyLkCCGVnDuhCdbw=="
         }
       },
       "is_incremental": false,
@@ -1984,7 +1984,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiAnagraficiTerzoIntermediarioValidator.html",
-          "hash": "RkJzQgU+NKLndB3NQYfckA=="
+          "hash": "yH+GETRbNfR/1EcKhiVmNA=="
         }
       },
       "is_incremental": false,
@@ -1996,7 +1996,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiAnagraficiVettoreValidator.html",
-          "hash": "5k/rcjdOAraGdQkwBWF2EA=="
+          "hash": "zDuLMd5M+Jb/9Xk/q/reUQ=="
         }
       },
       "is_incremental": false,
@@ -2008,7 +2008,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiBeniServiziValidator.html",
-          "hash": "7PXSyspxBH0xGUh/TeaaJg=="
+          "hash": "pfRdEi0PMrDSaNtCxwiVvw=="
         }
       },
       "is_incremental": false,
@@ -2020,7 +2020,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiBolloValidator.html",
-          "hash": "c/hDottt4rfMzI8mNw1Nzw=="
+          "hash": "9divtWFP4Cl+K8SDAhB9Qw=="
         }
       },
       "is_incremental": false,
@@ -2032,7 +2032,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiCassaPrevidenzialeValidator.html",
-          "hash": "TSgH2rHXXgzJgzNBXYfV2g=="
+          "hash": "fPVUJcslE2gLwpXOfgtPQA=="
         }
       },
       "is_incremental": false,
@@ -2044,7 +2044,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiContrattoValidator.html",
-          "hash": "NVfAgn4uUQp5do16trhRsg=="
+          "hash": "AE4UyeHeHC2wkshSwnDxPA=="
         }
       },
       "is_incremental": false,
@@ -2056,7 +2056,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiConvenzioneValidator.html",
-          "hash": "+kFbSwjwnRPAKYhb71faTw=="
+          "hash": "eVR6IfDwPLE6p5XKpvvNuA=="
         }
       },
       "is_incremental": false,
@@ -2068,7 +2068,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiDDTValidator.html",
-          "hash": "awEQFFeuONOgF0x5TsNyGw=="
+          "hash": "ZXiNpG5y4RW/UJwMe8PMpQ=="
         }
       },
       "is_incremental": false,
@@ -2080,7 +2080,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiDocumentoValidator.html",
-          "hash": "Dila4vwMIylfyh2U1PKkvw=="
+          "hash": "CdDWypzeiVlx7J9PJSisUQ=="
         }
       },
       "is_incremental": false,
@@ -2092,7 +2092,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiFattureCollegateValidator.html",
-          "hash": "hnx7mUTqyTDQRZgKMnXxLQ=="
+          "hash": "TTMXTpOfk1x2WjDjtRQW7w=="
         }
       },
       "is_incremental": false,
@@ -2104,7 +2104,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiGeneraliDocumentoValidator.html",
-          "hash": "dtbsndrBRnV26QilxOObQA=="
+          "hash": "e2w9fdVA/ip0kL2E//suqg=="
         }
       },
       "is_incremental": false,
@@ -2116,7 +2116,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiGeneraliValidator.html",
-          "hash": "cphe5Kc6SO7UytF879TYvw=="
+          "hash": "2nLbWHyNAhJet1yt8g+7iQ=="
         }
       },
       "is_incremental": false,
@@ -2128,7 +2128,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiOrdineAcquistoValidator.html",
-          "hash": "BIsazZdbOxeZXETKqsvpGg=="
+          "hash": "z6uk9DijqPRCfUYoR/FGAw=="
         }
       },
       "is_incremental": false,
@@ -2140,7 +2140,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiPagamentoValidator.html",
-          "hash": "C1xqW7RZh2SOrf1YRB4y0A=="
+          "hash": "5Zt3gOCaC+aMRMu2vzq8/Q=="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2152,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiRicezioneValidator.html",
-          "hash": "2inQBRSGWqiSyoE8Gy/YiA=="
+          "hash": "j5jp4RkaMGeSkm1YWRcI/w=="
         }
       },
       "is_incremental": false,
@@ -2164,7 +2164,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiRiepilogoValidator.html",
-          "hash": "5k5dKEe2S37rNdJR72Quyg=="
+          "hash": "OfKT7oAtZJrXTBWGvgTE1g=="
         }
       },
       "is_incremental": false,
@@ -2176,7 +2176,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiRitenutaValidator.html",
-          "hash": "VNZu8xpddHnDopN9L+0pww=="
+          "hash": "V43zTyAixwH8KeYTYns/hQ=="
         }
       },
       "is_incremental": false,
@@ -2188,7 +2188,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiTrasmissioneValidator.html",
-          "hash": "wTVWu0gYTGVMhrPUUPra0Q=="
+          "hash": "k1RoYUICHpNfVetI/mOvcA=="
         }
       },
       "is_incremental": false,
@@ -2200,7 +2200,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiTrasportoValidator.html",
-          "hash": "Szj5GSIqECTS1SNZmk4NsA=="
+          "hash": "MzDELAYJPudikpYeavPWaA=="
         }
       },
       "is_incremental": false,
@@ -2212,7 +2212,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DatiVeicoliValidator.html",
-          "hash": "WJx/7DG6yk3DgvKq/AdZyA=="
+          "hash": "HObqtFM/HP+D/9iSmsvLNQ=="
         }
       },
       "is_incremental": false,
@@ -2224,7 +2224,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DenominazioneNomeCognomeValidator-1.html",
-          "hash": "zgYy+OXnRn1y6cetvfIPew=="
+          "hash": "EcV3SLgxDmxCbOQAQORBOg=="
         }
       },
       "is_incremental": false,
@@ -2236,7 +2236,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DettaglioLineeValidator.html",
-          "hash": "kJ20YLPmdQ8uqTtTWVCYgA=="
+          "hash": "QCCZVHV5QLFSgV3OsM5crg=="
         }
       },
       "is_incremental": false,
@@ -2248,7 +2248,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.DettaglioPagamentoValidator.html",
-          "hash": "klHBuudOfMcVsC5kdMxpKw=="
+          "hash": "+1mQ/jSXhP1/Xujc12VEFg=="
         }
       },
       "is_incremental": false,
@@ -2260,7 +2260,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.FatturaElettronicaBodyValidator.html",
-          "hash": "DPSxEXawj1X6glinvnYPFA=="
+          "hash": "3OddnNzPgtilNaUm9/+WoQ=="
         }
       },
       "is_incremental": false,
@@ -2272,7 +2272,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.FatturaElettronicaHeaderValidator.html",
-          "hash": "/Q4IRhF3ce/dynRCSzuAFQ=="
+          "hash": "dhsmRI6KoUkFpuBjKodXsA=="
         }
       },
       "is_incremental": false,
@@ -2284,7 +2284,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.FatturaOrdinariaValidator.html",
-          "hash": "YAKobFLY89g8Tj5ricghkg=="
+          "hash": "SAG5/GrqxOhkWor9Hi9iTw=="
         }
       },
       "is_incremental": false,
@@ -2296,7 +2296,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.FatturaPrincipaleValidator.html",
-          "hash": "2vIaMCITeghcEcaNRtfVUw=="
+          "hash": "Qs1zPW0oH1+5QyMyFh51sA=="
         }
       },
       "is_incremental": false,
@@ -2308,7 +2308,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.IdFiscaleIVAValidator.html",
-          "hash": "1BSt0z4bDsWmryLC+zEXyw=="
+          "hash": "GosjTNBWLONktntV85Fhng=="
         }
       },
       "is_incremental": false,
@@ -2320,7 +2320,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.IdTrasmittenteValidator.html",
-          "hash": "q9g5ZMGWMDPKIWF8kBPPfA=="
+          "hash": "AMQYiPQl6lV02GiV5xdzjQ=="
         }
       },
       "is_incremental": false,
@@ -2332,7 +2332,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.IndirizzoResaValidator.html",
-          "hash": "thE5qC1aVGX1klSv/n8xQA=="
+          "hash": "4hEEN5xW3SjNB4nwAMxtlg=="
         }
       },
       "is_incremental": false,
@@ -2344,7 +2344,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.IsValidValidator-1.html",
-          "hash": "3JaFDkzp3TDygXvf5iY+Sw=="
+          "hash": "f8QeckgKOR0DRH1BWE4W1g=="
         }
       },
       "is_incremental": false,
@@ -2356,7 +2356,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.IscrizioneREAValidator.html",
-          "hash": "2y61RxQcHFocL9XjsM/hwA=="
+          "hash": "FQkKhMUdDzoM+Bb2a3gmXw=="
         }
       },
       "is_incremental": false,
@@ -2368,7 +2368,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Latin1SupplementValidator-1.html",
-          "hash": "gsyNHahQwtBixrEKlCFgJw=="
+          "hash": "Q6HHgKVg5oBugURchS9pBg=="
         }
       },
       "is_incremental": false,
@@ -2380,7 +2380,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.LatinBaseValidator-1.html",
-          "hash": "wrGDago5lWfJIkNTmq4c9A=="
+          "hash": "N8B3qEfzBDArZXVWDChMtQ=="
         }
       },
       "is_incremental": false,
@@ -2392,7 +2392,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.LocalitàBaseValidator-1.html",
-          "hash": "C4ER/vLswsm0pXH05I0lZQ=="
+          "hash": "9x6w8QWl7v9OPBp9jj8/Ag=="
         }
       },
       "is_incremental": false,
@@ -2404,7 +2404,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.MyValidatorExtensions.html",
-          "hash": "EOEZSzpNrA3JfecKk6WuRQ=="
+          "hash": "Yzua5K89rcCHRMsPx1BiMA=="
         }
       },
       "is_incremental": false,
@@ -2416,7 +2416,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.RappresentanteFiscaleCessionarioCommittenteValidator.html",
-          "hash": "/m+7NacBD+FH8/2Dku7dcw=="
+          "hash": "BwyLytJPnNorNH6ebU2y0Q=="
         }
       },
       "is_incremental": false,
@@ -2428,7 +2428,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.RappresentanteFiscaleValidator.html",
-          "hash": "wsix282UzQaFjmR9O3/E6Q=="
+          "hash": "DUQB9KSuZxV6cL4eIaw/7Q=="
         }
       },
       "is_incremental": false,
@@ -2440,7 +2440,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.RegimeFiscaleValidator-1.html",
-          "hash": "WoafFOFhWMNvY/NuXU5FSA=="
+          "hash": "EyFaPpSv19v/ds2ZTVUYMQ=="
         }
       },
       "is_incremental": false,
@@ -2452,7 +2452,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.ScontoMaggiorazioneValidator.html",
-          "hash": "WjOzQku05K8lZsGPECVHHw=="
+          "hash": "zBDaA6Wv36blUP2fvqeZ4Q=="
         }
       },
       "is_incremental": false,
@@ -2464,7 +2464,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.SedeCedentePrestatoreValidator.html",
-          "hash": "f7gK5Hews195ieE9WYpojQ=="
+          "hash": "bVqNtEXIsbhQQP0oAMySKQ=="
         }
       },
       "is_incremental": false,
@@ -2476,7 +2476,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.SedeCessionarioCommittenteValidator.html",
-          "hash": "quVBqA+P/pP9JGSi3vKHlw=="
+          "hash": "qtfeKIWqA104WAj3mi9wrg=="
         }
       },
       "is_incremental": false,
@@ -2488,7 +2488,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.AllegatiValidator.html",
-          "hash": "tGdbUxrreQbEyUWXhTWJ9Q=="
+          "hash": "iehzhmGntw4XfvwjBBEZYA=="
         }
       },
       "is_incremental": false,
@@ -2500,7 +2500,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.AltriDatiIdentificativiValidator.html",
-          "hash": "wTmLaQROuvmGudmvYBhp8g=="
+          "hash": "XFPW74VzrulNjJ6V3ggc6w=="
         }
       },
       "is_incremental": false,
@@ -2512,7 +2512,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.CedentePrestatoreValidator.html",
-          "hash": "wTey4tRUC4gKzhHv2MvLwA=="
+          "hash": "7Fsyk/tQu1PdK9dv3AajCw=="
         }
       },
       "is_incremental": false,
@@ -2524,7 +2524,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.CessionarioCommittenteValidator.html",
-          "hash": "98wnYjzJr6PbEQ9E47J7Bw=="
+          "hash": "L/Ew5xUnxQs4+F2bWs2p5w=="
         }
       },
       "is_incremental": false,
@@ -2536,7 +2536,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.DatiBeniServiziValidator.html",
-          "hash": "W5Y0RHMt5nN4lOI9g2a2Wg=="
+          "hash": "60qcP8BlReAc9tWoxmYexg=="
         }
       },
       "is_incremental": false,
@@ -2548,7 +2548,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.DatiFatturaRettificataValidator.html",
-          "hash": "PG5dstm46gWaohG1fuOq2w=="
+          "hash": "Ke+LMo2yELJPR2TMAvsh1A=="
         }
       },
       "is_incremental": false,
@@ -2560,7 +2560,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.DatiGeneraliDocumentoValidator.html",
-          "hash": "kmm/hKdjHHWxbjRaUVvrLw=="
+          "hash": "APt0WViV9dhVsnHS4hCMKw=="
         }
       },
       "is_incremental": false,
@@ -2572,7 +2572,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.DatiGeneraliValidator.html",
-          "hash": "Rvu8uEZwvC4VQNSAHkKksA=="
+          "hash": "mNPlm16au5VRE9kPlj+nXA=="
         }
       },
       "is_incremental": false,
@@ -2584,7 +2584,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.DatiIVAValidator.html",
-          "hash": "MwdHc9ssPf8BRw72BwAMig=="
+          "hash": "/wtkC1eIeqxXt739dqZkjg=="
         }
       },
       "is_incremental": false,
@@ -2596,7 +2596,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.DatiTrasmissioneValidator.html",
-          "hash": "XepSgFLRnqzTudEJMN0sqA=="
+          "hash": "sEjtIufkMwsIZnAKVoRGbg=="
         }
       },
       "is_incremental": false,
@@ -2608,7 +2608,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.DenominazioneNomeCognomeValidator-1.html",
-          "hash": "2JdgaL28XPvkfNHIAIgVVg=="
+          "hash": "L78fGkivN5zKT+oOKXx2dw=="
         }
       },
       "is_incremental": false,
@@ -2620,7 +2620,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.FatturaElettronicaBodyValidator.html",
-          "hash": "O0JgB8STJjntaEOzMqzM5w=="
+          "hash": "a6i329/WI+6LbtERhNGCMw=="
         }
       },
       "is_incremental": false,
@@ -2632,7 +2632,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.FatturaElettronicaHeaderValidator.html",
-          "hash": "BMNp8lVWsU3pGb4yWIvAKA=="
+          "hash": "VnXh6lEaSIcud6SSnQ6W1Q=="
         }
       },
       "is_incremental": false,
@@ -2644,7 +2644,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.FatturaSemplificataValidator.html",
-          "hash": "WT6sKqey51I7Hrt5KgaM2Q=="
+          "hash": "6Xk2s5b2nB+4wtHOtkILQg=="
         }
       },
       "is_incremental": false,
@@ -2656,7 +2656,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.IdentificativiFiscaliValidator.html",
-          "hash": "p5WEiHNJoGvJg8g0y8LLPA=="
+          "hash": "bS/1tGWpaXziN4RaRQyEzQ=="
         }
       },
       "is_incremental": false,
@@ -2668,7 +2668,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.IscrizioneREAValidator.html",
-          "hash": "Pzca+JN3i/uBktbQZOc3oQ=="
+          "hash": "yk73bd7CrSm8yzao7wU8Zw=="
         }
       },
       "is_incremental": false,
@@ -2680,7 +2680,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.RappresentanteFiscaleCessionarioCommittenteValidator.html",
-          "hash": "NtmDMvBiOTPwtpYXPBB+Wg=="
+          "hash": "+hwGk3F8yPim39sIA0vxJA=="
         }
       },
       "is_incremental": false,
@@ -2692,7 +2692,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.SedeCedentePrestatoreValidator.html",
-          "hash": "CfeWCQrdnKTbOrUM8sGOKw=="
+          "hash": "Tqnb5TEydyswBXybTDrpMg=="
         }
       },
       "is_incremental": false,
@@ -2704,7 +2704,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.SedeCessionarioCommittenteValidator.html",
-          "hash": "EZRu4QJvNpw4PvTTZ4Yzmg=="
+          "hash": "QLVHXOcEmL1DBUJcngDTBg=="
         }
       },
       "is_incremental": false,
@@ -2716,7 +2716,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.StabileOrganizzazioneValidator.html",
-          "hash": "toUGdPLAdYSa2xvLJhlyvg=="
+          "hash": "+hhNRprD2r6nLGsVBFBRtg=="
         }
       },
       "is_incremental": false,
@@ -2728,7 +2728,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.Semplificata.html",
-          "hash": "k2SFGG80N6LACUXtARACeQ=="
+          "hash": "7ulB2nPaIzWjzQpo17cTow=="
         }
       },
       "is_incremental": false,
@@ -2740,7 +2740,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.StabileOrganizzazioneValidator.html",
-          "hash": "NOUD83D7sS5XKgD70v0Xqg=="
+          "hash": "H4xiIVBtd8PrSApBMfrwfA=="
         }
       },
       "is_incremental": false,
@@ -2752,7 +2752,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.TerzoIntermediarioOSoggettoEmittenteValidator.html",
-          "hash": "Liw/15SUQhbil0pQYTh6mw=="
+          "hash": "i2wRo1/JKkBcXDUiVXdzKA=="
         }
       },
       "is_incremental": false,
@@ -2764,7 +2764,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.Validators.html",
-          "hash": "RdoNhQZJyVNQQ0SuNK0ckQ=="
+          "hash": "17tekcq7pE+TUL0lhNTwcA=="
         }
       },
       "is_incremental": false,
@@ -2776,7 +2776,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/api/FatturaElettronica.html",
-          "hash": "74GM4GSKGZVLu112dB4/eA=="
+          "hash": "ZAS7azvdvSeB0PnzWJBqKA=="
         }
       },
       "is_incremental": false,
@@ -2816,6 +2816,13 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -2827,20 +2834,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 213,
-          "skipped_file_count": 213
+          "skipped_file_count": 212
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 12,
-          "skipped_file_count": 10
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "skipped_file_count": 11
         }
       }
     },
