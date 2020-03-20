@@ -89,22 +89,96 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CessionarioCommittente</span></div>
+    <div class="level1"><span class="xref">FatturaElettronica.Common.BaseClass</span></div>
+    <div class="level2"><span class="xref">FatturaElettronica.Common.BaseClassSerializable</span></div>
+    <div class="level3"><span class="xref">CessionarioCommittente</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">FatturaElettronica.Common.BaseClass</span>&gt;</div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson(FatturaElettronica.Common.JsonOptions)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.GetSchema()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ReadXml(System.Xml.XmlReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.XmlOptions</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.SetProperty&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.OnPropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.CleanString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.IsEmpty()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetAllDataProperties()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(FatturaElettronica.Common.BaseClass)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.html">FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente</a></h6>
   <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
   <h5 id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CessionarioCommittente : BaseClassSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class CessionarioCommittente : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L15">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L15">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor">CessionarioCommittente()</h4>
@@ -117,13 +191,13 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.%23ctor(XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_System_Xml_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.%23ctor(System.Xml.XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L22">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L22">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor*"></a>
-  <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_XmlReader_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(XmlReader)">CessionarioCommittente(XmlReader)</h4>
+  <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(System.Xml.XmlReader)">CessionarioCommittente(XmlReader)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -141,7 +215,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XmlReader</span></td>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
         <td><span class="parametername">r</span></td>
         <td></td>
       </tr>
@@ -151,10 +225,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_DatiAnagrafici.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.DatiAnagrafici%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_DatiAnagrafici.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.DatiAnagrafici%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L31">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L31">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_DatiAnagrafici_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.DatiAnagrafici*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_DatiAnagrafici" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.DatiAnagrafici">DatiAnagrafici</h4>
@@ -163,7 +237,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatiAnagraficiCessionarioCommittente DatiAnagrafici { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(31)]
+public DatiAnagraficiCessionarioCommittente DatiAnagrafici { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,10 +257,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_RappresentanteFiscale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.RappresentanteFiscale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_RappresentanteFiscale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.RappresentanteFiscale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L49">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L49">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_RappresentanteFiscale_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.RappresentanteFiscale*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_RappresentanteFiscale" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.RappresentanteFiscale">RappresentanteFiscale</h4>
@@ -194,7 +269,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RappresentanteFiscaleCessionarioCommittente RappresentanteFiscale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(49)]
+public RappresentanteFiscaleCessionarioCommittente RappresentanteFiscale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,10 +289,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_Sede.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.Sede%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_Sede.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.Sede%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L37">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L37">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_Sede_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.Sede*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_Sede" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.Sede">Sede</h4>
@@ -225,7 +301,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SedeCessionarioCommittente Sede { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(37)]
+public SedeCessionarioCommittente Sede { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -244,10 +321,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_StabileOrganizzazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.StabileOrganizzazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_StabileOrganizzazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.StabileOrganizzazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L43">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L43">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_StabileOrganizzazione_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.StabileOrganizzazione*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente_StabileOrganizzazione" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.StabileOrganizzazione">StabileOrganizzazione</h4>
@@ -256,7 +333,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StabileOrganizzazione StabileOrganizzazione { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(43)]
+public StabileOrganizzazione StabileOrganizzazione { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -273,6 +351,20 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FatturaElettronica.FatturaElettronicaExtensions.html#FatturaElettronica_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -281,10 +373,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaHeader/CessionarioCommittente/CessionarioCommittente.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

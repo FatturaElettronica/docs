@@ -90,24 +90,95 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">IdFiscaleIVA</span></div>
-      <div class="level2"><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html">IdTrasmittente</a></div>
-      <div class="level2"><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html">IdTrasmittente</a></div>
+    <div class="level1"><span class="xref">FatturaElettronica.Common.BaseClass</span></div>
+    <div class="level2"><span class="xref">FatturaElettronica.Common.BaseClassSerializable</span></div>
+    <div class="level3"><span class="xref">IdFiscaleIVA</span></div>
+      <div class="level4"><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html">IdTrasmittente</a></div>
+      <div class="level4"><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html">IdTrasmittente</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">FatturaElettronica.Common.BaseClass</span>&gt;</div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson(FatturaElettronica.Common.JsonOptions)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.GetSchema()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ReadXml(System.Xml.XmlReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.XmlOptions</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.SetProperty&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.OnPropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.CleanString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.IsEmpty()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetAllDataProperties()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(FatturaElettronica.Common.BaseClass)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Common.html">FatturaElettronica.Common</a></h6>
   <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
   <h5 id="FatturaElettronica_Common_IdFiscaleIVA_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class IdFiscaleIVA : BaseClassSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class IdFiscaleIVA : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Common/IdFiscaleIva.cs/#L11">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Common/IdFiscaleIva.cs/#L11">View Source</a>
   </span>
   <a id="FatturaElettronica_Common_IdFiscaleIVA__ctor_" data-uid="FatturaElettronica.Common.IdFiscaleIVA.#ctor*"></a>
   <h4 id="FatturaElettronica_Common_IdFiscaleIVA__ctor" data-uid="FatturaElettronica.Common.IdFiscaleIVA.#ctor">IdFiscaleIVA()</h4>
@@ -119,13 +190,13 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA__ctor_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.%23ctor(XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA__ctor_System_Xml_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.%23ctor(System.Xml.XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Common/IdFiscaleIva.cs/#L12">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Common/IdFiscaleIva.cs/#L12">View Source</a>
   </span>
   <a id="FatturaElettronica_Common_IdFiscaleIVA__ctor_" data-uid="FatturaElettronica.Common.IdFiscaleIVA.#ctor*"></a>
-  <h4 id="FatturaElettronica_Common_IdFiscaleIVA__ctor_XmlReader_" data-uid="FatturaElettronica.Common.IdFiscaleIVA.#ctor(XmlReader)">IdFiscaleIVA(XmlReader)</h4>
+  <h4 id="FatturaElettronica_Common_IdFiscaleIVA__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Common.IdFiscaleIVA.#ctor(System.Xml.XmlReader)">IdFiscaleIVA(XmlReader)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -143,7 +214,7 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XmlReader</span></td>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
         <td><span class="parametername">r</span></td>
         <td></td>
       </tr>
@@ -153,10 +224,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA_IdCodice.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.IdCodice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA_IdCodice.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.IdCodice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Common/IdFiscaleIva.cs/#L23">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Common/IdFiscaleIva.cs/#L23">View Source</a>
   </span>
   <a id="FatturaElettronica_Common_IdFiscaleIVA_IdCodice_" data-uid="FatturaElettronica.Common.IdFiscaleIVA.IdCodice*"></a>
   <h4 id="FatturaElettronica_Common_IdFiscaleIVA_IdCodice" data-uid="FatturaElettronica.Common.IdFiscaleIVA.IdCodice">IdCodice</h4>
@@ -165,7 +236,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IdCodice { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(23)]
+public string IdCodice { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -184,10 +256,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA_IdPaese.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.IdPaese%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA_IdPaese.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.IdPaese%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Common/IdFiscaleIva.cs/#L17">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Common/IdFiscaleIva.cs/#L17">View Source</a>
   </span>
   <a id="FatturaElettronica_Common_IdFiscaleIVA_IdPaese_" data-uid="FatturaElettronica.Common.IdFiscaleIVA.IdPaese*"></a>
   <h4 id="FatturaElettronica_Common_IdFiscaleIVA_IdPaese" data-uid="FatturaElettronica.Common.IdFiscaleIVA.IdPaese">IdPaese</h4>
@@ -196,7 +268,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IdPaese { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(17)]
+public string IdPaese { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,6 +286,54 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA_ToString.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Common/IdFiscaleIva.cs/#L26">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Common_IdFiscaleIVA_ToString_" data-uid="FatturaElettronica.Common.IdFiscaleIVA.ToString*"></a>
+  <h4 id="FatturaElettronica_Common_IdFiscaleIVA_ToString" data-uid="FatturaElettronica.Common.IdFiscaleIVA.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FatturaElettronica.FatturaElettronicaExtensions.html#FatturaElettronica_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -221,10 +342,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Common_IdFiscaleIVA.md&amp;value=---%0Auid%3A%20FatturaElettronica.Common.IdFiscaleIVA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Common/IdFiscaleIva.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Common/IdFiscaleIva.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

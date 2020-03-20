@@ -89,22 +89,96 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CedentePrestatore</span></div>
+    <div class="level1"><span class="xref">FatturaElettronica.Common.BaseClass</span></div>
+    <div class="level2"><span class="xref">FatturaElettronica.Common.BaseClassSerializable</span></div>
+    <div class="level3"><span class="xref">CedentePrestatore</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">FatturaElettronica.Common.BaseClass</span>&gt;</div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson(FatturaElettronica.Common.JsonOptions)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.GetSchema()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ReadXml(System.Xml.XmlReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.XmlOptions</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.SetProperty&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.OnPropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.CleanString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.IsEmpty()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetAllDataProperties()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(FatturaElettronica.Common.BaseClass)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.html">FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore</a></h6>
   <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
   <h5 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CedentePrestatore : BaseClassSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class CedentePrestatore : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L16">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L16">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor">CedentePrestatore()</h4>
@@ -117,13 +191,13 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.%23ctor(XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_System_Xml_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.%23ctor(System.Xml.XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L24">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L24">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor*"></a>
-  <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_XmlReader_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(XmlReader)">CedentePrestatore(XmlReader)</h4>
+  <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(System.Xml.XmlReader)">CedentePrestatore(XmlReader)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -141,7 +215,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XmlReader</span></td>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
         <td><span class="parametername">r</span></td>
         <td></td>
       </tr>
@@ -151,10 +225,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_CodiceFiscale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CodiceFiscale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_CodiceFiscale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CodiceFiscale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L40">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L40">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_CodiceFiscale_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CodiceFiscale*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_CodiceFiscale" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CodiceFiscale">CodiceFiscale</h4>
@@ -163,7 +237,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CodiceFiscale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(1)]
+public string CodiceFiscale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,10 +257,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Cognome.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Cognome%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Cognome.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Cognome%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L58">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L58">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Cognome_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Cognome*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Cognome" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Cognome">Cognome</h4>
@@ -194,7 +269,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Cognome { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(4)]
+public string Cognome { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,10 +289,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_CognomeNome.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CognomeNome%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_CognomeNome.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CognomeNome%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L65">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L65">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_CognomeNome_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CognomeNome*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_CognomeNome" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CognomeNome">CognomeNome</h4>
@@ -225,7 +301,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CognomeNome { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public string CognomeNome { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -247,10 +324,10 @@
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Denominazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Denominazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Denominazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Denominazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L46">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L46">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Denominazione_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Denominazione*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Denominazione" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Denominazione">Denominazione</h4>
@@ -259,7 +336,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Denominazione { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(2)]
+public string Denominazione { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -278,10 +356,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_IdFiscaleIVA.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.IdFiscaleIVA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_IdFiscaleIVA.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.IdFiscaleIVA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L34">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L34">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_IdFiscaleIVA_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.IdFiscaleIVA*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_IdFiscaleIVA" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.IdFiscaleIVA">IdFiscaleIVA</h4>
@@ -291,7 +369,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IdFiscaleIVA IdFiscaleIVA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(0)]
+public IdFiscaleIVA IdFiscaleIVA { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -310,10 +389,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_IscrizioneREA.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.IscrizioneREA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_IscrizioneREA.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.IscrizioneREA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L96">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L96">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_IscrizioneREA_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.IscrizioneREA*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_IscrizioneREA" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.IscrizioneREA">IscrizioneREA</h4>
@@ -322,7 +401,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IscrizioneREA IscrizioneREA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(8)]
+public IscrizioneREA IscrizioneREA { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -341,10 +421,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Nome.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Nome%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Nome.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Nome%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L52">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L52">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Nome_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Nome*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Nome" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Nome">Nome</h4>
@@ -353,7 +433,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Nome { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(3)]
+public string Nome { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -372,10 +453,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RappresentanteFiscale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RappresentanteFiscale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RappresentanteFiscale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RappresentanteFiscale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L90">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L90">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RappresentanteFiscale_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RappresentanteFiscale*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RappresentanteFiscale" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RappresentanteFiscale">RappresentanteFiscale</h4>
@@ -384,7 +465,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RappresentanteFiscale RappresentanteFiscale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(7)]
+public RappresentanteFiscale RappresentanteFiscale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -403,10 +485,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RegimeFiscale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RegimeFiscale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RegimeFiscale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RegimeFiscale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L108">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L108">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RegimeFiscale_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RegimeFiscale*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RegimeFiscale" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RegimeFiscale">RegimeFiscale</h4>
@@ -415,7 +497,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RegimeFiscale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(10)]
+public string RegimeFiscale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -434,10 +517,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RiferimentoAmministrazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RiferimentoAmministrazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RiferimentoAmministrazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RiferimentoAmministrazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L102">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L102">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RiferimentoAmministrazione_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RiferimentoAmministrazione*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_RiferimentoAmministrazione" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.RiferimentoAmministrazione">RiferimentoAmministrazione</h4>
@@ -446,7 +529,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RiferimentoAmministrazione { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(9)]
+public string RiferimentoAmministrazione { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -465,10 +549,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Sede.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Sede%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Sede.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Sede%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L78">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L78">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Sede_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Sede*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_Sede" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.Sede">Sede</h4>
@@ -477,7 +561,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SedeCedentePrestatore Sede { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(5)]
+public SedeCedentePrestatore Sede { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -496,10 +581,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_StabileOrganizzazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.StabileOrganizzazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_StabileOrganizzazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.StabileOrganizzazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L84">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L84">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_StabileOrganizzazione_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.StabileOrganizzazione*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore_StabileOrganizzazione" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.StabileOrganizzazione">StabileOrganizzazione</h4>
@@ -508,7 +593,8 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StabileOrganizzazione StabileOrganizzazione { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(6)]
+public StabileOrganizzazione StabileOrganizzazione { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -525,6 +611,20 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FatturaElettronica.FatturaElettronicaExtensions.html#FatturaElettronica_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -533,10 +633,10 @@ vero e proprio che, per i residenti in Italia, corrisponde al numero di partita 
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaHeader/CedentePrestatore/CedentePrestatore.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

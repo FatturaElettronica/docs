@@ -89,22 +89,96 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DatiGeneraliDocumento</span></div>
+    <div class="level1"><span class="xref">FatturaElettronica.Common.BaseClass</span></div>
+    <div class="level2"><span class="xref">FatturaElettronica.Common.BaseClassSerializable</span></div>
+    <div class="level3"><span class="xref">DatiGeneraliDocumento</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">FatturaElettronica.Common.BaseClass</span>&gt;</div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson(FatturaElettronica.Common.JsonOptions)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.GetSchema()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ReadXml(System.Xml.XmlReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.XmlOptions</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.SetProperty&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.OnPropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.CleanString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.IsEmpty()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetAllDataProperties()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(FatturaElettronica.Common.BaseClass)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.html">FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali</a></h6>
   <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
   <h5 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DatiGeneraliDocumento : BaseClassSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class DatiGeneraliDocumento : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L16">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L16">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor">DatiGeneraliDocumento()</h4>
@@ -117,13 +191,13 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.%23ctor(XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_System_Xml_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.%23ctor(System.Xml.XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L24">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L24">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor*"></a>
-  <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_XmlReader_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(XmlReader)">DatiGeneraliDocumento(XmlReader)</h4>
+  <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(System.Xml.XmlReader)">DatiGeneraliDocumento(XmlReader)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -141,7 +215,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XmlReader</span></td>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
         <td><span class="parametername">r</span></td>
         <td></td>
       </tr>
@@ -151,10 +225,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Arrotondamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Arrotondamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Arrotondamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Arrotondamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L87">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L87">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Arrotondamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Arrotondamento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Arrotondamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Arrotondamento">Arrotondamento</h4>
@@ -163,7 +237,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal? Arrotondamento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(87)]
+public decimal? Arrotondamento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,10 +257,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Art73.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Art73%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Art73.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Art73%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L100">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L100">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Art73_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Art73*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Art73" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Art73">Art73</h4>
@@ -195,7 +270,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Art73 { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(100)]
+public string Art73 { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -214,10 +290,10 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Causale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Causale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Causale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Causale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L93">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L93">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Causale_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Causale*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Causale" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Causale">Causale</h4>
@@ -226,7 +302,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Causale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(93)]
+public List&lt;string&gt; Causale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,17 +315,17 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Data.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Data.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L45">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L45">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Data_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Data*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Data" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Data">Data</h4>
@@ -257,7 +334,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime Data { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(45)]
+public DateTime Data { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,17 +347,17 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DateTime</span></td>
+        <td><span class="xref">System.DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiBollo.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiBollo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiBollo.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiBollo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L63">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L63">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiBollo_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiBollo*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiBollo" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiBollo">DatiBollo</h4>
@@ -288,7 +366,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatiBollo DatiBollo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(63)]
+public DatiBollo DatiBollo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -307,10 +386,10 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiCassaPrevidenziale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiCassaPrevidenziale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiCassaPrevidenziale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiCassaPrevidenziale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L69">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L69">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiCassaPrevidenziale_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiCassaPrevidenziale*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiCassaPrevidenziale" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiCassaPrevidenziale">DatiCassaPrevidenziale</h4>
@@ -319,7 +398,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;DatiCassaPrevidenziale&gt; DatiCassaPrevidenziale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(69)]
+public List&lt;DatiCassaPrevidenziale&gt; DatiCassaPrevidenziale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -331,17 +411,17 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.html">DatiCassaPrevidenziale</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.html">DatiCassaPrevidenziale</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiRitenuta.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiRitenuta%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiRitenuta.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiRitenuta%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L57">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L57">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiRitenuta_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiRitenuta*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_DatiRitenuta" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiRitenuta">DatiRitenuta</h4>
@@ -350,7 +430,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatiRitenuta DatiRitenuta { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(57)]
+public List&lt;DatiRitenuta&gt; DatiRitenuta { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -362,17 +443,17 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.html">DatiRitenuta</a></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.html">DatiRitenuta</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Divisa.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Divisa%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Divisa.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Divisa%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L39">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L39">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Divisa_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Divisa*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Divisa" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Divisa">Divisa</h4>
@@ -381,7 +462,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Divisa { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(39)]
+public string Divisa { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -400,10 +482,10 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_ImportoTotaleDocumento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.ImportoTotaleDocumento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_ImportoTotaleDocumento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.ImportoTotaleDocumento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L81">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L81">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_ImportoTotaleDocumento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.ImportoTotaleDocumento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_ImportoTotaleDocumento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.ImportoTotaleDocumento">ImportoTotaleDocumento</h4>
@@ -412,7 +494,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal? ImportoTotaleDocumento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(81)]
+public decimal? ImportoTotaleDocumento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -431,10 +514,10 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Numero.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Numero%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Numero.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Numero%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L51">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L51">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Numero_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Numero*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Numero" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Numero">Numero</h4>
@@ -443,7 +526,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Numero { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(51)]
+public string Numero { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -462,10 +546,10 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_ScontoMaggiorazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.ScontoMaggiorazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_ScontoMaggiorazione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.ScontoMaggiorazione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L75">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L75">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_ScontoMaggiorazione_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.ScontoMaggiorazione*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_ScontoMaggiorazione" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.ScontoMaggiorazione">ScontoMaggiorazione</h4>
@@ -474,7 +558,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;ScontoMaggiorazione&gt; ScontoMaggiorazione { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(75)]
+public List&lt;ScontoMaggiorazione&gt; ScontoMaggiorazione { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -486,17 +571,17 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="FatturaElettronica.Common.ScontoMaggiorazione.html">ScontoMaggiorazione</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="FatturaElettronica.Common.ScontoMaggiorazione.html">ScontoMaggiorazione</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_TipoDocumento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.TipoDocumento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_TipoDocumento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.TipoDocumento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L33">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L33">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_TipoDocumento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.TipoDocumento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_TipoDocumento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.TipoDocumento">TipoDocumento</h4>
@@ -505,7 +590,8 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TipoDocumento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(33)]
+public string TipoDocumento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -522,6 +608,20 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FatturaElettronica.FatturaElettronicaExtensions.html#FatturaElettronica_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -530,10 +630,10 @@ DPR 633/72 (ciò consente al cedente/prestatore l'emissione nello stesso anno di
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

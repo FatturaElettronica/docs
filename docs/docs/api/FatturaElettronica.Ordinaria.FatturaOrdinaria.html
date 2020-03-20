@@ -88,35 +88,100 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="FatturaElettronica.FatturaBase.html">FatturaBase</a></div>
-    <div class="level2"><span class="xref">FatturaOrdinaria</span></div>
+    <div class="level1"><span class="xref">FatturaElettronica.Common.BaseClass</span></div>
+    <div class="level2"><span class="xref">FatturaElettronica.Common.BaseClassSerializable</span></div>
+    <div class="level3"><a class="xref" href="FatturaElettronica.FatturaBase.html">FatturaBase</a></div>
+    <div class="level4"><span class="xref">FatturaOrdinaria</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">FatturaElettronica.Common.BaseClass</span>&gt;</div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_ReadXml_XmlReader_">FatturaBase.ReadXml(XmlReader)</a>
+      <a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_ReadXml_System_Xml_XmlReader_">FatturaBase.ReadXml(XmlReader)</a>
     </div>
     <div>
-      <a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_WriteXml_XmlWriter_">FatturaBase.WriteXml(XmlWriter)</a>
+      <a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_WriteXml_System_Xml_XmlWriter_">FatturaBase.WriteXml(XmlWriter)</a>
     </div>
     <div>
-      <a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_CreateInstanceFromXml_System_IO_Stream_">FatturaBase.CreateInstanceFromXml(System.IO.Stream)</a>
+      <a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_CreateInstanceFromXml_System_IO_Stream_">FatturaBase.CreateInstanceFromXml(Stream)</a>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson(FatturaElettronica.Common.JsonOptions)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.GetSchema()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.XmlOptions</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.SetProperty&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.OnPropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.CleanString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.IsEmpty()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetAllDataProperties()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(FatturaElettronica.Common.BaseClass)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Ordinaria.html">FatturaElettronica.Ordinaria</a></h6>
   <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
   <h5 id="FatturaElettronica_Ordinaria_FatturaOrdinaria_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FatturaOrdinaria : FatturaBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class FatturaOrdinaria : FatturaBase, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaOrdinaria.cs/#L9">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaOrdinaria.cs/#L9">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaOrdinaria__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.#ctor*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaOrdinaria__ctor" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.#ctor">FatturaOrdinaria()</h4>
@@ -130,10 +195,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_FatturaElettronicaBody.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.FatturaElettronicaBody%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_FatturaElettronicaBody.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.FatturaElettronicaBody%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaOrdinaria.cs/#L63">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaOrdinaria.cs/#L63">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaOrdinaria_FatturaElettronicaBody_" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.FatturaElettronicaBody*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaOrdinaria_FatturaElettronicaBody" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.FatturaElettronicaBody">FatturaElettronicaBody</h4>
@@ -142,7 +207,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;FatturaElettronicaBody&gt; FatturaElettronicaBody { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(63)]
+public List&lt;FatturaElettronicaBody&gt; FatturaElettronicaBody { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -154,7 +220,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.html">FatturaElettronicaBody</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.html">FatturaElettronicaBody</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -165,10 +231,10 @@ per ogni fattura componente il lotto stesso.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_FatturaElettronicaHeader.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.FatturaElettronicaHeader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_FatturaElettronicaHeader.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.FatturaElettronicaHeader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaOrdinaria.cs/#L55">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaOrdinaria.cs/#L55">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaOrdinaria_FatturaElettronicaHeader_" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.FatturaElettronicaHeader*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaOrdinaria_FatturaElettronicaHeader" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.FatturaElettronicaHeader">FatturaElettronicaHeader</h4>
@@ -177,7 +243,8 @@ per ogni fattura componente il lotto stesso.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FatturaElettronicaHeader FatturaElettronicaHeader { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(55)]
+public FatturaElettronicaHeader FatturaElettronicaHeader { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,10 +265,10 @@ per ogni fattura componente il lotto stesso.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_CreateInstance_FatturaElettronica_Defaults_Instance_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.CreateInstance(FatturaElettronica.Defaults.Instance)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_CreateInstance_FatturaElettronica_Defaults_Instance_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.CreateInstance(FatturaElettronica.Defaults.Instance)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaOrdinaria.cs/#L14">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaOrdinaria.cs/#L14">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaOrdinaria_CreateInstance_" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.CreateInstance*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaOrdinaria_CreateInstance_FatturaElettronica_Defaults_Instance_" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.CreateInstance(FatturaElettronica.Defaults.Instance)">CreateInstance(Instance)</h4>
@@ -245,10 +312,10 @@ per ogni fattura componente il lotto stesso.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_GetFormatoTrasmissione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.GetFormatoTrasmissione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_GetFormatoTrasmissione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.GetFormatoTrasmissione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaOrdinaria.cs/#L33">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaOrdinaria.cs/#L33">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaOrdinaria_GetFormatoTrasmissione_" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.GetFormatoTrasmissione*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaOrdinaria_GetFormatoTrasmissione" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.GetFormatoTrasmissione">GetFormatoTrasmissione()</h4>
@@ -277,10 +344,10 @@ per ogni fattura componente il lotto stesso.</p>
   <div><a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_GetFormatoTrasmissione">FatturaBase.GetFormatoTrasmissione()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_GetLocalName.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.GetLocalName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_GetLocalName.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.GetLocalName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaOrdinaria.cs/#L38">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaOrdinaria.cs/#L38">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaOrdinaria_GetLocalName_" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.GetLocalName*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaOrdinaria_GetLocalName" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.GetLocalName">GetLocalName()</h4>
@@ -309,10 +376,10 @@ per ogni fattura componente il lotto stesso.</p>
   <div><a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_GetLocalName">FatturaBase.GetLocalName()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_GetNameSpace.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.GetNameSpace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria_GetNameSpace.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria.GetNameSpace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaOrdinaria.cs/#L43">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaOrdinaria.cs/#L43">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaOrdinaria_GetNameSpace_" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.GetNameSpace*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaOrdinaria_GetNameSpace" data-uid="FatturaElettronica.Ordinaria.FatturaOrdinaria.GetNameSpace">GetNameSpace()</h4>
@@ -339,6 +406,20 @@ per ogni fattura componente il lotto stesso.</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_GetNameSpace">FatturaBase.GetNameSpace()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FatturaElettronica.FatturaElettronicaExtensions.html#FatturaElettronica_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -347,10 +428,10 @@ per ogni fattura componente il lotto stesso.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaOrdinaria.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaOrdinaria%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaOrdinaria.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaOrdinaria.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

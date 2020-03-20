@@ -89,22 +89,96 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DettaglioPagamento</span></div>
+    <div class="level1"><span class="xref">FatturaElettronica.Common.BaseClass</span></div>
+    <div class="level2"><span class="xref">FatturaElettronica.Common.BaseClassSerializable</span></div>
+    <div class="level3"><span class="xref">DettaglioPagamento</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">FatturaElettronica.Common.BaseClass</span>&gt;</div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson(FatturaElettronica.Common.JsonOptions)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.GetSchema()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ReadXml(System.Xml.XmlReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.XmlOptions</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.SetProperty&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.OnPropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.CleanString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.IsEmpty()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetAllDataProperties()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(FatturaElettronica.Common.BaseClass)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.html">FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento</a></h6>
   <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
   <h5 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DettaglioPagamento : BaseClassSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class DettaglioPagamento : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L12">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L12">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor">DettaglioPagamento()</h4>
@@ -116,13 +190,13 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.%23ctor(XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_System_Xml_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.%23ctor(System.Xml.XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L13">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L13">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor*"></a>
-  <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_XmlReader_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor(XmlReader)">DettaglioPagamento(XmlReader)</h4>
+  <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor(System.Xml.XmlReader)">DettaglioPagamento(XmlReader)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -140,7 +214,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XmlReader</span></td>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
         <td><span class="parametername">r</span></td>
         <td></td>
       </tr>
@@ -150,10 +224,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ABI.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ABI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ABI.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ABI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L101">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L101">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ABI_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ABI*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ABI" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ABI">ABI</h4>
@@ -162,7 +236,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ABI { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(101)]
+public string ABI { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,10 +256,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_Beneficiario.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.Beneficiario%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_Beneficiario.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.Beneficiario%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L18">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L18">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_Beneficiario_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.Beneficiario*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_Beneficiario" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.Beneficiario">Beneficiario</h4>
@@ -193,7 +268,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Beneficiario { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(18)]
+public string Beneficiario { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,10 +288,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_BIC.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.BIC%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_BIC.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.BIC%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L115">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L115">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_BIC_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.BIC*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_BIC" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.BIC">BIC</h4>
@@ -224,7 +300,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string BIC { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(115)]
+public string BIC { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -243,10 +320,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CAB.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CAB%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CAB.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CAB%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L108">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L108">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CAB_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CAB*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CAB" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CAB">CAB</h4>
@@ -255,7 +332,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CAB { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(108)]
+public string CAB { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -274,10 +352,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CFQuietanzante.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CFQuietanzante%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CFQuietanzante.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CFQuietanzante%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L74">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L74">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CFQuietanzante_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CFQuietanzante*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CFQuietanzante" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CFQuietanzante">CFQuietanzante</h4>
@@ -286,7 +364,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CFQuietanzante { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(74)]
+public string CFQuietanzante { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -305,10 +384,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodicePagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodicePagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodicePagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodicePagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L146">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L146">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodicePagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodicePagamento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodicePagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodicePagamento">CodicePagamento</h4>
@@ -317,7 +396,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CodicePagamento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(146)]
+public string CodicePagamento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -336,10 +416,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodUfficioPostale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodUfficioPostale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodUfficioPostale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodUfficioPostale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L56">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L56">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodUfficioPostale_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodUfficioPostale*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodUfficioPostale" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodUfficioPostale">CodUfficioPostale</h4>
@@ -348,7 +428,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CodUfficioPostale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(56)]
+public string CodUfficioPostale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -367,10 +448,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CognomeQuietanzante.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CognomeQuietanzante%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CognomeQuietanzante.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CognomeQuietanzante%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L62">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L62">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CognomeQuietanzante_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CognomeQuietanzante*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CognomeQuietanzante" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CognomeQuietanzante">CognomeQuietanzante</h4>
@@ -379,7 +460,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CognomeQuietanzante { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(62)]
+public string CognomeQuietanzante { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -398,10 +480,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataDecorrenzaPenale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataDecorrenzaPenale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataDecorrenzaPenale.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataDecorrenzaPenale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L140">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L140">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataDecorrenzaPenale_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataDecorrenzaPenale*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataDecorrenzaPenale" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataDecorrenzaPenale">DataDecorrenzaPenale</h4>
@@ -410,7 +492,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? DataDecorrenzaPenale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(140)]
+public DateTime? DataDecorrenzaPenale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -422,17 +505,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataLimitePagamentoAnticipato.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataLimitePagamentoAnticipato%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataLimitePagamentoAnticipato.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataLimitePagamentoAnticipato%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L128">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L128">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataLimitePagamentoAnticipato_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataLimitePagamentoAnticipato*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataLimitePagamentoAnticipato" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataLimitePagamentoAnticipato">DataLimitePagamentoAnticipato</h4>
@@ -441,7 +524,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? DataLimitePagamentoAnticipato { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(128)]
+public DateTime? DataLimitePagamentoAnticipato { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -453,17 +537,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataRiferimentoTerminiPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataRiferimentoTerminiPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataRiferimentoTerminiPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataRiferimentoTerminiPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L30">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L30">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataRiferimentoTerminiPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataRiferimentoTerminiPagamento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataRiferimentoTerminiPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataRiferimentoTerminiPagamento">DataRiferimentoTerminiPagamento</h4>
@@ -472,7 +556,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? DataRiferimentoTerminiPagamento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(30)]
+public DateTime? DataRiferimentoTerminiPagamento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -484,17 +569,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataScadenzaPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataScadenzaPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataScadenzaPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataScadenzaPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L44">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L44">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataScadenzaPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataScadenzaPagamento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataScadenzaPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataScadenzaPagamento">DataScadenzaPagamento</h4>
@@ -504,7 +589,8 @@ previste.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? DataScadenzaPagamento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(44)]
+public DateTime? DataScadenzaPagamento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -516,17 +602,17 @@ previste.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_GiorniTerminiPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.GiorniTerminiPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_GiorniTerminiPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.GiorniTerminiPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L37">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L37">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_GiorniTerminiPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.GiorniTerminiPagamento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_GiorniTerminiPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.GiorniTerminiPagamento">GiorniTerminiPagamento</h4>
@@ -536,7 +622,8 @@ Vale 0 per i gamenti a vista.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? GiorniTerminiPagamento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(37)]
+public int? GiorniTerminiPagamento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -555,10 +642,10 @@ Vale 0 per i gamenti a vista.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IBAN.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IBAN%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IBAN.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IBAN%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L94">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L94">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IBAN_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IBAN*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IBAN" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IBAN">IBAN</h4>
@@ -568,7 +655,8 @@ il conto corrente del beneficiario).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IBAN { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(94)]
+public string IBAN { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -587,10 +675,10 @@ il conto corrente del beneficiario).</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ImportoPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ImportoPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ImportoPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ImportoPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L50">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L50">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ImportoPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ImportoPagamento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ImportoPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ImportoPagamento">ImportoPagamento</h4>
@@ -599,7 +687,8 @@ il conto corrente del beneficiario).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal ImportoPagamento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(50)]
+public decimal ImportoPagamento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -618,10 +707,10 @@ il conto corrente del beneficiario).</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IstitutoFinanziario.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IstitutoFinanziario%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IstitutoFinanziario.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IstitutoFinanziario%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L87">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L87">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IstitutoFinanziario_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IstitutoFinanziario*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IstitutoFinanziario" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IstitutoFinanziario">IstitutoFinanziario</h4>
@@ -630,7 +719,8 @@ il conto corrente del beneficiario).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IstitutoFinanziario { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(87)]
+public string IstitutoFinanziario { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -649,10 +739,10 @@ il conto corrente del beneficiario).</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ModalitaPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ModalitaPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ModalitaPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ModalitaPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L24">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L24">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ModalitaPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ModalitaPagamento*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ModalitaPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ModalitaPagamento">ModalitaPagamento</h4>
@@ -661,7 +751,8 @@ il conto corrente del beneficiario).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ModalitaPagamento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(24)]
+public string ModalitaPagamento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -680,10 +771,10 @@ il conto corrente del beneficiario).</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_NomeQuietanzante.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.NomeQuietanzante%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_NomeQuietanzante.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.NomeQuietanzante%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L68">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L68">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_NomeQuietanzante_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.NomeQuietanzante*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_NomeQuietanzante" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.NomeQuietanzante">NomeQuietanzante</h4>
@@ -692,7 +783,8 @@ il conto corrente del beneficiario).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NomeQuietanzante { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(68)]
+public string NomeQuietanzante { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -711,10 +803,10 @@ il conto corrente del beneficiario).</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_PenalitaPagamentiRitardati.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.PenalitaPagamentiRitardati%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_PenalitaPagamentiRitardati.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.PenalitaPagamentiRitardati%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L134">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L134">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_PenalitaPagamentiRitardati_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.PenalitaPagamentiRitardati*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_PenalitaPagamentiRitardati" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.PenalitaPagamentiRitardati">PenalitaPagamentiRitardati</h4>
@@ -723,7 +815,8 @@ il conto corrente del beneficiario).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal? PenalitaPagamentiRitardati { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(134)]
+public decimal? PenalitaPagamentiRitardati { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -742,10 +835,10 @@ il conto corrente del beneficiario).</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ScontoPagamentoAnticipato.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ScontoPagamentoAnticipato%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ScontoPagamentoAnticipato.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ScontoPagamentoAnticipato%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L122">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L122">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ScontoPagamentoAnticipato_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ScontoPagamentoAnticipato*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ScontoPagamentoAnticipato" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ScontoPagamentoAnticipato">ScontoPagamentoAnticipato</h4>
@@ -754,7 +847,8 @@ il conto corrente del beneficiario).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal? ScontoPagamentoAnticipato { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(122)]
+public decimal? ScontoPagamentoAnticipato { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -773,10 +867,10 @@ il conto corrente del beneficiario).</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_TitoloQuietanzante.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.TitoloQuietanzante%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_TitoloQuietanzante.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.TitoloQuietanzante%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L81">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L81">View Source</a>
   </span>
   <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_TitoloQuietanzante_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.TitoloQuietanzante*"></a>
   <h4 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_TitoloQuietanzante" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.TitoloQuietanzante">TitoloQuietanzante</h4>
@@ -785,7 +879,8 @@ il conto corrente del beneficiario).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TitoloQuietanzante { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(81)]
+public string TitoloQuietanzante { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -802,6 +897,20 @@ il conto corrente del beneficiario).</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FatturaElettronica.FatturaElettronicaExtensions.html#FatturaElettronica_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -810,10 +919,10 @@ il conto corrente del beneficiario).</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

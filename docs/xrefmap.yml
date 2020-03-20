@@ -25,11 +25,11 @@ references:
   commentId: M:FatturaElettronica.Common.Allegati.#ctor
   fullName: FatturaElettronica.Common.Allegati.Allegati()
   nameWithType: Allegati.Allegati()
-- uid: FatturaElettronica.Common.Allegati.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.Allegati.#ctor(System.Xml.XmlReader)
   name: Allegati(XmlReader)
-  href: docs/api/FatturaElettronica.Common.Allegati.html#FatturaElettronica_Common_Allegati__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.Allegati.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.Allegati.Allegati(XmlReader)
+  href: docs/api/FatturaElettronica.Common.Allegati.html#FatturaElettronica_Common_Allegati__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.Allegati.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.Allegati.Allegati(System.Xml.XmlReader)
   nameWithType: Allegati.Allegati(XmlReader)
 - uid: FatturaElettronica.Common.Allegati.#ctor*
   name: Allegati
@@ -115,11 +115,11 @@ references:
   commentId: M:FatturaElettronica.Common.Anagrafica.#ctor
   fullName: FatturaElettronica.Common.Anagrafica.Anagrafica()
   nameWithType: Anagrafica.Anagrafica()
-- uid: FatturaElettronica.Common.Anagrafica.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.Anagrafica.#ctor(System.Xml.XmlReader)
   name: Anagrafica(XmlReader)
-  href: docs/api/FatturaElettronica.Common.Anagrafica.html#FatturaElettronica_Common_Anagrafica__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.Anagrafica.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.Anagrafica.Anagrafica(XmlReader)
+  href: docs/api/FatturaElettronica.Common.Anagrafica.html#FatturaElettronica_Common_Anagrafica__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.Anagrafica.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.Anagrafica.Anagrafica(System.Xml.XmlReader)
   nameWithType: Anagrafica.Anagrafica(XmlReader)
 - uid: FatturaElettronica.Common.Anagrafica.#ctor*
   name: Anagrafica
@@ -166,11 +166,11 @@ references:
   commentId: M:FatturaElettronica.Common.DatiAnagrafici.#ctor
   fullName: FatturaElettronica.Common.DatiAnagrafici.DatiAnagrafici()
   nameWithType: DatiAnagrafici.DatiAnagrafici()
-- uid: FatturaElettronica.Common.DatiAnagrafici.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.DatiAnagrafici.#ctor(System.Xml.XmlReader)
   name: DatiAnagrafici(XmlReader)
-  href: docs/api/FatturaElettronica.Common.DatiAnagrafici.html#FatturaElettronica_Common_DatiAnagrafici__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.DatiAnagrafici.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.DatiAnagrafici.DatiAnagrafici(XmlReader)
+  href: docs/api/FatturaElettronica.Common.DatiAnagrafici.html#FatturaElettronica_Common_DatiAnagrafici__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.DatiAnagrafici.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.DatiAnagrafici.DatiAnagrafici(System.Xml.XmlReader)
   nameWithType: DatiAnagrafici.DatiAnagrafici(XmlReader)
 - uid: FatturaElettronica.Common.DatiAnagrafici.#ctor*
   name: DatiAnagrafici
@@ -230,11 +230,11 @@ references:
   commentId: M:FatturaElettronica.Common.DatiDocumento.#ctor
   fullName: FatturaElettronica.Common.DatiDocumento.DatiDocumento()
   nameWithType: DatiDocumento.DatiDocumento()
-- uid: FatturaElettronica.Common.DatiDocumento.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.DatiDocumento.#ctor(System.Xml.XmlReader)
   name: DatiDocumento(XmlReader)
-  href: docs/api/FatturaElettronica.Common.DatiDocumento.html#FatturaElettronica_Common_DatiDocumento__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.DatiDocumento.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.DatiDocumento.DatiDocumento(XmlReader)
+  href: docs/api/FatturaElettronica.Common.DatiDocumento.html#FatturaElettronica_Common_DatiDocumento__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.DatiDocumento.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.DatiDocumento.DatiDocumento(System.Xml.XmlReader)
   nameWithType: DatiDocumento.DatiDocumento(XmlReader)
 - uid: FatturaElettronica.Common.DatiDocumento.#ctor*
   name: DatiDocumento
@@ -346,11 +346,11 @@ references:
   commentId: M:FatturaElettronica.Common.DenominazioneNomeCognome.#ctor
   fullName: FatturaElettronica.Common.DenominazioneNomeCognome.DenominazioneNomeCognome()
   nameWithType: DenominazioneNomeCognome.DenominazioneNomeCognome()
-- uid: FatturaElettronica.Common.DenominazioneNomeCognome.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.DenominazioneNomeCognome.#ctor(System.Xml.XmlReader)
   name: DenominazioneNomeCognome(XmlReader)
-  href: docs/api/FatturaElettronica.Common.DenominazioneNomeCognome.html#FatturaElettronica_Common_DenominazioneNomeCognome__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.DenominazioneNomeCognome.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.DenominazioneNomeCognome.DenominazioneNomeCognome(XmlReader)
+  href: docs/api/FatturaElettronica.Common.DenominazioneNomeCognome.html#FatturaElettronica_Common_DenominazioneNomeCognome__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.DenominazioneNomeCognome.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.DenominazioneNomeCognome.DenominazioneNomeCognome(System.Xml.XmlReader)
   nameWithType: DenominazioneNomeCognome.DenominazioneNomeCognome(XmlReader)
 - uid: FatturaElettronica.Common.DenominazioneNomeCognome.#ctor*
   name: DenominazioneNomeCognome
@@ -423,11 +423,11 @@ references:
   commentId: M:FatturaElettronica.Common.IdFiscaleIVA.#ctor
   fullName: FatturaElettronica.Common.IdFiscaleIVA.IdFiscaleIVA()
   nameWithType: IdFiscaleIVA.IdFiscaleIVA()
-- uid: FatturaElettronica.Common.IdFiscaleIVA.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.IdFiscaleIVA.#ctor(System.Xml.XmlReader)
   name: IdFiscaleIVA(XmlReader)
-  href: docs/api/FatturaElettronica.Common.IdFiscaleIVA.html#FatturaElettronica_Common_IdFiscaleIVA__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.IdFiscaleIVA.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.IdFiscaleIVA.IdFiscaleIVA(XmlReader)
+  href: docs/api/FatturaElettronica.Common.IdFiscaleIVA.html#FatturaElettronica_Common_IdFiscaleIVA__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.IdFiscaleIVA.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.IdFiscaleIVA.IdFiscaleIVA(System.Xml.XmlReader)
   nameWithType: IdFiscaleIVA.IdFiscaleIVA(XmlReader)
 - uid: FatturaElettronica.Common.IdFiscaleIVA.#ctor*
   name: IdFiscaleIVA
@@ -462,6 +462,19 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.Common.IdFiscaleIVA.IdPaese
   nameWithType: IdFiscaleIVA.IdPaese
+- uid: FatturaElettronica.Common.IdFiscaleIVA.ToString
+  name: ToString()
+  href: docs/api/FatturaElettronica.Common.IdFiscaleIVA.html#FatturaElettronica_Common_IdFiscaleIVA_ToString
+  commentId: M:FatturaElettronica.Common.IdFiscaleIVA.ToString
+  fullName: FatturaElettronica.Common.IdFiscaleIVA.ToString()
+  nameWithType: IdFiscaleIVA.ToString()
+- uid: FatturaElettronica.Common.IdFiscaleIVA.ToString*
+  name: ToString
+  href: docs/api/FatturaElettronica.Common.IdFiscaleIVA.html#FatturaElettronica_Common_IdFiscaleIVA_ToString_
+  commentId: Overload:FatturaElettronica.Common.IdFiscaleIVA.ToString
+  isSpec: "True"
+  fullName: FatturaElettronica.Common.IdFiscaleIVA.ToString
+  nameWithType: IdFiscaleIVA.ToString
 - uid: FatturaElettronica.Common.Località
   name: Località
   href: docs/api/FatturaElettronica.Common.Localit%C3%A0.html
@@ -474,11 +487,11 @@ references:
   commentId: M:FatturaElettronica.Common.Località.#ctor
   fullName: FatturaElettronica.Common.Località.Località()
   nameWithType: Località.Località()
-- uid: FatturaElettronica.Common.Località.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.Località.#ctor(System.Xml.XmlReader)
   name: Località(XmlReader)
-  href: docs/api/FatturaElettronica.Common.Localit%C3%A0.html#FatturaElettronica_Common_Localit___ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.Località.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.Località.Località(XmlReader)
+  href: docs/api/FatturaElettronica.Common.Localit%C3%A0.html#FatturaElettronica_Common_Localit___ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.Località.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.Località.Località(System.Xml.XmlReader)
   nameWithType: Località.Località(XmlReader)
 - uid: FatturaElettronica.Common.Località.#ctor*
   name: Località
@@ -577,11 +590,11 @@ references:
   commentId: M:FatturaElettronica.Common.RappresentanteFiscale.#ctor
   fullName: FatturaElettronica.Common.RappresentanteFiscale.RappresentanteFiscale()
   nameWithType: RappresentanteFiscale.RappresentanteFiscale()
-- uid: FatturaElettronica.Common.RappresentanteFiscale.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.RappresentanteFiscale.#ctor(System.Xml.XmlReader)
   name: RappresentanteFiscale(XmlReader)
-  href: docs/api/FatturaElettronica.Common.RappresentanteFiscale.html#FatturaElettronica_Common_RappresentanteFiscale__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.RappresentanteFiscale.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.RappresentanteFiscale.RappresentanteFiscale(XmlReader)
+  href: docs/api/FatturaElettronica.Common.RappresentanteFiscale.html#FatturaElettronica_Common_RappresentanteFiscale__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.RappresentanteFiscale.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.RappresentanteFiscale.RappresentanteFiscale(System.Xml.XmlReader)
   nameWithType: RappresentanteFiscale.RappresentanteFiscale(XmlReader)
 - uid: FatturaElettronica.Common.RappresentanteFiscale.#ctor*
   name: RappresentanteFiscale
@@ -660,11 +673,11 @@ references:
   commentId: M:FatturaElettronica.Common.StabileOrganizzazione.#ctor
   fullName: FatturaElettronica.Common.StabileOrganizzazione.StabileOrganizzazione()
   nameWithType: StabileOrganizzazione.StabileOrganizzazione()
-- uid: FatturaElettronica.Common.StabileOrganizzazione.#ctor(XmlReader)
+- uid: FatturaElettronica.Common.StabileOrganizzazione.#ctor(System.Xml.XmlReader)
   name: StabileOrganizzazione(XmlReader)
-  href: docs/api/FatturaElettronica.Common.StabileOrganizzazione.html#FatturaElettronica_Common_StabileOrganizzazione__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Common.StabileOrganizzazione.#ctor(XmlReader)
-  fullName: FatturaElettronica.Common.StabileOrganizzazione.StabileOrganizzazione(XmlReader)
+  href: docs/api/FatturaElettronica.Common.StabileOrganizzazione.html#FatturaElettronica_Common_StabileOrganizzazione__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Common.StabileOrganizzazione.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Common.StabileOrganizzazione.StabileOrganizzazione(System.Xml.XmlReader)
   nameWithType: StabileOrganizzazione.StabileOrganizzazione(XmlReader)
 - uid: FatturaElettronica.Common.StabileOrganizzazione.#ctor*
   name: StabileOrganizzazione
@@ -1218,11 +1231,11 @@ references:
   fullName: FatturaElettronica.FatturaBase
   nameWithType: FatturaBase
 - uid: FatturaElettronica.FatturaBase.CreateInstanceFromXml(System.IO.Stream)
-  name: CreateInstanceFromXml(System.IO.Stream)
+  name: CreateInstanceFromXml(Stream)
   href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_CreateInstanceFromXml_System_IO_Stream_
   commentId: M:FatturaElettronica.FatturaBase.CreateInstanceFromXml(System.IO.Stream)
   fullName: FatturaElettronica.FatturaBase.CreateInstanceFromXml(System.IO.Stream)
-  nameWithType: FatturaBase.CreateInstanceFromXml(System.IO.Stream)
+  nameWithType: FatturaBase.CreateInstanceFromXml(Stream)
 - uid: FatturaElettronica.FatturaBase.CreateInstanceFromXml*
   name: CreateInstanceFromXml
   href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_CreateInstanceFromXml_
@@ -1269,11 +1282,11 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.FatturaBase.GetNameSpace
   nameWithType: FatturaBase.GetNameSpace
-- uid: FatturaElettronica.FatturaBase.ReadXml(XmlReader)
+- uid: FatturaElettronica.FatturaBase.ReadXml(System.Xml.XmlReader)
   name: ReadXml(XmlReader)
-  href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_ReadXml_XmlReader_
-  commentId: M:FatturaElettronica.FatturaBase.ReadXml(XmlReader)
-  fullName: FatturaElettronica.FatturaBase.ReadXml(XmlReader)
+  href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_ReadXml_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.FatturaBase.ReadXml(System.Xml.XmlReader)
+  fullName: FatturaElettronica.FatturaBase.ReadXml(System.Xml.XmlReader)
   nameWithType: FatturaBase.ReadXml(XmlReader)
 - uid: FatturaElettronica.FatturaBase.ReadXml*
   name: ReadXml
@@ -1282,11 +1295,11 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.FatturaBase.ReadXml
   nameWithType: FatturaBase.ReadXml
-- uid: FatturaElettronica.FatturaBase.WriteXml(XmlWriter)
+- uid: FatturaElettronica.FatturaBase.WriteXml(System.Xml.XmlWriter)
   name: WriteXml(XmlWriter)
-  href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_WriteXml_XmlWriter_
-  commentId: M:FatturaElettronica.FatturaBase.WriteXml(XmlWriter)
-  fullName: FatturaElettronica.FatturaBase.WriteXml(XmlWriter)
+  href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_WriteXml_System_Xml_XmlWriter_
+  commentId: M:FatturaElettronica.FatturaBase.WriteXml(System.Xml.XmlWriter)
+  fullName: FatturaElettronica.FatturaBase.WriteXml(System.Xml.XmlWriter)
   nameWithType: FatturaBase.WriteXml(XmlWriter)
 - uid: FatturaElettronica.FatturaBase.WriteXml*
   name: WriteXml
@@ -1347,11 +1360,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.AltriDatiGestionali()
   nameWithType: AltriDatiGestionali.AltriDatiGestionali()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.#ctor(System.Xml.XmlReader)
   name: AltriDatiGestionali(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_AltriDatiGestionali__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.AltriDatiGestionali(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_AltriDatiGestionali__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.AltriDatiGestionali(System.Xml.XmlReader)
   nameWithType: AltriDatiGestionali.AltriDatiGestionali(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.#ctor*
   name: AltriDatiGestionali
@@ -1424,11 +1437,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.CodiceArticolo()
   nameWithType: CodiceArticolo.CodiceArticolo()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.#ctor(System.Xml.XmlReader)
   name: CodiceArticolo(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_CodiceArticolo__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.CodiceArticolo(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_CodiceArticolo__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.CodiceArticolo(System.Xml.XmlReader)
   nameWithType: CodiceArticolo.CodiceArticolo(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.#ctor*
   name: CodiceArticolo
@@ -1475,11 +1488,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.DatiBeniServizi()
   nameWithType: DatiBeniServizi.DatiBeniServizi()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor(System.Xml.XmlReader)
   name: DatiBeniServizi(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_DatiBeniServizi__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.DatiBeniServizi(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_DatiBeniServizi__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.DatiBeniServizi(System.Xml.XmlReader)
   nameWithType: DatiBeniServizi.DatiBeniServizi(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor*
   name: DatiBeniServizi
@@ -1526,11 +1539,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.DatiRiepilogo()
   nameWithType: DatiRiepilogo.DatiRiepilogo()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.#ctor(System.Xml.XmlReader)
   name: DatiRiepilogo(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_DatiRiepilogo__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.DatiRiepilogo(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_DatiRiepilogo__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.DatiRiepilogo(System.Xml.XmlReader)
   nameWithType: DatiRiepilogo.DatiRiepilogo(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.#ctor*
   name: DatiRiepilogo
@@ -1655,11 +1668,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.DettaglioLinee()
   nameWithType: DettaglioLinee.DettaglioLinee()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.#ctor(System.Xml.XmlReader)
   name: DettaglioLinee(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_DettaglioLinee__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.DettaglioLinee(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiBeniServizi_DettaglioLinee__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.DettaglioLinee(System.Xml.XmlReader)
   nameWithType: DettaglioLinee.DettaglioLinee(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.#ctor*
   name: DettaglioLinee
@@ -1894,11 +1907,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.DatiAnagraficiVettore()
   nameWithType: DatiAnagraficiVettore.DatiAnagraficiVettore()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.#ctor(System.Xml.XmlReader)
   name: DatiAnagraficiVettore(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiAnagraficiVettore__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.DatiAnagraficiVettore(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiAnagraficiVettore__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.DatiAnagraficiVettore(System.Xml.XmlReader)
   nameWithType: DatiAnagraficiVettore.DatiAnagraficiVettore(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.#ctor*
   name: DatiAnagraficiVettore
@@ -1932,11 +1945,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.DatiBollo()
   nameWithType: DatiBollo.DatiBollo()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.#ctor(System.Xml.XmlReader)
   name: DatiBollo(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiBollo__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.DatiBollo(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiBollo__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.DatiBollo(System.Xml.XmlReader)
   nameWithType: DatiBollo.DatiBollo(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.#ctor*
   name: DatiBollo
@@ -1983,11 +1996,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.DatiCassaPrevidenziale()
   nameWithType: DatiCassaPrevidenziale.DatiCassaPrevidenziale()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.#ctor(System.Xml.XmlReader)
   name: DatiCassaPrevidenziale(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiCassaPrevidenziale__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.DatiCassaPrevidenziale(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiCassaPrevidenziale__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.DatiCassaPrevidenziale(System.Xml.XmlReader)
   nameWithType: DatiCassaPrevidenziale.DatiCassaPrevidenziale(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.#ctor*
   name: DatiCassaPrevidenziale
@@ -2112,11 +2125,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.DatiContratto()
   nameWithType: DatiContratto.DatiContratto()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.#ctor(System.Xml.XmlReader)
   name: DatiContratto(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiContratto__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.DatiContratto(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiContratto__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.DatiContratto(System.Xml.XmlReader)
   nameWithType: DatiContratto.DatiContratto(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.#ctor*
   name: DatiContratto
@@ -2137,11 +2150,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.DatiConvenzione()
   nameWithType: DatiConvenzione.DatiConvenzione()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.#ctor(System.Xml.XmlReader)
   name: DatiConvenzione(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiConvenzione__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.DatiConvenzione(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiConvenzione__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.DatiConvenzione(System.Xml.XmlReader)
   nameWithType: DatiConvenzione.DatiConvenzione(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.#ctor*
   name: DatiConvenzione
@@ -2162,11 +2175,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.DatiDDT()
   nameWithType: DatiDDT.DatiDDT()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.#ctor(System.Xml.XmlReader)
   name: DatiDDT(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiDDT__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.DatiDDT(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiDDT__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.DatiDDT(System.Xml.XmlReader)
   nameWithType: DatiDDT.DatiDDT(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.#ctor*
   name: DatiDDT
@@ -2226,11 +2239,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.DatiFattureCollegate()
   nameWithType: DatiFattureCollegate.DatiFattureCollegate()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.#ctor(System.Xml.XmlReader)
   name: DatiFattureCollegate(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiFattureCollegate__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.DatiFattureCollegate(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiFattureCollegate__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.DatiFattureCollegate(System.Xml.XmlReader)
   nameWithType: DatiFattureCollegate.DatiFattureCollegate(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.#ctor*
   name: DatiFattureCollegate
@@ -2251,11 +2264,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGenerali()
   nameWithType: DatiGenerali.DatiGenerali()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(System.Xml.XmlReader)
   name: DatiGenerali(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGenerali(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGenerali(System.Xml.XmlReader)
   nameWithType: DatiGenerali.DatiGenerali(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor*
   name: DatiGenerali
@@ -2406,11 +2419,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiGeneraliDocumento()
   nameWithType: DatiGeneraliDocumento.DatiGeneraliDocumento()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(System.Xml.XmlReader)
   name: DatiGeneraliDocumento(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiGeneraliDocumento(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiGeneraliDocumento(System.Xml.XmlReader)
   nameWithType: DatiGeneraliDocumento.DatiGeneraliDocumento(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor*
   name: DatiGeneraliDocumento
@@ -2587,11 +2600,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.DatiOrdineAcquisto()
   nameWithType: DatiOrdineAcquisto.DatiOrdineAcquisto()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.#ctor(System.Xml.XmlReader)
   name: DatiOrdineAcquisto(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiOrdineAcquisto__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.DatiOrdineAcquisto(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiOrdineAcquisto__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.DatiOrdineAcquisto(System.Xml.XmlReader)
   nameWithType: DatiOrdineAcquisto.DatiOrdineAcquisto(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.#ctor*
   name: DatiOrdineAcquisto
@@ -2612,11 +2625,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.DatiRicezione()
   nameWithType: DatiRicezione.DatiRicezione()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.#ctor(System.Xml.XmlReader)
   name: DatiRicezione(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiRicezione__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.DatiRicezione(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiRicezione__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.DatiRicezione(System.Xml.XmlReader)
   nameWithType: DatiRicezione.DatiRicezione(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.#ctor*
   name: DatiRicezione
@@ -2637,11 +2650,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.DatiRitenuta()
   nameWithType: DatiRitenuta.DatiRitenuta()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.#ctor(System.Xml.XmlReader)
   name: DatiRitenuta(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiRitenuta__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.DatiRitenuta(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiRitenuta__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.DatiRitenuta(System.Xml.XmlReader)
   nameWithType: DatiRitenuta.DatiRitenuta(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.#ctor*
   name: DatiRitenuta
@@ -2714,11 +2727,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.DatiSAL()
   nameWithType: DatiSAL.DatiSAL()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.#ctor(System.Xml.XmlReader)
   name: DatiSAL(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiSAL__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.DatiSAL(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiSAL__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.DatiSAL(System.Xml.XmlReader)
   nameWithType: DatiSAL.DatiSAL(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.#ctor*
   name: DatiSAL
@@ -2752,11 +2765,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.DatiTrasporto()
   nameWithType: DatiTrasporto.DatiTrasporto()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.#ctor(System.Xml.XmlReader)
   name: DatiTrasporto(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiTrasporto__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.DatiTrasporto(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiTrasporto__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.DatiTrasporto(System.Xml.XmlReader)
   nameWithType: DatiTrasporto.DatiTrasporto(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.#ctor*
   name: DatiTrasporto
@@ -2946,11 +2959,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.FatturaPrincipale()
   nameWithType: FatturaPrincipale.FatturaPrincipale()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.#ctor(System.Xml.XmlReader)
   name: FatturaPrincipale(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_FatturaPrincipale__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.FatturaPrincipale(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_FatturaPrincipale__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.FatturaPrincipale(System.Xml.XmlReader)
   nameWithType: FatturaPrincipale.FatturaPrincipale(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.#ctor*
   name: FatturaPrincipale
@@ -2997,11 +3010,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.IndirizzoResa()
   nameWithType: IndirizzoResa.IndirizzoResa()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.#ctor(System.Xml.XmlReader)
   name: IndirizzoResa(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_IndirizzoResa__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.IndirizzoResa(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_IndirizzoResa__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.IndirizzoResa(System.Xml.XmlReader)
   nameWithType: IndirizzoResa.IndirizzoResa(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.#ctor*
   name: IndirizzoResa
@@ -3028,11 +3041,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.DatiPagamento()
   nameWithType: DatiPagamento.DatiPagamento()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.#ctor(System.Xml.XmlReader)
   name: DatiPagamento(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DatiPagamento__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.DatiPagamento(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DatiPagamento__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.DatiPagamento(System.Xml.XmlReader)
   nameWithType: DatiPagamento.DatiPagamento(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.#ctor*
   name: DatiPagamento
@@ -3079,11 +3092,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DettaglioPagamento()
   nameWithType: DettaglioPagamento.DettaglioPagamento()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor(System.Xml.XmlReader)
   name: DettaglioPagamento(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DettaglioPagamento(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DettaglioPagamento(System.Xml.XmlReader)
   nameWithType: DettaglioPagamento.DettaglioPagamento(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor*
   name: DettaglioPagamento
@@ -3383,11 +3396,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.DatiVeicoli()
   nameWithType: DatiVeicoli.DatiVeicoli()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.#ctor(System.Xml.XmlReader)
   name: DatiVeicoli(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiVeicoli_DatiVeicoli__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.DatiVeicoli(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiVeicoli_DatiVeicoli__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.DatiVeicoli(System.Xml.XmlReader)
   nameWithType: DatiVeicoli.DatiVeicoli(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.#ctor*
   name: DatiVeicoli
@@ -3434,11 +3447,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.FatturaElettronicaBody()
   nameWithType: FatturaElettronicaBody.FatturaElettronicaBody()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.#ctor(System.Xml.XmlReader)
   name: FatturaElettronicaBody(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_FatturaElettronicaBody__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.FatturaElettronicaBody(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.html#FatturaElettronica_Ordinaria_FatturaElettronicaBody_FatturaElettronicaBody__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.FatturaElettronicaBody(System.Xml.XmlReader)
   nameWithType: FatturaElettronicaBody.FatturaElettronicaBody(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.#ctor*
   name: FatturaElettronicaBody
@@ -3536,11 +3549,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CedentePrestatore()
   nameWithType: CedentePrestatore.CedentePrestatore()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(System.Xml.XmlReader)
   name: CedentePrestatore(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CedentePrestatore(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CedentePrestatore(System.Xml.XmlReader)
   nameWithType: CedentePrestatore.CedentePrestatore(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor*
   name: CedentePrestatore
@@ -3639,11 +3652,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.Contatti()
   nameWithType: Contatti.Contatti()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.#ctor(System.Xml.XmlReader)
   name: Contatti(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_Contatti__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.Contatti(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_Contatti__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.Contatti(System.Xml.XmlReader)
   nameWithType: Contatti.Contatti(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.#ctor*
   name: Contatti
@@ -3703,11 +3716,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.DatiAnagraficiCedentePrestatore()
   nameWithType: DatiAnagraficiCedentePrestatore.DatiAnagraficiCedentePrestatore()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.#ctor(System.Xml.XmlReader)
   name: DatiAnagraficiCedentePrestatore(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_DatiAnagraficiCedentePrestatore__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.DatiAnagraficiCedentePrestatore(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_DatiAnagraficiCedentePrestatore__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.DatiAnagraficiCedentePrestatore(System.Xml.XmlReader)
   nameWithType: DatiAnagraficiCedentePrestatore.DatiAnagraficiCedentePrestatore(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.#ctor*
   name: DatiAnagraficiCedentePrestatore
@@ -3793,11 +3806,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.IscrizioneREA()
   nameWithType: IscrizioneREA.IscrizioneREA()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor(System.Xml.XmlReader)
   name: IscrizioneREA(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_IscrizioneREA__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.IscrizioneREA(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_IscrizioneREA__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.IscrizioneREA(System.Xml.XmlReader)
   nameWithType: IscrizioneREA.IscrizioneREA(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor*
   name: IscrizioneREA
@@ -3883,11 +3896,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.SedeCedentePrestatore()
   nameWithType: SedeCedentePrestatore.SedeCedentePrestatore()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor(System.Xml.XmlReader)
   name: SedeCedentePrestatore(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_SedeCedentePrestatore__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.SedeCedentePrestatore(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CedentePrestatore_SedeCedentePrestatore__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.SedeCedentePrestatore(System.Xml.XmlReader)
   nameWithType: SedeCedentePrestatore.SedeCedentePrestatore(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor*
   name: SedeCedentePrestatore
@@ -3914,11 +3927,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.CessionarioCommittente()
   nameWithType: CessionarioCommittente.CessionarioCommittente()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(System.Xml.XmlReader)
   name: CessionarioCommittente(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.CessionarioCommittente(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.CessionarioCommittente(System.Xml.XmlReader)
   nameWithType: CessionarioCommittente.CessionarioCommittente(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor*
   name: CessionarioCommittente
@@ -3991,11 +4004,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.DatiAnagraficiCessionarioCommittente()
   nameWithType: DatiAnagraficiCessionarioCommittente.DatiAnagraficiCessionarioCommittente()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.#ctor(System.Xml.XmlReader)
   name: DatiAnagraficiCessionarioCommittente(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_DatiAnagraficiCessionarioCommittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.DatiAnagraficiCessionarioCommittente(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_DatiAnagraficiCessionarioCommittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.DatiAnagraficiCessionarioCommittente(System.Xml.XmlReader)
   nameWithType: DatiAnagraficiCessionarioCommittente.DatiAnagraficiCessionarioCommittente(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.#ctor*
   name: DatiAnagraficiCessionarioCommittente
@@ -4016,11 +4029,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente()
   nameWithType: RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor(System.Xml.XmlReader)
   name: RappresentanteFiscaleCessionarioCommittente(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_RappresentanteFiscaleCessionarioCommittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_RappresentanteFiscaleCessionarioCommittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente(System.Xml.XmlReader)
   nameWithType: RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor*
   name: RappresentanteFiscaleCessionarioCommittente
@@ -4054,11 +4067,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.SedeCessionarioCommittente()
   nameWithType: SedeCessionarioCommittente.SedeCessionarioCommittente()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor(System.Xml.XmlReader)
   name: SedeCessionarioCommittente(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_SedeCessionarioCommittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.SedeCessionarioCommittente(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_CessionarioCommittente_SedeCessionarioCommittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.SedeCessionarioCommittente(System.Xml.XmlReader)
   nameWithType: SedeCessionarioCommittente.SedeCessionarioCommittente(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor*
   name: SedeCessionarioCommittente
@@ -4085,11 +4098,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.ContattiTrasmittente()
   nameWithType: ContattiTrasmittente.ContattiTrasmittente()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.#ctor(System.Xml.XmlReader)
   name: ContattiTrasmittente(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_DatiTrasmissione_ContattiTrasmittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.ContattiTrasmittente(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_DatiTrasmissione_ContattiTrasmittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.ContattiTrasmittente(System.Xml.XmlReader)
   nameWithType: ContattiTrasmittente.ContattiTrasmittente(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.#ctor*
   name: ContattiTrasmittente
@@ -4136,11 +4149,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.DatiTrasmissione()
   nameWithType: DatiTrasmissione.DatiTrasmissione()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(System.Xml.XmlReader)
   name: DatiTrasmissione(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.DatiTrasmissione(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.DatiTrasmissione(System.Xml.XmlReader)
   nameWithType: DatiTrasmissione.DatiTrasmissione(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor*
   name: DatiTrasmissione
@@ -4239,11 +4252,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.IdTrasmittente()
   nameWithType: IdTrasmittente.IdTrasmittente()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor(System.Xml.XmlReader)
   name: IdTrasmittente(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_DatiTrasmissione_IdTrasmittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.IdTrasmittente(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_DatiTrasmissione_IdTrasmittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.IdTrasmittente(System.Xml.XmlReader)
   nameWithType: IdTrasmittente.IdTrasmittente(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor*
   name: IdTrasmittente
@@ -4264,11 +4277,11 @@ references:
   commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor
   fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.FatturaElettronicaHeader()
   nameWithType: FatturaElettronicaHeader.FatturaElettronicaHeader()
-- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor(XmlReader)
+- uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor(System.Xml.XmlReader)
   name: FatturaElettronicaHeader(XmlReader)
-  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_FatturaElettronicaHeader__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor(XmlReader)
-  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.FatturaElettronicaHeader(XmlReader)
+  href: docs/api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.html#FatturaElettronica_Ordinaria_FatturaElettronicaHeader_FatturaElettronicaHeader__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.FatturaElettronicaHeader(System.Xml.XmlReader)
   nameWithType: FatturaElettronicaHeader.FatturaElettronicaHeader(XmlReader)
 - uid: FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor*
   name: FatturaElettronicaHeader
@@ -4506,11 +4519,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.DatiBeniServizi()
   nameWithType: DatiBeniServizi.DatiBeniServizi()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor(System.Xml.XmlReader)
   name: DatiBeniServizi(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiBeniServizi_DatiBeniServizi__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.DatiBeniServizi(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiBeniServizi_DatiBeniServizi__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.DatiBeniServizi(System.Xml.XmlReader)
   nameWithType: DatiBeniServizi.DatiBeniServizi(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.#ctor*
   name: DatiBeniServizi
@@ -4596,11 +4609,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.DatiIVA()
   nameWithType: DatiIVA.DatiIVA()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.#ctor(System.Xml.XmlReader)
   name: DatiIVA(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiBeniServizi_DatiIVA__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.DatiIVA(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiBeniServizi_DatiIVA__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.DatiIVA(System.Xml.XmlReader)
   nameWithType: DatiIVA.DatiIVA(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.#ctor*
   name: DatiIVA
@@ -4653,11 +4666,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.DatiFatturaRettificata()
   nameWithType: DatiFatturaRettificata.DatiFatturaRettificata()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.#ctor(System.Xml.XmlReader)
   name: DatiFatturaRettificata(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiFatturaRettificata__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.DatiFatturaRettificata(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiFatturaRettificata__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.DatiFatturaRettificata(System.Xml.XmlReader)
   nameWithType: DatiFatturaRettificata.DatiFatturaRettificata(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.#ctor*
   name: DatiFatturaRettificata
@@ -4717,11 +4730,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGenerali()
   nameWithType: DatiGenerali.DatiGenerali()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(System.Xml.XmlReader)
   name: DatiGenerali(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGenerali(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGenerali(System.Xml.XmlReader)
   nameWithType: DatiGenerali.DatiGenerali(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor*
   name: DatiGenerali
@@ -4768,11 +4781,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiGeneraliDocumento()
   nameWithType: DatiGeneraliDocumento.DatiGeneraliDocumento()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(System.Xml.XmlReader)
   name: DatiGeneraliDocumento(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiGeneraliDocumento(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiGeneraliDocumento(System.Xml.XmlReader)
   nameWithType: DatiGeneraliDocumento.DatiGeneraliDocumento(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.#ctor*
   name: DatiGeneraliDocumento
@@ -4781,6 +4794,19 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.DatiGeneraliDocumento
   nameWithType: DatiGeneraliDocumento.DatiGeneraliDocumento
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.BolloVirtuale
+  name: BolloVirtuale
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_BolloVirtuale
+  commentId: P:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.BolloVirtuale
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.BolloVirtuale
+  nameWithType: DatiGeneraliDocumento.BolloVirtuale
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.BolloVirtuale*
+  name: BolloVirtuale
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_BolloVirtuale_
+  commentId: Overload:FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.BolloVirtuale
+  isSpec: "True"
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.BolloVirtuale
+  nameWithType: DatiGeneraliDocumento.BolloVirtuale
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.Data
   name: Data
   href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGeneraliDocumento_Data
@@ -4845,11 +4871,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.FatturaElettronicaBody()
   nameWithType: FatturaElettronicaBody.FatturaElettronicaBody()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.#ctor(System.Xml.XmlReader)
   name: FatturaElettronicaBody(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_FatturaElettronicaBody__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.FatturaElettronicaBody(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.html#FatturaElettronica_Semplificata_FatturaElettronicaBody_FatturaElettronicaBody__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.FatturaElettronicaBody(System.Xml.XmlReader)
   nameWithType: FatturaElettronicaBody.FatturaElettronicaBody(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.#ctor*
   name: FatturaElettronicaBody
@@ -4921,11 +4947,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CedentePrestatore()
   nameWithType: CedentePrestatore.CedentePrestatore()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(System.Xml.XmlReader)
   name: CedentePrestatore(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CedentePrestatore(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_CedentePrestatore__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.CedentePrestatore(System.Xml.XmlReader)
   nameWithType: CedentePrestatore.CedentePrestatore(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.#ctor*
   name: CedentePrestatore
@@ -5102,11 +5128,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.IscrizioneREA()
   nameWithType: IscrizioneREA.IscrizioneREA()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor(System.Xml.XmlReader)
   name: IscrizioneREA(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_IscrizioneREA__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.IscrizioneREA(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_IscrizioneREA__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.IscrizioneREA(System.Xml.XmlReader)
   nameWithType: IscrizioneREA.IscrizioneREA(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.#ctor*
   name: IscrizioneREA
@@ -5192,11 +5218,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.SedeCedentePrestatore()
   nameWithType: SedeCedentePrestatore.SedeCedentePrestatore()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor(System.Xml.XmlReader)
   name: SedeCedentePrestatore(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_SedeCedentePrestatore__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.SedeCedentePrestatore(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CedentePrestatore_SedeCedentePrestatore__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.SedeCedentePrestatore(System.Xml.XmlReader)
   nameWithType: SedeCedentePrestatore.SedeCedentePrestatore(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.#ctor*
   name: SedeCedentePrestatore
@@ -5223,11 +5249,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.AltriDatiIdentificativi()
   nameWithType: AltriDatiIdentificativi.AltriDatiIdentificativi()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.#ctor(System.Xml.XmlReader)
   name: AltriDatiIdentificativi(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_AltriDatiIdentificativi__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.AltriDatiIdentificativi(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_AltriDatiIdentificativi__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.AltriDatiIdentificativi(System.Xml.XmlReader)
   nameWithType: AltriDatiIdentificativi.AltriDatiIdentificativi(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.#ctor*
   name: AltriDatiIdentificativi
@@ -5339,11 +5365,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.CessionarioCommittente()
   nameWithType: CessionarioCommittente.CessionarioCommittente()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(System.Xml.XmlReader)
   name: CessionarioCommittente(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.CessionarioCommittente(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_CessionarioCommittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.CessionarioCommittente(System.Xml.XmlReader)
   nameWithType: CessionarioCommittente.CessionarioCommittente(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.#ctor*
   name: CessionarioCommittente
@@ -5390,11 +5416,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.IdentificativiFiscali()
   nameWithType: IdentificativiFiscali.IdentificativiFiscali()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.#ctor(System.Xml.XmlReader)
   name: IdentificativiFiscali(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_IdentificativiFiscali__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.IdentificativiFiscali(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_IdentificativiFiscali__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.IdentificativiFiscali(System.Xml.XmlReader)
   nameWithType: IdentificativiFiscali.IdentificativiFiscali(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.#ctor*
   name: IdentificativiFiscali
@@ -5441,11 +5467,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente()
   nameWithType: RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor(System.Xml.XmlReader)
   name: RappresentanteFiscaleCessionarioCommittente(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_RappresentanteFiscaleCessionarioCommittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_RappresentanteFiscaleCessionarioCommittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente(System.Xml.XmlReader)
   nameWithType: RappresentanteFiscaleCessionarioCommittente.RappresentanteFiscaleCessionarioCommittente(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.#ctor*
   name: RappresentanteFiscaleCessionarioCommittente
@@ -5479,11 +5505,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.SedeCessionarioCommittente()
   nameWithType: SedeCessionarioCommittente.SedeCessionarioCommittente()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor(System.Xml.XmlReader)
   name: SedeCessionarioCommittente(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_SedeCessionarioCommittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.SedeCessionarioCommittente(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_CessionarioCommittente_SedeCessionarioCommittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.SedeCessionarioCommittente(System.Xml.XmlReader)
   nameWithType: SedeCessionarioCommittente.SedeCessionarioCommittente(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.#ctor*
   name: SedeCessionarioCommittente
@@ -5510,11 +5536,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.DatiTrasmissione()
   nameWithType: DatiTrasmissione.DatiTrasmissione()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(System.Xml.XmlReader)
   name: DatiTrasmissione(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.DatiTrasmissione(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.DatiTrasmissione(System.Xml.XmlReader)
   nameWithType: DatiTrasmissione.DatiTrasmissione(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor*
   name: DatiTrasmissione
@@ -5600,11 +5626,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.IdTrasmittente()
   nameWithType: IdTrasmittente.IdTrasmittente()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor(System.Xml.XmlReader)
   name: IdTrasmittente(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_IdTrasmittente__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.IdTrasmittente(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_IdTrasmittente__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.IdTrasmittente(System.Xml.XmlReader)
   nameWithType: IdTrasmittente.IdTrasmittente(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.#ctor*
   name: IdTrasmittente
@@ -5625,11 +5651,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.FatturaElettronicaHeader()
   nameWithType: FatturaElettronicaHeader.FatturaElettronicaHeader()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor(System.Xml.XmlReader)
   name: FatturaElettronicaHeader(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_FatturaElettronicaHeader__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.FatturaElettronicaHeader(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_FatturaElettronicaHeader__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.FatturaElettronicaHeader(System.Xml.XmlReader)
   nameWithType: FatturaElettronicaHeader.FatturaElettronicaHeader(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.#ctor*
   name: FatturaElettronicaHeader
@@ -5702,11 +5728,11 @@ references:
   commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.#ctor
   fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.RappresentanteFiscale()
   nameWithType: RappresentanteFiscale.RappresentanteFiscale()
-- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.#ctor(XmlReader)
+- uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.#ctor(System.Xml.XmlReader)
   name: RappresentanteFiscale(XmlReader)
-  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_RappresentanteFiscale__ctor_XmlReader_
-  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.#ctor(XmlReader)
-  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.RappresentanteFiscale(XmlReader)
+  href: docs/api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.html#FatturaElettronica_Semplificata_FatturaElettronicaHeader_RappresentanteFiscale__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.RappresentanteFiscale(System.Xml.XmlReader)
   nameWithType: RappresentanteFiscale.RappresentanteFiscale(XmlReader)
 - uid: FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.#ctor*
   name: RappresentanteFiscale
@@ -7179,12 +7205,12 @@ references:
   fullName.vb: FatturaElettronica.Validators.IsValidValidator(Of T).Domain
   nameWithType: IsValidValidator<T>.Domain
   nameWithType.vb: IsValidValidator(Of T).Domain
-- uid: FatturaElettronica.Validators.IsValidValidator`1.IsValid(PropertyValidatorContext)
+- uid: FatturaElettronica.Validators.IsValidValidator`1.IsValid(FluentValidation.Validators.PropertyValidatorContext)
   name: IsValid(PropertyValidatorContext)
-  href: docs/api/FatturaElettronica.Validators.IsValidValidator-1.html#FatturaElettronica_Validators_IsValidValidator_1_IsValid_PropertyValidatorContext_
-  commentId: M:FatturaElettronica.Validators.IsValidValidator`1.IsValid(PropertyValidatorContext)
-  fullName: FatturaElettronica.Validators.IsValidValidator<T>.IsValid(PropertyValidatorContext)
-  fullName.vb: FatturaElettronica.Validators.IsValidValidator(Of T).IsValid(PropertyValidatorContext)
+  href: docs/api/FatturaElettronica.Validators.IsValidValidator-1.html#FatturaElettronica_Validators_IsValidValidator_1_IsValid_FluentValidation_Validators_PropertyValidatorContext_
+  commentId: M:FatturaElettronica.Validators.IsValidValidator`1.IsValid(FluentValidation.Validators.PropertyValidatorContext)
+  fullName: FatturaElettronica.Validators.IsValidValidator<T>.IsValid(FluentValidation.Validators.PropertyValidatorContext)
+  fullName.vb: FatturaElettronica.Validators.IsValidValidator(Of T).IsValid(FluentValidation.Validators.PropertyValidatorContext)
   nameWithType: IsValidValidator<T>.IsValid(PropertyValidatorContext)
   nameWithType.vb: IsValidValidator(Of T).IsValid(PropertyValidatorContext)
 - uid: FatturaElettronica.Validators.IsValidValidator`1.IsValid*
@@ -7248,12 +7274,12 @@ references:
   fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).LatinBaseValidator
   nameWithType: LatinBaseValidator<T>.LatinBaseValidator
   nameWithType.vb: LatinBaseValidator(Of T).LatinBaseValidator
-- uid: FatturaElettronica.Validators.LatinBaseValidator`1.IsValid(PropertyValidatorContext)
+- uid: FatturaElettronica.Validators.LatinBaseValidator`1.IsValid(FluentValidation.Validators.PropertyValidatorContext)
   name: IsValid(PropertyValidatorContext)
-  href: docs/api/FatturaElettronica.Validators.LatinBaseValidator-1.html#FatturaElettronica_Validators_LatinBaseValidator_1_IsValid_PropertyValidatorContext_
-  commentId: M:FatturaElettronica.Validators.LatinBaseValidator`1.IsValid(PropertyValidatorContext)
-  fullName: FatturaElettronica.Validators.LatinBaseValidator<T>.IsValid(PropertyValidatorContext)
-  fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).IsValid(PropertyValidatorContext)
+  href: docs/api/FatturaElettronica.Validators.LatinBaseValidator-1.html#FatturaElettronica_Validators_LatinBaseValidator_1_IsValid_FluentValidation_Validators_PropertyValidatorContext_
+  commentId: M:FatturaElettronica.Validators.LatinBaseValidator`1.IsValid(FluentValidation.Validators.PropertyValidatorContext)
+  fullName: FatturaElettronica.Validators.LatinBaseValidator<T>.IsValid(FluentValidation.Validators.PropertyValidatorContext)
+  fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).IsValid(FluentValidation.Validators.PropertyValidatorContext)
   nameWithType: LatinBaseValidator<T>.IsValid(PropertyValidatorContext)
   nameWithType.vb: LatinBaseValidator(Of T).IsValid(PropertyValidatorContext)
 - uid: FatturaElettronica.Validators.LatinBaseValidator`1.IsValid*
@@ -7265,12 +7291,12 @@ references:
   fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).IsValid
   nameWithType: LatinBaseValidator<T>.IsValid
   nameWithType.vb: LatinBaseValidator(Of T).IsValid
-- uid: FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+- uid: FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError(FluentValidation.Validators.PropertyValidatorContext)
   name: PrepareMessageFormatterForValidationError(PropertyValidatorContext)
-  href: docs/api/FatturaElettronica.Validators.LatinBaseValidator-1.html#FatturaElettronica_Validators_LatinBaseValidator_1_PrepareMessageFormatterForValidationError_PropertyValidatorContext_
-  commentId: M:FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError(PropertyValidatorContext)
-  fullName: FatturaElettronica.Validators.LatinBaseValidator<T>.PrepareMessageFormatterForValidationError(PropertyValidatorContext)
-  fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).PrepareMessageFormatterForValidationError(PropertyValidatorContext)
+  href: docs/api/FatturaElettronica.Validators.LatinBaseValidator-1.html#FatturaElettronica_Validators_LatinBaseValidator_1_PrepareMessageFormatterForValidationError_FluentValidation_Validators_PropertyValidatorContext_
+  commentId: M:FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError(FluentValidation.Validators.PropertyValidatorContext)
+  fullName: FatturaElettronica.Validators.LatinBaseValidator<T>.PrepareMessageFormatterForValidationError(FluentValidation.Validators.PropertyValidatorContext)
+  fullName.vb: FatturaElettronica.Validators.LatinBaseValidator(Of T).PrepareMessageFormatterForValidationError(FluentValidation.Validators.PropertyValidatorContext)
   nameWithType: LatinBaseValidator<T>.PrepareMessageFormatterForValidationError(PropertyValidatorContext)
   nameWithType.vb: LatinBaseValidator(Of T).PrepareMessageFormatterForValidationError(PropertyValidatorContext)
 - uid: FatturaElettronica.Validators.LatinBaseValidator`1.PrepareMessageFormatterForValidationError*
@@ -7321,13 +7347,13 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator
   nameWithType: MyValidatorExtensions.BasicLatinValidator
-- uid: FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator``2(IRuleBuilder{``0,``1})
+- uid: FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator``2(FluentValidation.IRuleBuilder{``0,``1})
   name: BasicLatinValidator<T, TElement>(IRuleBuilder<T, TElement>)
-  href: docs/api/FatturaElettronica.Validators.MyValidatorExtensions.html#FatturaElettronica_Validators_MyValidatorExtensions_BasicLatinValidator__2_IRuleBuilder___0___1__
-  commentId: M:FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator``2(IRuleBuilder{``0,``1})
+  href: docs/api/FatturaElettronica.Validators.MyValidatorExtensions.html#FatturaElettronica_Validators_MyValidatorExtensions_BasicLatinValidator__2_FluentValidation_IRuleBuilder___0___1__
+  commentId: M:FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator``2(FluentValidation.IRuleBuilder{``0,``1})
   name.vb: BasicLatinValidator(Of T, TElement)(IRuleBuilder(Of T, TElement))
-  fullName: FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator<T, TElement>(IRuleBuilder<T, TElement>)
-  fullName.vb: FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator(Of T, TElement)(IRuleBuilder(Of T, TElement))
+  fullName: FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator<T, TElement>(FluentValidation.IRuleBuilder<T, TElement>)
+  fullName.vb: FatturaElettronica.Validators.MyValidatorExtensions.BasicLatinValidator(Of T, TElement)(FluentValidation.IRuleBuilder(Of T, TElement))
   nameWithType: MyValidatorExtensions.BasicLatinValidator<T, TElement>(IRuleBuilder<T, TElement>)
   nameWithType.vb: MyValidatorExtensions.BasicLatinValidator(Of T, TElement)(IRuleBuilder(Of T, TElement))
 - uid: FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator*
@@ -7337,13 +7363,13 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator
   nameWithType: MyValidatorExtensions.Latin1SupplementValidator
-- uid: FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator``2(IRuleBuilder{``0,``1})
+- uid: FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator``2(FluentValidation.IRuleBuilder{``0,``1})
   name: Latin1SupplementValidator<T, TElement>(IRuleBuilder<T, TElement>)
-  href: docs/api/FatturaElettronica.Validators.MyValidatorExtensions.html#FatturaElettronica_Validators_MyValidatorExtensions_Latin1SupplementValidator__2_IRuleBuilder___0___1__
-  commentId: M:FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator``2(IRuleBuilder{``0,``1})
+  href: docs/api/FatturaElettronica.Validators.MyValidatorExtensions.html#FatturaElettronica_Validators_MyValidatorExtensions_Latin1SupplementValidator__2_FluentValidation_IRuleBuilder___0___1__
+  commentId: M:FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator``2(FluentValidation.IRuleBuilder{``0,``1})
   name.vb: Latin1SupplementValidator(Of T, TElement)(IRuleBuilder(Of T, TElement))
-  fullName: FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator<T, TElement>(IRuleBuilder<T, TElement>)
-  fullName.vb: FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator(Of T, TElement)(IRuleBuilder(Of T, TElement))
+  fullName: FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator<T, TElement>(FluentValidation.IRuleBuilder<T, TElement>)
+  fullName.vb: FatturaElettronica.Validators.MyValidatorExtensions.Latin1SupplementValidator(Of T, TElement)(FluentValidation.IRuleBuilder(Of T, TElement))
   nameWithType: MyValidatorExtensions.Latin1SupplementValidator<T, TElement>(IRuleBuilder<T, TElement>)
   nameWithType.vb: MyValidatorExtensions.Latin1SupplementValidator(Of T, TElement)(IRuleBuilder(Of T, TElement))
 - uid: FatturaElettronica.Validators.RappresentanteFiscaleCessionarioCommittenteValidator
@@ -7393,12 +7419,12 @@ references:
   fullName.vb: FatturaElettronica.Validators.RegimeFiscaleValidator(Of T)
   nameWithType: RegimeFiscaleValidator<T>
   nameWithType.vb: RegimeFiscaleValidator(Of T)
-- uid: FatturaElettronica.Validators.RegimeFiscaleValidator`1.CreateValidationError(PropertyValidatorContext)
+- uid: FatturaElettronica.Validators.RegimeFiscaleValidator`1.CreateValidationError(FluentValidation.Validators.PropertyValidatorContext)
   name: CreateValidationError(PropertyValidatorContext)
-  href: docs/api/FatturaElettronica.Validators.RegimeFiscaleValidator-1.html#FatturaElettronica_Validators_RegimeFiscaleValidator_1_CreateValidationError_PropertyValidatorContext_
-  commentId: M:FatturaElettronica.Validators.RegimeFiscaleValidator`1.CreateValidationError(PropertyValidatorContext)
-  fullName: FatturaElettronica.Validators.RegimeFiscaleValidator<T>.CreateValidationError(PropertyValidatorContext)
-  fullName.vb: FatturaElettronica.Validators.RegimeFiscaleValidator(Of T).CreateValidationError(PropertyValidatorContext)
+  href: docs/api/FatturaElettronica.Validators.RegimeFiscaleValidator-1.html#FatturaElettronica_Validators_RegimeFiscaleValidator_1_CreateValidationError_FluentValidation_Validators_PropertyValidatorContext_
+  commentId: M:FatturaElettronica.Validators.RegimeFiscaleValidator`1.CreateValidationError(FluentValidation.Validators.PropertyValidatorContext)
+  fullName: FatturaElettronica.Validators.RegimeFiscaleValidator<T>.CreateValidationError(FluentValidation.Validators.PropertyValidatorContext)
+  fullName.vb: FatturaElettronica.Validators.RegimeFiscaleValidator(Of T).CreateValidationError(FluentValidation.Validators.PropertyValidatorContext)
   nameWithType: RegimeFiscaleValidator<T>.CreateValidationError(PropertyValidatorContext)
   nameWithType.vb: RegimeFiscaleValidator(Of T).CreateValidationError(PropertyValidatorContext)
 - uid: FatturaElettronica.Validators.RegimeFiscaleValidator`1.CreateValidationError*

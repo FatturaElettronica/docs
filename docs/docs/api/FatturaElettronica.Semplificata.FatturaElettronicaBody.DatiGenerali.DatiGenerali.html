@@ -89,22 +89,96 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DatiGenerali</span></div>
+    <div class="level1"><span class="xref">FatturaElettronica.Common.BaseClass</span></div>
+    <div class="level2"><span class="xref">FatturaElettronica.Common.BaseClassSerializable</span></div>
+    <div class="level3"><span class="xref">DatiGenerali</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">FatturaElettronica.Common.BaseClass</span>&gt;</div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ToJson(FatturaElettronica.Common.JsonOptions)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.GetSchema()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.ReadXml(System.Xml.XmlReader)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClassSerializable.XmlOptions</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.SetProperty&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.OnPropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.CleanString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.IsEmpty()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetAllDataProperties()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(FatturaElettronica.Common.BaseClass)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">FatturaElettronica.Common.BaseClass.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.html">FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali</a></h6>
   <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
   <h5 id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DatiGenerali : BaseClassSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class DatiGenerali : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L15">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L15">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor">DatiGenerali()</h4>
@@ -117,13 +191,13 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.%23ctor(XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_System_Xml_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.%23ctor(System.Xml.XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L20">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L20">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor*"></a>
-  <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_XmlReader_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(XmlReader)">DatiGenerali(XmlReader)</h4>
+  <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(System.Xml.XmlReader)">DatiGenerali(XmlReader)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -141,7 +215,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XmlReader</span></td>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
         <td><span class="parametername">r</span></td>
         <td></td>
       </tr>
@@ -151,10 +225,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiFatturaRettificata.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiFatturaRettificata%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiFatturaRettificata.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiFatturaRettificata%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L36">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L36">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiFatturaRettificata_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiFatturaRettificata*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiFatturaRettificata" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiFatturaRettificata">DatiFatturaRettificata</h4>
@@ -164,7 +238,8 @@ Vale per le fatture emesse ai sensi dell'articolo 26 DPR 633/72</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatiFatturaRettificata DatiFatturaRettificata { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(36)]
+public DatiFatturaRettificata DatiFatturaRettificata { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,10 +258,10 @@ Vale per le fatture emesse ai sensi dell'articolo 26 DPR 633/72</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiGeneraliDocumento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGeneraliDocumento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiGeneraliDocumento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGeneraliDocumento%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L29">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L29">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiGeneraliDocumento_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGeneraliDocumento*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiGeneraliDocumento" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGeneraliDocumento">DatiGeneraliDocumento</h4>
@@ -195,7 +270,8 @@ Vale per le fatture emesse ai sensi dell'articolo 26 DPR 633/72</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatiGeneraliDocumento DatiGeneraliDocumento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataProperty(29)]
+public DatiGeneraliDocumento DatiGeneraliDocumento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,6 +288,20 @@ Vale per le fatture emesse ai sensi dell'articolo 26 DPR 633/72</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FatturaElettronica.FatturaElettronicaExtensions.html#FatturaElettronica_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -220,10 +310,10 @@ Vale per le fatture emesse ai sensi dell'articolo 26 DPR 633/72</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/master/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/specifiche_v1.6/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaBody_DatiGenerali_DatiGenerali.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/specifiche_v1.6/Semplificata/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
