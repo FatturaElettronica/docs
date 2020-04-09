@@ -686,6 +686,459 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.Common.StabileOrganizzazione.StabileOrganizzazione
   nameWithType: StabileOrganizzazione.StabileOrganizzazione
+- uid: FatturaElettronica.Core
+  name: FatturaElettronica.Core
+  href: docs/api/FatturaElettronica.Core.html
+  commentId: N:FatturaElettronica.Core
+  fullName: FatturaElettronica.Core
+  nameWithType: FatturaElettronica.Core
+- uid: FatturaElettronica.Core.BaseClass
+  name: BaseClass
+  href: docs/api/FatturaElettronica.Core.BaseClass.html
+  commentId: T:FatturaElettronica.Core.BaseClass
+  fullName: FatturaElettronica.Core.BaseClass
+  nameWithType: BaseClass
+- uid: FatturaElettronica.Core.BaseClass.CleanString(System.String)
+  name: CleanString(String)
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_CleanString_System_String_
+  commentId: M:FatturaElettronica.Core.BaseClass.CleanString(System.String)
+  fullName: FatturaElettronica.Core.BaseClass.CleanString(System.String)
+  nameWithType: BaseClass.CleanString(String)
+- uid: FatturaElettronica.Core.BaseClass.CleanString*
+  name: CleanString
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_CleanString_
+  commentId: Overload:FatturaElettronica.Core.BaseClass.CleanString
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClass.CleanString
+  nameWithType: BaseClass.CleanString
+- uid: FatturaElettronica.Core.BaseClass.Equals(FatturaElettronica.Core.BaseClass)
+  name: Equals(BaseClass)
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_FatturaElettronica_Core_BaseClass_
+  commentId: M:FatturaElettronica.Core.BaseClass.Equals(FatturaElettronica.Core.BaseClass)
+  fullName: FatturaElettronica.Core.BaseClass.Equals(FatturaElettronica.Core.BaseClass)
+  nameWithType: BaseClass.Equals(BaseClass)
+- uid: FatturaElettronica.Core.BaseClass.Equals(System.Object)
+  name: Equals(Object)
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_System_Object_
+  commentId: M:FatturaElettronica.Core.BaseClass.Equals(System.Object)
+  fullName: FatturaElettronica.Core.BaseClass.Equals(System.Object)
+  nameWithType: BaseClass.Equals(Object)
+- uid: FatturaElettronica.Core.BaseClass.Equals*
+  name: Equals
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_
+  commentId: Overload:FatturaElettronica.Core.BaseClass.Equals
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClass.Equals
+  nameWithType: BaseClass.Equals
+- uid: FatturaElettronica.Core.BaseClass.GetAllDataProperties
+  name: GetAllDataProperties()
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetAllDataProperties
+  commentId: M:FatturaElettronica.Core.BaseClass.GetAllDataProperties
+  fullName: FatturaElettronica.Core.BaseClass.GetAllDataProperties()
+  nameWithType: BaseClass.GetAllDataProperties()
+- uid: FatturaElettronica.Core.BaseClass.GetAllDataProperties*
+  name: GetAllDataProperties
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetAllDataProperties_
+  commentId: Overload:FatturaElettronica.Core.BaseClass.GetAllDataProperties
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClass.GetAllDataProperties
+  nameWithType: BaseClass.GetAllDataProperties
+- uid: FatturaElettronica.Core.BaseClass.GetHashCode
+  name: GetHashCode()
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetHashCode
+  commentId: M:FatturaElettronica.Core.BaseClass.GetHashCode
+  fullName: FatturaElettronica.Core.BaseClass.GetHashCode()
+  nameWithType: BaseClass.GetHashCode()
+- uid: FatturaElettronica.Core.BaseClass.GetHashCode*
+  name: GetHashCode
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetHashCode_
+  commentId: Overload:FatturaElettronica.Core.BaseClass.GetHashCode
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClass.GetHashCode
+  nameWithType: BaseClass.GetHashCode
+- uid: FatturaElettronica.Core.BaseClass.IsEmpty
+  name: IsEmpty()
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_IsEmpty
+  commentId: M:FatturaElettronica.Core.BaseClass.IsEmpty
+  fullName: FatturaElettronica.Core.BaseClass.IsEmpty()
+  nameWithType: BaseClass.IsEmpty()
+- uid: FatturaElettronica.Core.BaseClass.IsEmpty*
+  name: IsEmpty
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_IsEmpty_
+  commentId: Overload:FatturaElettronica.Core.BaseClass.IsEmpty
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClass.IsEmpty
+  nameWithType: BaseClass.IsEmpty
+- uid: FatturaElettronica.Core.BaseClass.op_Equality(FatturaElettronica.Core.BaseClass,FatturaElettronica.Core.BaseClass)
+  name: Equality(BaseClass, BaseClass)
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_op_Equality_FatturaElettronica_Core_BaseClass_FatturaElettronica_Core_BaseClass_
+  commentId: M:FatturaElettronica.Core.BaseClass.op_Equality(FatturaElettronica.Core.BaseClass,FatturaElettronica.Core.BaseClass)
+  fullName: FatturaElettronica.Core.BaseClass.Equality(FatturaElettronica.Core.BaseClass, FatturaElettronica.Core.BaseClass)
+  nameWithType: BaseClass.Equality(BaseClass, BaseClass)
+- uid: FatturaElettronica.Core.BaseClass.op_Equality*
+  name: Equality
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_op_Equality_
+  commentId: Overload:FatturaElettronica.Core.BaseClass.op_Equality
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClass.Equality
+  nameWithType: BaseClass.Equality
+- uid: FatturaElettronica.Core.BaseClass.op_Inequality(FatturaElettronica.Core.BaseClass,FatturaElettronica.Core.BaseClass)
+  name: Inequality(BaseClass, BaseClass)
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_op_Inequality_FatturaElettronica_Core_BaseClass_FatturaElettronica_Core_BaseClass_
+  commentId: M:FatturaElettronica.Core.BaseClass.op_Inequality(FatturaElettronica.Core.BaseClass,FatturaElettronica.Core.BaseClass)
+  fullName: FatturaElettronica.Core.BaseClass.Inequality(FatturaElettronica.Core.BaseClass, FatturaElettronica.Core.BaseClass)
+  nameWithType: BaseClass.Inequality(BaseClass, BaseClass)
+- uid: FatturaElettronica.Core.BaseClass.op_Inequality*
+  name: Inequality
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_op_Inequality_
+  commentId: Overload:FatturaElettronica.Core.BaseClass.op_Inequality
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClass.Inequality
+  nameWithType: BaseClass.Inequality
+- uid: FatturaElettronica.Core.BaseClass.PropertyChanged
+  name: PropertyChanged
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_PropertyChanged
+  commentId: E:FatturaElettronica.Core.BaseClass.PropertyChanged
+  fullName: FatturaElettronica.Core.BaseClass.PropertyChanged
+  nameWithType: BaseClass.PropertyChanged
+- uid: FatturaElettronica.Core.BaseClass.SetProperty*
+  name: SetProperty
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_SetProperty_
+  commentId: Overload:FatturaElettronica.Core.BaseClass.SetProperty
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClass.SetProperty
+  nameWithType: BaseClass.SetProperty
+- uid: FatturaElettronica.Core.BaseClass.SetProperty``1(``0@,``0,System.String)
+  name: SetProperty<T>(ref T, T, String)
+  href: docs/api/FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_SetProperty__1___0____0_System_String_
+  commentId: M:FatturaElettronica.Core.BaseClass.SetProperty``1(``0@,``0,System.String)
+  name.vb: SetProperty(Of T)(ByRef T, T, String)
+  fullName: FatturaElettronica.Core.BaseClass.SetProperty<T>(ref T, T, System.String)
+  fullName.vb: FatturaElettronica.Core.BaseClass.SetProperty(Of T)(ByRef T, T, System.String)
+  nameWithType: BaseClass.SetProperty<T>(ref T, T, String)
+  nameWithType.vb: BaseClass.SetProperty(Of T)(ByRef T, T, String)
+- uid: FatturaElettronica.Core.BaseClassSerializable
+  name: BaseClassSerializable
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html
+  commentId: T:FatturaElettronica.Core.BaseClassSerializable
+  fullName: FatturaElettronica.Core.BaseClassSerializable
+  nameWithType: BaseClassSerializable
+- uid: FatturaElettronica.Core.BaseClassSerializable.#ctor
+  name: BaseClassSerializable()
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable__ctor
+  commentId: M:FatturaElettronica.Core.BaseClassSerializable.#ctor
+  fullName: FatturaElettronica.Core.BaseClassSerializable.BaseClassSerializable()
+  nameWithType: BaseClassSerializable.BaseClassSerializable()
+- uid: FatturaElettronica.Core.BaseClassSerializable.#ctor(System.Xml.XmlReader)
+  name: BaseClassSerializable(XmlReader)
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable__ctor_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Core.BaseClassSerializable.#ctor(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Core.BaseClassSerializable.BaseClassSerializable(System.Xml.XmlReader)
+  nameWithType: BaseClassSerializable.BaseClassSerializable(XmlReader)
+- uid: FatturaElettronica.Core.BaseClassSerializable.#ctor*
+  name: BaseClassSerializable
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable__ctor_
+  commentId: Overload:FatturaElettronica.Core.BaseClassSerializable.#ctor
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClassSerializable.BaseClassSerializable
+  nameWithType: BaseClassSerializable.BaseClassSerializable
+- uid: FatturaElettronica.Core.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)
+  name: FromJson(JsonReader)
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_FromJson_Newtonsoft_Json_JsonReader_
+  commentId: M:FatturaElettronica.Core.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)
+  fullName: FatturaElettronica.Core.BaseClassSerializable.FromJson(Newtonsoft.Json.JsonReader)
+  nameWithType: BaseClassSerializable.FromJson(JsonReader)
+- uid: FatturaElettronica.Core.BaseClassSerializable.FromJson*
+  name: FromJson
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_FromJson_
+  commentId: Overload:FatturaElettronica.Core.BaseClassSerializable.FromJson
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClassSerializable.FromJson
+  nameWithType: BaseClassSerializable.FromJson
+- uid: FatturaElettronica.Core.BaseClassSerializable.GetSchema
+  name: GetSchema()
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_GetSchema
+  commentId: M:FatturaElettronica.Core.BaseClassSerializable.GetSchema
+  fullName: FatturaElettronica.Core.BaseClassSerializable.GetSchema()
+  nameWithType: BaseClassSerializable.GetSchema()
+- uid: FatturaElettronica.Core.BaseClassSerializable.GetSchema*
+  name: GetSchema
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_GetSchema_
+  commentId: Overload:FatturaElettronica.Core.BaseClassSerializable.GetSchema
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClassSerializable.GetSchema
+  nameWithType: BaseClassSerializable.GetSchema
+- uid: FatturaElettronica.Core.BaseClassSerializable.ReadXml(System.Xml.XmlReader)
+  name: ReadXml(XmlReader)
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ReadXml_System_Xml_XmlReader_
+  commentId: M:FatturaElettronica.Core.BaseClassSerializable.ReadXml(System.Xml.XmlReader)
+  fullName: FatturaElettronica.Core.BaseClassSerializable.ReadXml(System.Xml.XmlReader)
+  nameWithType: BaseClassSerializable.ReadXml(XmlReader)
+- uid: FatturaElettronica.Core.BaseClassSerializable.ReadXml*
+  name: ReadXml
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ReadXml_
+  commentId: Overload:FatturaElettronica.Core.BaseClassSerializable.ReadXml
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClassSerializable.ReadXml
+  nameWithType: BaseClassSerializable.ReadXml
+- uid: FatturaElettronica.Core.BaseClassSerializable.ToJson
+  name: ToJson()
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ToJson
+  commentId: M:FatturaElettronica.Core.BaseClassSerializable.ToJson
+  fullName: FatturaElettronica.Core.BaseClassSerializable.ToJson()
+  nameWithType: BaseClassSerializable.ToJson()
+- uid: FatturaElettronica.Core.BaseClassSerializable.ToJson(FatturaElettronica.Core.JsonOptions)
+  name: ToJson(JsonOptions)
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ToJson_FatturaElettronica_Core_JsonOptions_
+  commentId: M:FatturaElettronica.Core.BaseClassSerializable.ToJson(FatturaElettronica.Core.JsonOptions)
+  fullName: FatturaElettronica.Core.BaseClassSerializable.ToJson(FatturaElettronica.Core.JsonOptions)
+  nameWithType: BaseClassSerializable.ToJson(JsonOptions)
+- uid: FatturaElettronica.Core.BaseClassSerializable.ToJson*
+  name: ToJson
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ToJson_
+  commentId: Overload:FatturaElettronica.Core.BaseClassSerializable.ToJson
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClassSerializable.ToJson
+  nameWithType: BaseClassSerializable.ToJson
+- uid: FatturaElettronica.Core.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)
+  name: WriteXml(XmlWriter)
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_WriteXml_System_Xml_XmlWriter_
+  commentId: M:FatturaElettronica.Core.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)
+  fullName: FatturaElettronica.Core.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)
+  nameWithType: BaseClassSerializable.WriteXml(XmlWriter)
+- uid: FatturaElettronica.Core.BaseClassSerializable.WriteXml*
+  name: WriteXml
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_WriteXml_
+  commentId: Overload:FatturaElettronica.Core.BaseClassSerializable.WriteXml
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClassSerializable.WriteXml
+  nameWithType: BaseClassSerializable.WriteXml
+- uid: FatturaElettronica.Core.BaseClassSerializable.XmlOptions
+  name: XmlOptions
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_XmlOptions
+  commentId: P:FatturaElettronica.Core.BaseClassSerializable.XmlOptions
+  fullName: FatturaElettronica.Core.BaseClassSerializable.XmlOptions
+  nameWithType: BaseClassSerializable.XmlOptions
+- uid: FatturaElettronica.Core.BaseClassSerializable.XmlOptions*
+  name: XmlOptions
+  href: docs/api/FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_XmlOptions_
+  commentId: Overload:FatturaElettronica.Core.BaseClassSerializable.XmlOptions
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.BaseClassSerializable.XmlOptions
+  nameWithType: BaseClassSerializable.XmlOptions
+- uid: FatturaElettronica.Core.DataProperty
+  name: DataProperty
+  href: docs/api/FatturaElettronica.Core.DataProperty.html
+  commentId: T:FatturaElettronica.Core.DataProperty
+  fullName: FatturaElettronica.Core.DataProperty
+  nameWithType: DataProperty
+- uid: FatturaElettronica.Core.DataProperty.#ctor(System.Int32)
+  name: DataProperty(Int32)
+  href: docs/api/FatturaElettronica.Core.DataProperty.html#FatturaElettronica_Core_DataProperty__ctor_System_Int32_
+  commentId: M:FatturaElettronica.Core.DataProperty.#ctor(System.Int32)
+  fullName: FatturaElettronica.Core.DataProperty.DataProperty(System.Int32)
+  nameWithType: DataProperty.DataProperty(Int32)
+- uid: FatturaElettronica.Core.DataProperty.#ctor*
+  name: DataProperty
+  href: docs/api/FatturaElettronica.Core.DataProperty.html#FatturaElettronica_Core_DataProperty__ctor_
+  commentId: Overload:FatturaElettronica.Core.DataProperty.#ctor
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.DataProperty.DataProperty
+  nameWithType: DataProperty.DataProperty
+- uid: FatturaElettronica.Core.DataProperty.Order
+  name: Order
+  href: docs/api/FatturaElettronica.Core.DataProperty.html#FatturaElettronica_Core_DataProperty_Order
+  commentId: P:FatturaElettronica.Core.DataProperty.Order
+  fullName: FatturaElettronica.Core.DataProperty.Order
+  nameWithType: DataProperty.Order
+- uid: FatturaElettronica.Core.DataProperty.Order*
+  name: Order
+  href: docs/api/FatturaElettronica.Core.DataProperty.html#FatturaElettronica_Core_DataProperty_Order_
+  commentId: Overload:FatturaElettronica.Core.DataProperty.Order
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.DataProperty.Order
+  nameWithType: DataProperty.Order
+- uid: FatturaElettronica.Core.IgnoreXmlDateFormat
+  name: IgnoreXmlDateFormat
+  href: docs/api/FatturaElettronica.Core.IgnoreXmlDateFormat.html
+  commentId: T:FatturaElettronica.Core.IgnoreXmlDateFormat
+  fullName: FatturaElettronica.Core.IgnoreXmlDateFormat
+  nameWithType: IgnoreXmlDateFormat
+- uid: FatturaElettronica.Core.JsonOptions
+  name: JsonOptions
+  href: docs/api/FatturaElettronica.Core.JsonOptions.html
+  commentId: T:FatturaElettronica.Core.JsonOptions
+  fullName: FatturaElettronica.Core.JsonOptions
+  nameWithType: JsonOptions
+- uid: FatturaElettronica.Core.JsonOptions.Indented
+  name: Indented
+  href: docs/api/FatturaElettronica.Core.JsonOptions.html#FatturaElettronica_Core_JsonOptions_Indented
+  commentId: F:FatturaElettronica.Core.JsonOptions.Indented
+  fullName: FatturaElettronica.Core.JsonOptions.Indented
+  nameWithType: JsonOptions.Indented
+- uid: FatturaElettronica.Core.JsonOptions.None
+  name: None
+  href: docs/api/FatturaElettronica.Core.JsonOptions.html#FatturaElettronica_Core_JsonOptions_None
+  commentId: F:FatturaElettronica.Core.JsonOptions.None
+  fullName: FatturaElettronica.Core.JsonOptions.None
+  nameWithType: JsonOptions.None
+- uid: FatturaElettronica.Core.JsonParseException
+  name: JsonParseException
+  href: docs/api/FatturaElettronica.Core.JsonParseException.html
+  commentId: T:FatturaElettronica.Core.JsonParseException
+  fullName: FatturaElettronica.Core.JsonParseException
+  nameWithType: JsonParseException
+- uid: FatturaElettronica.Core.JsonParseException.#ctor(System.String,Newtonsoft.Json.JsonReader)
+  name: JsonParseException(String, JsonReader)
+  href: docs/api/FatturaElettronica.Core.JsonParseException.html#FatturaElettronica_Core_JsonParseException__ctor_System_String_Newtonsoft_Json_JsonReader_
+  commentId: M:FatturaElettronica.Core.JsonParseException.#ctor(System.String,Newtonsoft.Json.JsonReader)
+  fullName: FatturaElettronica.Core.JsonParseException.JsonParseException(System.String, Newtonsoft.Json.JsonReader)
+  nameWithType: JsonParseException.JsonParseException(String, JsonReader)
+- uid: FatturaElettronica.Core.JsonParseException.#ctor*
+  name: JsonParseException
+  href: docs/api/FatturaElettronica.Core.JsonParseException.html#FatturaElettronica_Core_JsonParseException__ctor_
+  commentId: Overload:FatturaElettronica.Core.JsonParseException.#ctor
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.JsonParseException.JsonParseException
+  nameWithType: JsonParseException.JsonParseException
+- uid: FatturaElettronica.Core.ObjectExtensions
+  name: ObjectExtensions
+  href: docs/api/FatturaElettronica.Core.ObjectExtensions.html
+  commentId: T:FatturaElettronica.Core.ObjectExtensions
+  fullName: FatturaElettronica.Core.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: FatturaElettronica.Core.ObjectExtensions.GetHashCodeFromFields(System.Object[])
+  name: GetHashCodeFromFields(Object[])
+  href: docs/api/FatturaElettronica.Core.ObjectExtensions.html#FatturaElettronica_Core_ObjectExtensions_GetHashCodeFromFields_System_Object___
+  commentId: M:FatturaElettronica.Core.ObjectExtensions.GetHashCodeFromFields(System.Object[])
+  name.vb: GetHashCodeFromFields(Object())
+  fullName: FatturaElettronica.Core.ObjectExtensions.GetHashCodeFromFields(System.Object[])
+  fullName.vb: FatturaElettronica.Core.ObjectExtensions.GetHashCodeFromFields(System.Object())
+  nameWithType: ObjectExtensions.GetHashCodeFromFields(Object[])
+  nameWithType.vb: ObjectExtensions.GetHashCodeFromFields(Object())
+- uid: FatturaElettronica.Core.ObjectExtensions.GetHashCodeFromFields*
+  name: GetHashCodeFromFields
+  href: docs/api/FatturaElettronica.Core.ObjectExtensions.html#FatturaElettronica_Core_ObjectExtensions_GetHashCodeFromFields_
+  commentId: Overload:FatturaElettronica.Core.ObjectExtensions.GetHashCodeFromFields
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.ObjectExtensions.GetHashCodeFromFields
+  nameWithType: ObjectExtensions.GetHashCodeFromFields
+- uid: FatturaElettronica.Core.TypeExtensions
+  name: TypeExtensions
+  href: docs/api/FatturaElettronica.Core.TypeExtensions.html
+  commentId: T:FatturaElettronica.Core.TypeExtensions
+  fullName: FatturaElettronica.Core.TypeExtensions
+  nameWithType: TypeExtensions
+- uid: FatturaElettronica.Core.TypeExtensions.GetMethod(System.Type,System.String)
+  name: GetMethod(Type, String)
+  href: docs/api/FatturaElettronica.Core.TypeExtensions.html#FatturaElettronica_Core_TypeExtensions_GetMethod_System_Type_System_String_
+  commentId: M:FatturaElettronica.Core.TypeExtensions.GetMethod(System.Type,System.String)
+  fullName: FatturaElettronica.Core.TypeExtensions.GetMethod(System.Type, System.String)
+  nameWithType: TypeExtensions.GetMethod(Type, String)
+- uid: FatturaElettronica.Core.TypeExtensions.GetMethod*
+  name: GetMethod
+  href: docs/api/FatturaElettronica.Core.TypeExtensions.html#FatturaElettronica_Core_TypeExtensions_GetMethod_
+  commentId: Overload:FatturaElettronica.Core.TypeExtensions.GetMethod
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.TypeExtensions.GetMethod
+  nameWithType: TypeExtensions.GetMethod
+- uid: FatturaElettronica.Core.TypeExtensions.IsGenericList(System.Type)
+  name: IsGenericList(Type)
+  href: docs/api/FatturaElettronica.Core.TypeExtensions.html#FatturaElettronica_Core_TypeExtensions_IsGenericList_System_Type_
+  commentId: M:FatturaElettronica.Core.TypeExtensions.IsGenericList(System.Type)
+  fullName: FatturaElettronica.Core.TypeExtensions.IsGenericList(System.Type)
+  nameWithType: TypeExtensions.IsGenericList(Type)
+- uid: FatturaElettronica.Core.TypeExtensions.IsGenericList*
+  name: IsGenericList
+  href: docs/api/FatturaElettronica.Core.TypeExtensions.html#FatturaElettronica_Core_TypeExtensions_IsGenericList_
+  commentId: Overload:FatturaElettronica.Core.TypeExtensions.IsGenericList
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.TypeExtensions.IsGenericList
+  nameWithType: TypeExtensions.IsGenericList
+- uid: FatturaElettronica.Core.TypeExtensions.IsSubclassOfBusinessObject(System.Type)
+  name: IsSubclassOfBusinessObject(Type)
+  href: docs/api/FatturaElettronica.Core.TypeExtensions.html#FatturaElettronica_Core_TypeExtensions_IsSubclassOfBusinessObject_System_Type_
+  commentId: M:FatturaElettronica.Core.TypeExtensions.IsSubclassOfBusinessObject(System.Type)
+  fullName: FatturaElettronica.Core.TypeExtensions.IsSubclassOfBusinessObject(System.Type)
+  nameWithType: TypeExtensions.IsSubclassOfBusinessObject(Type)
+- uid: FatturaElettronica.Core.TypeExtensions.IsSubclassOfBusinessObject*
+  name: IsSubclassOfBusinessObject
+  href: docs/api/FatturaElettronica.Core.TypeExtensions.html#FatturaElettronica_Core_TypeExtensions_IsSubclassOfBusinessObject_
+  commentId: Overload:FatturaElettronica.Core.TypeExtensions.IsSubclassOfBusinessObject
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.TypeExtensions.IsSubclassOfBusinessObject
+  nameWithType: TypeExtensions.IsSubclassOfBusinessObject
+- uid: FatturaElettronica.Core.XmlOptions
+  name: XmlOptions
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html
+  commentId: T:FatturaElettronica.Core.XmlOptions
+  fullName: FatturaElettronica.Core.XmlOptions
+  nameWithType: XmlOptions
+- uid: FatturaElettronica.Core.XmlOptions.DateTimeFormat
+  name: DateTimeFormat
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_DateTimeFormat
+  commentId: P:FatturaElettronica.Core.XmlOptions.DateTimeFormat
+  fullName: FatturaElettronica.Core.XmlOptions.DateTimeFormat
+  nameWithType: XmlOptions.DateTimeFormat
+- uid: FatturaElettronica.Core.XmlOptions.DateTimeFormat*
+  name: DateTimeFormat
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_DateTimeFormat_
+  commentId: Overload:FatturaElettronica.Core.XmlOptions.DateTimeFormat
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.XmlOptions.DateTimeFormat
+  nameWithType: XmlOptions.DateTimeFormat
+- uid: FatturaElettronica.Core.XmlOptions.DecimalFormat
+  name: DecimalFormat
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_DecimalFormat
+  commentId: P:FatturaElettronica.Core.XmlOptions.DecimalFormat
+  fullName: FatturaElettronica.Core.XmlOptions.DecimalFormat
+  nameWithType: XmlOptions.DecimalFormat
+- uid: FatturaElettronica.Core.XmlOptions.DecimalFormat*
+  name: DecimalFormat
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_DecimalFormat_
+  commentId: Overload:FatturaElettronica.Core.XmlOptions.DecimalFormat
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.XmlOptions.DecimalFormat
+  nameWithType: XmlOptions.DecimalFormat
+- uid: FatturaElettronica.Core.XmlOptions.SerializeEmptyBusinessObjects
+  name: SerializeEmptyBusinessObjects
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_SerializeEmptyBusinessObjects
+  commentId: P:FatturaElettronica.Core.XmlOptions.SerializeEmptyBusinessObjects
+  fullName: FatturaElettronica.Core.XmlOptions.SerializeEmptyBusinessObjects
+  nameWithType: XmlOptions.SerializeEmptyBusinessObjects
+- uid: FatturaElettronica.Core.XmlOptions.SerializeEmptyBusinessObjects*
+  name: SerializeEmptyBusinessObjects
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_SerializeEmptyBusinessObjects_
+  commentId: Overload:FatturaElettronica.Core.XmlOptions.SerializeEmptyBusinessObjects
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.XmlOptions.SerializeEmptyBusinessObjects
+  nameWithType: XmlOptions.SerializeEmptyBusinessObjects
+- uid: FatturaElettronica.Core.XmlOptions.SerializeEmptyStrings
+  name: SerializeEmptyStrings
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_SerializeEmptyStrings
+  commentId: P:FatturaElettronica.Core.XmlOptions.SerializeEmptyStrings
+  fullName: FatturaElettronica.Core.XmlOptions.SerializeEmptyStrings
+  nameWithType: XmlOptions.SerializeEmptyStrings
+- uid: FatturaElettronica.Core.XmlOptions.SerializeEmptyStrings*
+  name: SerializeEmptyStrings
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_SerializeEmptyStrings_
+  commentId: Overload:FatturaElettronica.Core.XmlOptions.SerializeEmptyStrings
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.XmlOptions.SerializeEmptyStrings
+  nameWithType: XmlOptions.SerializeEmptyStrings
+- uid: FatturaElettronica.Core.XmlOptions.SerializeNullValues
+  name: SerializeNullValues
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_SerializeNullValues
+  commentId: P:FatturaElettronica.Core.XmlOptions.SerializeNullValues
+  fullName: FatturaElettronica.Core.XmlOptions.SerializeNullValues
+  nameWithType: XmlOptions.SerializeNullValues
+- uid: FatturaElettronica.Core.XmlOptions.SerializeNullValues*
+  name: SerializeNullValues
+  href: docs/api/FatturaElettronica.Core.XmlOptions.html#FatturaElettronica_Core_XmlOptions_SerializeNullValues_
+  commentId: Overload:FatturaElettronica.Core.XmlOptions.SerializeNullValues
+  isSpec: "True"
+  fullName: FatturaElettronica.Core.XmlOptions.SerializeNullValues
+  nameWithType: XmlOptions.SerializeNullValues
 - uid: FatturaElettronica.Defaults
   name: FatturaElettronica.Defaults
   href: docs/api/FatturaElettronica.Defaults.html
@@ -870,360 +1323,386 @@ references:
   nameWithType: Versione.TrasmissioneSemplificata
 - uid: FatturaElettronica.Extensions
   name: FatturaElettronica.Extensions
-  href: extensions/api/FatturaElettronica.Extensions.html
+  href: docs/api/FatturaElettronica.Extensions.html
   commentId: N:FatturaElettronica.Extensions
   fullName: FatturaElettronica.Extensions
   nameWithType: FatturaElettronica.Extensions
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType
   name: FatturaElettronicaFileNameExtensionType
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html
   commentId: T:FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType
   nameWithType: FatturaElettronicaFileNameExtensionType
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.Plain
   name: Plain
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameExtensionType_Plain
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameExtensionType_Plain
   commentId: F:FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.Plain
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.Plain
   nameWithType: FatturaElettronicaFileNameExtensionType.Plain
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.Signed
   name: Signed
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameExtensionType_Signed
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameExtensionType_Signed
   commentId: F:FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.Signed
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.Signed
   nameWithType: FatturaElettronicaFileNameExtensionType.Signed
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator
   name: FatturaElettronicaFileNameGenerator
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html
   commentId: T:FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator
   nameWithType: FatturaElettronicaFileNameGenerator
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.#ctor(FatturaElettronica.Common.IdFiscaleIVA,FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType)
   name: FatturaElettronicaFileNameGenerator(IdFiscaleIVA, FatturaElettronicaFileNameExtensionType)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator__ctor_FatturaElettronica_Common_IdFiscaleIVA_FatturaElettronica_Extensions_FatturaElettronicaFileNameExtensionType_
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator__ctor_FatturaElettronica_Common_IdFiscaleIVA_FatturaElettronica_Extensions_FatturaElettronicaFileNameExtensionType_
   commentId: M:FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.#ctor(FatturaElettronica.Common.IdFiscaleIVA,FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType)
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.FatturaElettronicaFileNameGenerator(FatturaElettronica.Common.IdFiscaleIVA, FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType)
   nameWithType: FatturaElettronicaFileNameGenerator.FatturaElettronicaFileNameGenerator(IdFiscaleIVA, FatturaElettronicaFileNameExtensionType)
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.#ctor*
   name: FatturaElettronicaFileNameGenerator
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator__ctor_
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator__ctor_
   commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.#ctor
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.FatturaElettronicaFileNameGenerator
   nameWithType: FatturaElettronicaFileNameGenerator.FatturaElettronicaFileNameGenerator
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.CurrentIndex
   name: CurrentIndex
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_CurrentIndex
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_CurrentIndex
   commentId: P:FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.CurrentIndex
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.CurrentIndex
   nameWithType: FatturaElettronicaFileNameGenerator.CurrentIndex
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.CurrentIndex*
   name: CurrentIndex
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_CurrentIndex_
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_CurrentIndex_
   commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.CurrentIndex
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.CurrentIndex
   nameWithType: FatturaElettronicaFileNameGenerator.CurrentIndex
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName(System.Int32)
   name: GetNextFileName(Int32)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_GetNextFileName_System_Int32_
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_GetNextFileName_System_Int32_
   commentId: M:FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName(System.Int32)
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName(System.Int32)
   nameWithType: FatturaElettronicaFileNameGenerator.GetNextFileName(Int32)
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName(System.String)
   name: GetNextFileName(String)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_GetNextFileName_System_String_
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_GetNextFileName_System_String_
   commentId: M:FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName(System.String)
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName(System.String)
   nameWithType: FatturaElettronicaFileNameGenerator.GetNextFileName(String)
 - uid: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName*
   name: GetNextFileName
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_GetNextFileName_
+  href: docs/api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html#FatturaElettronica_Extensions_FatturaElettronicaFileNameGenerator_GetNextFileName_
   commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.GetNextFileName
   nameWithType: FatturaElettronicaFileNameGenerator.GetNextFileName
-- uid: FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions
-  name: FatturaElettronicaHtmlExtensions
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.html
-  commentId: T:FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions
-  nameWithType: FatturaElettronicaHtmlExtensions
-- uid: FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.WriteHtml(FatturaElettronica.FatturaBase,System.String,System.String)
+- uid: FatturaElettronica.Extensions.HtmlExtensions
+  name: HtmlExtensions
+  href: docs/api/FatturaElettronica.Extensions.HtmlExtensions.html
+  commentId: T:FatturaElettronica.Extensions.HtmlExtensions
+  fullName: FatturaElettronica.Extensions.HtmlExtensions
+  nameWithType: HtmlExtensions
+- uid: FatturaElettronica.Extensions.HtmlExtensions.WriteHtml(FatturaElettronica.FatturaBase,System.String,System.String)
   name: WriteHtml(FatturaBase, String, String)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaHtmlExtensions_WriteHtml_FatturaElettronica_FatturaBase_System_String_System_String_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.WriteHtml(FatturaElettronica.FatturaBase,System.String,System.String)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.WriteHtml(FatturaElettronica.FatturaBase, System.String, System.String)
-  nameWithType: FatturaElettronicaHtmlExtensions.WriteHtml(FatturaBase, String, String)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.WriteHtml*
+  href: docs/api/FatturaElettronica.Extensions.HtmlExtensions.html#FatturaElettronica_Extensions_HtmlExtensions_WriteHtml_FatturaElettronica_FatturaBase_System_String_System_String_
+  commentId: M:FatturaElettronica.Extensions.HtmlExtensions.WriteHtml(FatturaElettronica.FatturaBase,System.String,System.String)
+  fullName: FatturaElettronica.Extensions.HtmlExtensions.WriteHtml(FatturaElettronica.FatturaBase, System.String, System.String)
+  nameWithType: HtmlExtensions.WriteHtml(FatturaBase, String, String)
+- uid: FatturaElettronica.Extensions.HtmlExtensions.WriteHtml*
   name: WriteHtml
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaHtmlExtensions_WriteHtml_
-  commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.WriteHtml
+  href: docs/api/FatturaElettronica.Extensions.HtmlExtensions.html#FatturaElettronica_Extensions_HtmlExtensions_WriteHtml_
+  commentId: Overload:FatturaElettronica.Extensions.HtmlExtensions.WriteHtml
   isSpec: "True"
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaHtmlExtensions.WriteHtml
-  nameWithType: FatturaElettronicaHtmlExtensions.WriteHtml
-- uid: FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions
-  name: FatturaElettronicaJsonExtensions
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.html
-  commentId: T:FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions
-  nameWithType: FatturaElettronicaJsonExtensions
-- uid: FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.FromJson(FatturaElettronica.FatturaBase,System.String)
+  fullName: FatturaElettronica.Extensions.HtmlExtensions.WriteHtml
+  nameWithType: HtmlExtensions.WriteHtml
+- uid: FatturaElettronica.Extensions.JsonExtensions
+  name: JsonExtensions
+  href: docs/api/FatturaElettronica.Extensions.JsonExtensions.html
+  commentId: T:FatturaElettronica.Extensions.JsonExtensions
+  fullName: FatturaElettronica.Extensions.JsonExtensions
+  nameWithType: JsonExtensions
+- uid: FatturaElettronica.Extensions.JsonExtensions.FromJson(FatturaElettronica.FatturaBase,System.String)
   name: FromJson(FatturaBase, String)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaJsonExtensions_FromJson_FatturaElettronica_FatturaBase_System_String_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.FromJson(FatturaElettronica.FatturaBase,System.String)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.FromJson(FatturaElettronica.FatturaBase, System.String)
-  nameWithType: FatturaElettronicaJsonExtensions.FromJson(FatturaBase, String)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.FromJson*
+  href: docs/api/FatturaElettronica.Extensions.JsonExtensions.html#FatturaElettronica_Extensions_JsonExtensions_FromJson_FatturaElettronica_FatturaBase_System_String_
+  commentId: M:FatturaElettronica.Extensions.JsonExtensions.FromJson(FatturaElettronica.FatturaBase,System.String)
+  fullName: FatturaElettronica.Extensions.JsonExtensions.FromJson(FatturaElettronica.FatturaBase, System.String)
+  nameWithType: JsonExtensions.FromJson(FatturaBase, String)
+- uid: FatturaElettronica.Extensions.JsonExtensions.FromJson*
   name: FromJson
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaJsonExtensions_FromJson_
-  commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.FromJson
+  href: docs/api/FatturaElettronica.Extensions.JsonExtensions.html#FatturaElettronica_Extensions_JsonExtensions_FromJson_
+  commentId: Overload:FatturaElettronica.Extensions.JsonExtensions.FromJson
   isSpec: "True"
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaJsonExtensions.FromJson
-  nameWithType: FatturaElettronicaJsonExtensions.FromJson
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignatureException
-  name: FatturaElettronicaSignatureException
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignatureException.html
-  commentId: T:FatturaElettronica.Extensions.FatturaElettronicaSignatureException
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignatureException
-  nameWithType: FatturaElettronicaSignatureException
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignatureException.#ctor(System.String)
-  name: FatturaElettronicaSignatureException(String)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignatureException.html#FatturaElettronica_Extensions_FatturaElettronicaSignatureException__ctor_System_String_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaSignatureException.#ctor(System.String)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignatureException.FatturaElettronicaSignatureException(System.String)
-  nameWithType: FatturaElettronicaSignatureException.FatturaElettronicaSignatureException(String)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignatureException.#ctor*
-  name: FatturaElettronicaSignatureException
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignatureException.html#FatturaElettronica_Extensions_FatturaElettronicaSignatureException__ctor_
-  commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaSignatureException.#ctor
-  isSpec: "True"
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignatureException.FatturaElettronicaSignatureException
-  nameWithType: FatturaElettronicaSignatureException.FatturaElettronicaSignatureException
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions
-  name: FatturaElettronicaSignedFileExtensions
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html
-  commentId: T:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions
-  nameWithType: FatturaElettronicaSignedFileExtensions
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase,System.IO.Stream,System.Boolean)
-  name: ReadXmlSigned(FatturaBase, Stream, Boolean)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaSignedFileExtensions_ReadXmlSigned_FatturaElettronica_FatturaBase_System_IO_Stream_System_Boolean_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase,System.IO.Stream,System.Boolean)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase, System.IO.Stream, System.Boolean)
-  nameWithType: FatturaElettronicaSignedFileExtensions.ReadXmlSigned(FatturaBase, Stream, Boolean)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase,System.String,System.Boolean)
-  name: ReadXmlSigned(FatturaBase, String, Boolean)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaSignedFileExtensions_ReadXmlSigned_FatturaElettronica_FatturaBase_System_String_System_Boolean_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase,System.String,System.Boolean)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase, System.String, System.Boolean)
-  nameWithType: FatturaElettronicaSignedFileExtensions.ReadXmlSigned(FatturaBase, String, Boolean)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned*
-  name: ReadXmlSigned
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaSignedFileExtensions_ReadXmlSigned_
-  commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned
-  isSpec: "True"
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSigned
-  nameWithType: FatturaElettronicaSignedFileExtensions.ReadXmlSigned
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSignedBase64(FatturaElettronica.FatturaBase,System.String,System.Boolean)
-  name: ReadXmlSignedBase64(FatturaBase, String, Boolean)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaSignedFileExtensions_ReadXmlSignedBase64_FatturaElettronica_FatturaBase_System_String_System_Boolean_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSignedBase64(FatturaElettronica.FatturaBase,System.String,System.Boolean)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSignedBase64(FatturaElettronica.FatturaBase, System.String, System.Boolean)
-  nameWithType: FatturaElettronicaSignedFileExtensions.ReadXmlSignedBase64(FatturaBase, String, Boolean)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSignedBase64*
-  name: ReadXmlSignedBase64
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaSignedFileExtensions_ReadXmlSignedBase64_
-  commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSignedBase64
-  isSpec: "True"
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.ReadXmlSignedBase64
-  nameWithType: FatturaElettronicaSignedFileExtensions.ReadXmlSignedBase64
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)
-  name: WriteXmlSigned(FatturaBase, X509Certificate2, String)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaSignedFileExtensions_WriteXmlSigned_FatturaElettronica_FatturaBase_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase, System.Security.Cryptography.X509Certificates.X509Certificate2, System.String)
-  nameWithType: FatturaElettronicaSignedFileExtensions.WriteXmlSigned(FatturaBase, X509Certificate2, String)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase,System.String,System.String,System.String)
-  name: WriteXmlSigned(FatturaBase, String, String, String)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaSignedFileExtensions_WriteXmlSigned_FatturaElettronica_FatturaBase_System_String_System_String_System_String_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase,System.String,System.String,System.String)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase, System.String, System.String, System.String)
-  nameWithType: FatturaElettronicaSignedFileExtensions.WriteXmlSigned(FatturaBase, String, String, String)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned*
-  name: WriteXmlSigned
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaSignedFileExtensions_WriteXmlSigned_
-  commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned
-  isSpec: "True"
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaSignedFileExtensions.WriteXmlSigned
-  nameWithType: FatturaElettronicaSignedFileExtensions.WriteXmlSigned
-- uid: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions
-  name: FatturaElettronicaXmlExtensions
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.html
-  commentId: T:FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions
-  nameWithType: FatturaElettronicaXmlExtensions
-- uid: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml(FatturaElettronica.FatturaBase,System.IO.Stream)
-  name: ReadXml(FatturaBase, Stream)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaXmlExtensions_ReadXml_FatturaElettronica_FatturaBase_System_IO_Stream_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml(FatturaElettronica.FatturaBase,System.IO.Stream)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml(FatturaElettronica.FatturaBase, System.IO.Stream)
-  nameWithType: FatturaElettronicaXmlExtensions.ReadXml(FatturaBase, Stream)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml(FatturaElettronica.FatturaBase,System.String)
-  name: ReadXml(FatturaBase, String)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaXmlExtensions_ReadXml_FatturaElettronica_FatturaBase_System_String_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml(FatturaElettronica.FatturaBase,System.String)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml(FatturaElettronica.FatturaBase, System.String)
-  nameWithType: FatturaElettronicaXmlExtensions.ReadXml(FatturaBase, String)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml*
-  name: ReadXml
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaXmlExtensions_ReadXml_
-  commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml
-  isSpec: "True"
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.ReadXml
-  nameWithType: FatturaElettronicaXmlExtensions.ReadXml
-- uid: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.WriteXml(FatturaElettronica.FatturaBase,System.String)
-  name: WriteXml(FatturaBase, String)
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaXmlExtensions_WriteXml_FatturaElettronica_FatturaBase_System_String_
-  commentId: M:FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.WriteXml(FatturaElettronica.FatturaBase,System.String)
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.WriteXml(FatturaElettronica.FatturaBase, System.String)
-  nameWithType: FatturaElettronicaXmlExtensions.WriteXml(FatturaBase, String)
-- uid: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.WriteXml*
-  name: WriteXml
-  href: extensions/api/FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaXmlExtensions_WriteXml_
-  commentId: Overload:FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.WriteXml
-  isSpec: "True"
-  fullName: FatturaElettronica.Extensions.FatturaElettronicaXmlExtensions.WriteXml
-  nameWithType: FatturaElettronicaXmlExtensions.WriteXml
+  fullName: FatturaElettronica.Extensions.JsonExtensions.FromJson
+  nameWithType: JsonExtensions.FromJson
 - uid: FatturaElettronica.Extensions.Resources
   name: FatturaElettronica.Extensions.Resources
-  href: extensions/api/FatturaElettronica.Extensions.Resources.html
+  href: docs/api/FatturaElettronica.Extensions.Resources.html
   commentId: N:FatturaElettronica.Extensions.Resources
   fullName: FatturaElettronica.Extensions.Resources
   nameWithType: FatturaElettronica.Extensions.Resources
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages
   name: ErrorMessages
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html
   commentId: T:FatturaElettronica.Extensions.Resources.ErrorMessages
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages
   nameWithType: ErrorMessages
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.Culture
   name: Culture
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_Culture
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_Culture
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.Culture
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.Culture
   nameWithType: ErrorMessages.Culture
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.Culture*
   name: Culture
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_Culture_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_Culture_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.Culture
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.Culture
   nameWithType: ErrorMessages.Culture
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.FirmaException
   name: FirmaException
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_FirmaException
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_FirmaException
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.FirmaException
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.FirmaException
   nameWithType: ErrorMessages.FirmaException
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.FirmaException*
   name: FirmaException
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_FirmaException_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_FirmaException_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.FirmaException
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.FirmaException
   nameWithType: ErrorMessages.FirmaException
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.IdCodiceIsMissing
   name: IdCodiceIsMissing
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdCodiceIsMissing
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdCodiceIsMissing
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.IdCodiceIsMissing
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.IdCodiceIsMissing
   nameWithType: ErrorMessages.IdCodiceIsMissing
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.IdCodiceIsMissing*
   name: IdCodiceIsMissing
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdCodiceIsMissing_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdCodiceIsMissing_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.IdCodiceIsMissing
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.IdCodiceIsMissing
   nameWithType: ErrorMessages.IdCodiceIsMissing
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.IdFiscaleIsMissing
   name: IdFiscaleIsMissing
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdFiscaleIsMissing
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdFiscaleIsMissing
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.IdFiscaleIsMissing
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.IdFiscaleIsMissing
   nameWithType: ErrorMessages.IdFiscaleIsMissing
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.IdFiscaleIsMissing*
   name: IdFiscaleIsMissing
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdFiscaleIsMissing_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdFiscaleIsMissing_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.IdFiscaleIsMissing
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.IdFiscaleIsMissing
   nameWithType: ErrorMessages.IdFiscaleIsMissing
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.IdPaeseIsWrongOrMissing
   name: IdPaeseIsWrongOrMissing
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdPaeseIsWrongOrMissing
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdPaeseIsWrongOrMissing
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.IdPaeseIsWrongOrMissing
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.IdPaeseIsWrongOrMissing
   nameWithType: ErrorMessages.IdPaeseIsWrongOrMissing
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.IdPaeseIsWrongOrMissing*
   name: IdPaeseIsWrongOrMissing
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdPaeseIsWrongOrMissing_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_IdPaeseIsWrongOrMissing_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.IdPaeseIsWrongOrMissing
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.IdPaeseIsWrongOrMissing
   nameWithType: ErrorMessages.IdPaeseIsWrongOrMissing
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.LastBillingNumberIsTooLong
   name: LastBillingNumberIsTooLong
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_LastBillingNumberIsTooLong
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_LastBillingNumberIsTooLong
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.LastBillingNumberIsTooLong
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.LastBillingNumberIsTooLong
   nameWithType: ErrorMessages.LastBillingNumberIsTooLong
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.LastBillingNumberIsTooLong*
   name: LastBillingNumberIsTooLong
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_LastBillingNumberIsTooLong_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_LastBillingNumberIsTooLong_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.LastBillingNumberIsTooLong
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.LastBillingNumberIsTooLong
   nameWithType: ErrorMessages.LastBillingNumberIsTooLong
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.PfxIsMissing
   name: PfxIsMissing
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_PfxIsMissing
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_PfxIsMissing
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.PfxIsMissing
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.PfxIsMissing
   nameWithType: ErrorMessages.PfxIsMissing
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.PfxIsMissing*
   name: PfxIsMissing
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_PfxIsMissing_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_PfxIsMissing_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.PfxIsMissing
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.PfxIsMissing
   nameWithType: ErrorMessages.PfxIsMissing
+- uid: FatturaElettronica.Extensions.Resources.ErrorMessages.ProgressivoOverflow
+  name: ProgressivoOverflow
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_ProgressivoOverflow
+  commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.ProgressivoOverflow
+  fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.ProgressivoOverflow
+  nameWithType: ErrorMessages.ProgressivoOverflow
+- uid: FatturaElettronica.Extensions.Resources.ErrorMessages.ProgressivoOverflow*
+  name: ProgressivoOverflow
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_ProgressivoOverflow_
+  commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.ProgressivoOverflow
+  isSpec: "True"
+  fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.ProgressivoOverflow
+  nameWithType: ErrorMessages.ProgressivoOverflow
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.ResourceManager
   name: ResourceManager
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_ResourceManager
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_ResourceManager
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.ResourceManager
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.ResourceManager
   nameWithType: ErrorMessages.ResourceManager
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.ResourceManager*
   name: ResourceManager
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_ResourceManager_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_ResourceManager_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.ResourceManager
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.ResourceManager
   nameWithType: ErrorMessages.ResourceManager
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.SignatureException
   name: SignatureException
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_SignatureException
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_SignatureException
   commentId: P:FatturaElettronica.Extensions.Resources.ErrorMessages.SignatureException
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.SignatureException
   nameWithType: ErrorMessages.SignatureException
 - uid: FatturaElettronica.Extensions.Resources.ErrorMessages.SignatureException*
   name: SignatureException
-  href: extensions/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_SignatureException_
+  href: docs/api/FatturaElettronica.Extensions.Resources.ErrorMessages.html#FatturaElettronica_Extensions_Resources_ErrorMessages_SignatureException_
   commentId: Overload:FatturaElettronica.Extensions.Resources.ErrorMessages.SignatureException
   isSpec: "True"
   fullName: FatturaElettronica.Extensions.Resources.ErrorMessages.SignatureException
   nameWithType: ErrorMessages.SignatureException
+- uid: FatturaElettronica.Extensions.SignatureException
+  name: SignatureException
+  href: docs/api/FatturaElettronica.Extensions.SignatureException.html
+  commentId: T:FatturaElettronica.Extensions.SignatureException
+  fullName: FatturaElettronica.Extensions.SignatureException
+  nameWithType: SignatureException
+- uid: FatturaElettronica.Extensions.SignatureException.#ctor(System.String)
+  name: SignatureException(String)
+  href: docs/api/FatturaElettronica.Extensions.SignatureException.html#FatturaElettronica_Extensions_SignatureException__ctor_System_String_
+  commentId: M:FatturaElettronica.Extensions.SignatureException.#ctor(System.String)
+  fullName: FatturaElettronica.Extensions.SignatureException.SignatureException(System.String)
+  nameWithType: SignatureException.SignatureException(String)
+- uid: FatturaElettronica.Extensions.SignatureException.#ctor*
+  name: SignatureException
+  href: docs/api/FatturaElettronica.Extensions.SignatureException.html#FatturaElettronica_Extensions_SignatureException__ctor_
+  commentId: Overload:FatturaElettronica.Extensions.SignatureException.#ctor
+  isSpec: "True"
+  fullName: FatturaElettronica.Extensions.SignatureException.SignatureException
+  nameWithType: SignatureException.SignatureException
+- uid: FatturaElettronica.Extensions.SignedFileExtensions
+  name: SignedFileExtensions
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html
+  commentId: T:FatturaElettronica.Extensions.SignedFileExtensions
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions
+  nameWithType: SignedFileExtensions
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.ParseSignature(System.IO.Stream,System.Boolean)
+  name: ParseSignature(Stream, Boolean)
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_ParseSignature_System_IO_Stream_System_Boolean_
+  commentId: M:FatturaElettronica.Extensions.SignedFileExtensions.ParseSignature(System.IO.Stream,System.Boolean)
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.ParseSignature(System.IO.Stream, System.Boolean)
+  nameWithType: SignedFileExtensions.ParseSignature(Stream, Boolean)
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.ParseSignature*
+  name: ParseSignature
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_ParseSignature_
+  commentId: Overload:FatturaElettronica.Extensions.SignedFileExtensions.ParseSignature
+  isSpec: "True"
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.ParseSignature
+  nameWithType: SignedFileExtensions.ParseSignature
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase,System.IO.Stream,System.Boolean)
+  name: ReadXmlSigned(FatturaBase, Stream, Boolean)
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_ReadXmlSigned_FatturaElettronica_FatturaBase_System_IO_Stream_System_Boolean_
+  commentId: M:FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase,System.IO.Stream,System.Boolean)
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase, System.IO.Stream, System.Boolean)
+  nameWithType: SignedFileExtensions.ReadXmlSigned(FatturaBase, Stream, Boolean)
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase,System.String,System.Boolean)
+  name: ReadXmlSigned(FatturaBase, String, Boolean)
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_ReadXmlSigned_FatturaElettronica_FatturaBase_System_String_System_Boolean_
+  commentId: M:FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase,System.String,System.Boolean)
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned(FatturaElettronica.FatturaBase, System.String, System.Boolean)
+  nameWithType: SignedFileExtensions.ReadXmlSigned(FatturaBase, String, Boolean)
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned*
+  name: ReadXmlSigned
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_ReadXmlSigned_
+  commentId: Overload:FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned
+  isSpec: "True"
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSigned
+  nameWithType: SignedFileExtensions.ReadXmlSigned
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSignedBase64(FatturaElettronica.FatturaBase,System.String,System.Boolean)
+  name: ReadXmlSignedBase64(FatturaBase, String, Boolean)
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_ReadXmlSignedBase64_FatturaElettronica_FatturaBase_System_String_System_Boolean_
+  commentId: M:FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSignedBase64(FatturaElettronica.FatturaBase,System.String,System.Boolean)
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSignedBase64(FatturaElettronica.FatturaBase, System.String, System.Boolean)
+  nameWithType: SignedFileExtensions.ReadXmlSignedBase64(FatturaBase, String, Boolean)
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSignedBase64*
+  name: ReadXmlSignedBase64
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_ReadXmlSignedBase64_
+  commentId: Overload:FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSignedBase64
+  isSpec: "True"
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.ReadXmlSignedBase64
+  nameWithType: SignedFileExtensions.ReadXmlSignedBase64
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)
+  name: WriteXmlSigned(FatturaBase, X509Certificate2, String)
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_WriteXmlSigned_FatturaElettronica_FatturaBase_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_
+  commentId: M:FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase, System.Security.Cryptography.X509Certificates.X509Certificate2, System.String)
+  nameWithType: SignedFileExtensions.WriteXmlSigned(FatturaBase, X509Certificate2, String)
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase,System.String,System.String,System.String)
+  name: WriteXmlSigned(FatturaBase, String, String, String)
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_WriteXmlSigned_FatturaElettronica_FatturaBase_System_String_System_String_System_String_
+  commentId: M:FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase,System.String,System.String,System.String)
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned(FatturaElettronica.FatturaBase, System.String, System.String, System.String)
+  nameWithType: SignedFileExtensions.WriteXmlSigned(FatturaBase, String, String, String)
+- uid: FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned*
+  name: WriteXmlSigned
+  href: docs/api/FatturaElettronica.Extensions.SignedFileExtensions.html#FatturaElettronica_Extensions_SignedFileExtensions_WriteXmlSigned_
+  commentId: Overload:FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned
+  isSpec: "True"
+  fullName: FatturaElettronica.Extensions.SignedFileExtensions.WriteXmlSigned
+  nameWithType: SignedFileExtensions.WriteXmlSigned
+- uid: FatturaElettronica.Extensions.XmlExtensions
+  name: XmlExtensions
+  href: docs/api/FatturaElettronica.Extensions.XmlExtensions.html
+  commentId: T:FatturaElettronica.Extensions.XmlExtensions
+  fullName: FatturaElettronica.Extensions.XmlExtensions
+  nameWithType: XmlExtensions
+- uid: FatturaElettronica.Extensions.XmlExtensions.ReadXml(FatturaElettronica.FatturaBase,System.IO.Stream)
+  name: ReadXml(FatturaBase, Stream)
+  href: docs/api/FatturaElettronica.Extensions.XmlExtensions.html#FatturaElettronica_Extensions_XmlExtensions_ReadXml_FatturaElettronica_FatturaBase_System_IO_Stream_
+  commentId: M:FatturaElettronica.Extensions.XmlExtensions.ReadXml(FatturaElettronica.FatturaBase,System.IO.Stream)
+  fullName: FatturaElettronica.Extensions.XmlExtensions.ReadXml(FatturaElettronica.FatturaBase, System.IO.Stream)
+  nameWithType: XmlExtensions.ReadXml(FatturaBase, Stream)
+- uid: FatturaElettronica.Extensions.XmlExtensions.ReadXml(FatturaElettronica.FatturaBase,System.String)
+  name: ReadXml(FatturaBase, String)
+  href: docs/api/FatturaElettronica.Extensions.XmlExtensions.html#FatturaElettronica_Extensions_XmlExtensions_ReadXml_FatturaElettronica_FatturaBase_System_String_
+  commentId: M:FatturaElettronica.Extensions.XmlExtensions.ReadXml(FatturaElettronica.FatturaBase,System.String)
+  fullName: FatturaElettronica.Extensions.XmlExtensions.ReadXml(FatturaElettronica.FatturaBase, System.String)
+  nameWithType: XmlExtensions.ReadXml(FatturaBase, String)
+- uid: FatturaElettronica.Extensions.XmlExtensions.ReadXml*
+  name: ReadXml
+  href: docs/api/FatturaElettronica.Extensions.XmlExtensions.html#FatturaElettronica_Extensions_XmlExtensions_ReadXml_
+  commentId: Overload:FatturaElettronica.Extensions.XmlExtensions.ReadXml
+  isSpec: "True"
+  fullName: FatturaElettronica.Extensions.XmlExtensions.ReadXml
+  nameWithType: XmlExtensions.ReadXml
+- uid: FatturaElettronica.Extensions.XmlExtensions.WriteXml(FatturaElettronica.FatturaBase,System.String)
+  name: WriteXml(FatturaBase, String)
+  href: docs/api/FatturaElettronica.Extensions.XmlExtensions.html#FatturaElettronica_Extensions_XmlExtensions_WriteXml_FatturaElettronica_FatturaBase_System_String_
+  commentId: M:FatturaElettronica.Extensions.XmlExtensions.WriteXml(FatturaElettronica.FatturaBase,System.String)
+  fullName: FatturaElettronica.Extensions.XmlExtensions.WriteXml(FatturaElettronica.FatturaBase, System.String)
+  nameWithType: XmlExtensions.WriteXml(FatturaBase, String)
+- uid: FatturaElettronica.Extensions.XmlExtensions.WriteXml*
+  name: WriteXml
+  href: docs/api/FatturaElettronica.Extensions.XmlExtensions.html#FatturaElettronica_Extensions_XmlExtensions_WriteXml_
+  commentId: Overload:FatturaElettronica.Extensions.XmlExtensions.WriteXml
+  isSpec: "True"
+  fullName: FatturaElettronica.Extensions.XmlExtensions.WriteXml
+  nameWithType: XmlExtensions.WriteXml
 - uid: FatturaElettronica.FatturaBase
   name: FatturaBase
   href: docs/api/FatturaElettronica.FatturaBase.html
@@ -1295,6 +1774,19 @@ references:
   isSpec: "True"
   fullName: FatturaElettronica.FatturaBase.ReadXml
   nameWithType: FatturaBase.ReadXml
+- uid: FatturaElettronica.FatturaBase.SistemaEmittente
+  name: SistemaEmittente
+  href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_SistemaEmittente
+  commentId: P:FatturaElettronica.FatturaBase.SistemaEmittente
+  fullName: FatturaElettronica.FatturaBase.SistemaEmittente
+  nameWithType: FatturaBase.SistemaEmittente
+- uid: FatturaElettronica.FatturaBase.SistemaEmittente*
+  name: SistemaEmittente
+  href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_SistemaEmittente_
+  commentId: Overload:FatturaElettronica.FatturaBase.SistemaEmittente
+  isSpec: "True"
+  fullName: FatturaElettronica.FatturaBase.SistemaEmittente
+  nameWithType: FatturaBase.SistemaEmittente
 - uid: FatturaElettronica.FatturaBase.WriteXml(System.Xml.XmlWriter)
   name: WriteXml(XmlWriter)
   href: docs/api/FatturaElettronica.FatturaBase.html#FatturaElettronica_FatturaBase_WriteXml_System_Xml_XmlWriter_

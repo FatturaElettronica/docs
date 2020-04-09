@@ -16,28 +16,9 @@
       ],
       "dest": "obj/api/FatturaElettronica",
       "properties": {
-        "TargetFramework": "netstandard1.1"
-      }
-    },
-    {
-      "src": [
-        {
-          "files": [
-            "**/*.csproj"
-          ],
-          "exclude": [
-            "**/Test/**",
-            "**/bin/**",
-            "**/obj/**"
-          ],
-          "cwd": "FatturaElettronica.Extensions/FatturaElettronica.Extensions"
-        }
-      ],
-      "dest": "obj/api/Extensions",
-      "properties": {
         "TargetFramework": "netstandard2.0"
       }
-    }
+    },
   ],
   "build": {
     "content": [
@@ -50,24 +31,10 @@
       },
       {
         "files": [
-          "**/*.yml"
-        ],
-        "cwd": "obj/api/Extensions",
-        "dest": "extensions/api"
-      },
-      {
-        "files": [
           "**.md"
         ],
         "cwd": "FatturaElettronica.NET/docs",
         "dest": "docs"
-      },
-      {
-        "files": [
-          "**.md"
-        ],
-        "cwd": "FatturaElettronica.Extensions/docs",
-        "dest": "extensions"
       },
       {
         "files": [

@@ -103,8 +103,7 @@ anche dal settore privato, diventando di fatto lo standard di riferimento.</p>
 obbligatoria per (quasi) tutti. In questi anni il progetto è stato adottato
 da numerose aziende Italiane ed ha visto crescere il numero di sviluppatori
 che vi contribuiscono, continuando nel frattempo a espandersi fino a
-raggiungere la versione 2.0 che aggiunge il supporto per le fatture
-semplificate.</p>
+raggiungere la versione 3.0  che aggiunge supporto per le specifiche PA v1.6.</p>
 <h2 id="i-progetti-di-fattura-elettronica-per-net">I progetti di Fattura Elettronica per .NET</h2>
 <h3 id="fatturaelettronica">FatturaElettronica</h3>
 <p>È la libreria pricipale. Offre una gerarchia di classi per la gestione
@@ -112,6 +111,8 @@ completa di fatture ordinarie e semplificate. Un sistema di convalida offline
 consente di verificare che le istanze siano conformi alle regole di convalida
 previste dallo standard. Gli oggetti possono essere letti e scritti sia in
 formato XML che JSON.</p>
+<p>Dalla versione 3 FatturaElettronica.NET include il core e le  estensioni per il supporto
+dei file con firma digitale ed altro.</p>
 <ul>
 <li><a href="/docs/">Documentazione</a></li>
 <li><a href="https://github.com/FatturaElettronica/FatturaElettronica.NET">GitHub (sviluppo, tickets)</a></li>
@@ -122,6 +123,10 @@ formato XML che JSON.</p>
 arricchiscono il pacchetto principale con caratteristiche quali la lettura e
 apposizione di firme digitali (p7m), l'esportazione in formato HTML, ed
 altro.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>A partire dalla v3 di FatturaElettronica le Extensions sono incluse nel package principale e non più rilasciate a parte.</p>
+</div>
 <ul>
 <li><a href="/extensions/">Documentazione</a></li>
 <li><a href="https://github.com/FatturaElettronica/FatturaElettronica.Extensions">GitHub (sviluppo, tickets)</a></li>
@@ -131,6 +136,10 @@ altro.</p>
 <p>Contiene le classi di base, principalmente dedicate alla serializzazione
 da/verso XML e JSON. Normalmente non è necessario installarlo direttamente, è
 una dipendenza degli altri progetti.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>A partire dalla v3 di FatturaElettronica Core è incluso nel package principale e non più rilasciate a parte.</p>
+</div>
 <ul>
 <li><a href="https://github.com/FatturaElettronica/FatturaElettronica.Core">GitHub (sviluppo, tickets)</a></li>
 <li><a href="https://badge.fury.io/nu/FatturaElettronica.Core"><img src="https://badge.fury.io/nu/FatturaElettronica.Core.svg" alt="NuGet version"></a></li>

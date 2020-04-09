@@ -89,9 +89,10 @@ anche per una instanza di <code>FatturaSemplificata</code>.</p>
     // Questa chiamata restituisce fattura con CodiceDestinatario = &quot;0000000&quot;
     // FormatoTrasmissione = &quot;FPR12&quot;:
     fattura = FatturaOrdinaria.CreateInstance(Instance.Privati);
+
 </code></pre>
 <h2 id="caricare-la-fattura-da-xml">Caricare la fattura da XML</h2>
-<pre><code class="lang-cs">            // Lettura da file XML
+<pre><code class="lang-cs">    // Lettura da file XML
     var readerSettings = new XmlReaderSettings
     {
         IgnoreWhitespace = true,
@@ -103,6 +104,17 @@ anche per una instanza di <code>FatturaSemplificata</code>.</p>
         fattura.ReadXml(r);
     }
 </code></pre>
+<p>In alternativa <code>CreateInstanceFromXml</code> restituisce una istanza di <code>FatturaOrdinaria</code> o <code>FatturaSemplificata</code>
+a seconda dei contenuti del file:</p>
+<pre><code>    using var stream = new FileStream(&quot;IT02182030391_31.xml.p7m&quot;, FileMode.Open, FileAccess.Read);
+    var fattura = FatturaBase.CreateInstanceFromXml(stream);
+
+    Console.WriteLine(fattura.GetFormatoTrasmissione())
+    // &quot;FSM10&quot;
+</code></pre>
+<p><code>CreateInstanceFromXml</code> supporta sia file XML puri (<em>.xml</em>) che firmati digitalment (<em>.p7m</em>), eventualmente anche
+codificati Base64. Questa comodità ha un costo, ovvero un leggero impatto sulle prestazioni in quanto è necessaria
+una pre-scasione dello stream per determinarne il formato e la tipologia di fattura.</p>
 <h2 id="consultare-la-fattura">Consultare la fattura</h2>
 <pre><code class="lang-cs">    // Ogni file di fattura contiene un array di elementi FatturaElettronicaBody.
     Console.WriteLine($&quot;Numero documenti: {fattura.FatturaElettronicaBody.Count}.&quot;);
@@ -300,7 +312,7 @@ namespace DemoApp
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/docs/tutorial.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/docs/tutorial.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

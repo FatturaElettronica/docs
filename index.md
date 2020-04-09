@@ -37,8 +37,7 @@ Avanti veloce di qualche anno ed eccoci qua, con la fattura elettronica
 obbligatoria per (quasi) tutti. In questi anni il progetto è stato adottato
 da numerose aziende Italiane ed ha visto crescere il numero di sviluppatori
 che vi contribuiscono, continuando nel frattempo a espandersi fino a
-raggiungere la versione 2.0 che aggiunge il supporto per le fatture
-semplificate.
+raggiungere la versione 3.0  che aggiunge supporto per le specifiche PA v1.6.
 
 ## I progetti di Fattura Elettronica per .NET
 
@@ -49,6 +48,9 @@ completa di fatture ordinarie e semplificate. Un sistema di convalida offline
 consente di verificare che le istanze siano conformi alle regole di convalida
 previste dallo standard. Gli oggetti possono essere letti e scritti sia in
 formato XML che JSON.
+
+Dalla versione 3 FatturaElettronica.NET include il core e le  estensioni per il supporto 
+dei file con firma digitale ed altro.
 
 - [Documentazione](/docs/)
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.NET)
@@ -61,6 +63,9 @@ arricchiscono il pacchetto principale con caratteristiche quali la lettura e
 apposizione di firme digitali (p7m), l'esportazione in formato HTML, ed
 altro.
 
+> [!note]
+> A partire dalla v3 di FatturaElettronica le Extensions sono incluse nel package principale e non più rilasciate a parte.
+
 - [Documentazione](/extensions/)
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.Extensions)
 - [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Extensions.svg)](https://badge.fury.io/nu/FatturaElettronica.Extensions)
@@ -71,8 +76,12 @@ Contiene le classi di base, principalmente dedicate alla serializzazione
 da/verso XML e JSON. Normalmente non è necessario installarlo direttamente, è
 una dipendenza degli altri progetti.
 
+> [!note]
+> A partire dalla v3 di FatturaElettronica Core è incluso nel package principale e non più rilasciate a parte.
+
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.Core)
 - [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Core.svg)](https://badge.fury.io/nu/FatturaElettronica.Core)
+
 
 ### FatturaElettronica.Forms
 

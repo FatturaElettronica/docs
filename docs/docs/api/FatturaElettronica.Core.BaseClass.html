@@ -1,0 +1,637 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseClass
+   | Fattura Elettronica Open Source per piattaforme .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseClass
+   | Fattura Elettronica Open Source per piattaforme .NET ">
+    <meta name="generator" content="docfx 2.48.1.0">
+    
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FatturaElettronica.Core.BaseClass">
+  
+  
+  <h1 id="FatturaElettronica_Core_BaseClass" data-uid="FatturaElettronica.Core.BaseClass" class="text-break">Class BaseClass
+  </h1>
+  <div class="markdown level0 summary"><p>The class all domain objects must inherit from.</p>
+<p>Currently supports:</p>
+<ul>
+<li>IEquatable so you can easily compare complex BusinessObjects togheter.</li>
+<li>Binding (INotififyPropertyChanged and IDataErrorInfo).</li>
+</ul>
+<p>TODO:</p>
+<ul>
+<li>BeginEdit()/EndEdit() combination, and rollbacks for cancels (IEditableObject).</li>
+</ul>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BaseClass</span></div>
+      <div class="level2"><a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html">BaseClassSerializable</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Core.html">FatturaElettronica.Core</a></h6>
+  <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
+  <h5 id="FatturaElettronica_Core_BaseClass_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseClass : INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_CleanString_System_String_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.CleanString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L49">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_CleanString_" data-uid="FatturaElettronica.Core.BaseClass.CleanString*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_CleanString_System_String_" data-uid="FatturaElettronica.Core.BaseClass.CleanString(System.String)">CleanString(String)</h4>
+  <div class="markdown level1 summary"><p>Cleans a string by ensuring it isn't null and trimming it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string CleanString(string s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>The string to clean.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_Equals_FatturaElettronica_Core_BaseClass_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.Equals(FatturaElettronica.Core.BaseClass)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L122">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_Equals_" data-uid="FatturaElettronica.Core.BaseClass.Equals*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_Equals_FatturaElettronica_Core_BaseClass_" data-uid="FatturaElettronica.Core.BaseClass.Equals(FatturaElettronica.Core.BaseClass)">Equals(BaseClass)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(BaseClass other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_Equals_System_Object_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L153">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_Equals_" data-uid="FatturaElettronica.Core.BaseClass.Equals*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_Equals_System_Object_" data-uid="FatturaElettronica.Core.BaseClass.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_GetAllDataProperties.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.GetAllDataProperties%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L113">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_GetAllDataProperties_" data-uid="FatturaElettronica.Core.BaseClass.GetAllDataProperties*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_GetAllDataProperties" data-uid="FatturaElettronica.Core.BaseClass.GetAllDataProperties">GetAllDataProperties()</h4>
+  <div class="markdown level1 summary"><p>Provides a list of actual data properties for the current BusinessObject instance, sorted by writing order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerable&lt;PropertyInfo&gt; GetAllDataProperties()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><p>A enumerable list of PropertyInfo instances.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="FatturaElettronica_Core_BaseClass_GetAllDataProperties_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Only properties flagged with the OrderedDataProperty attribute will be returned.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_GetHashCode.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L178">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_GetHashCode_" data-uid="FatturaElettronica.Core.BaseClass.GetHashCode*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_GetHashCode" data-uid="FatturaElettronica.Core.BaseClass.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_IsEmpty.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.IsEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L58">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_IsEmpty_" data-uid="FatturaElettronica.Core.BaseClass.IsEmpty*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_IsEmpty" data-uid="FatturaElettronica.Core.BaseClass.IsEmpty">IsEmpty()</h4>
+  <div class="markdown level1 summary"><p>Checks wether a BusinessObject instance is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsEmpty()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the object is empty; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_SetProperty__1___0____0_System_String_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.SetProperty%60%601(%60%600%40%2C%60%600%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L28">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_SetProperty_" data-uid="FatturaElettronica.Core.BaseClass.SetProperty*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_SetProperty__1___0____0_System_String_" data-uid="FatturaElettronica.Core.BaseClass.SetProperty``1(``0@,``0,System.String)">SetProperty&lt;T&gt;(ref T, T, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetProperty&lt;T&gt;(ref T storage, T value, string propertyName = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">storage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_PropertyChanged.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L26">View Source</a>
+  </span>
+  <h4 id="FatturaElettronica_Core_BaseClass_PropertyChanged" data-uid="FatturaElettronica.Core.BaseClass.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when any properties are changed on this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_op_Equality_FatturaElettronica_Core_BaseClass_FatturaElettronica_Core_BaseClass_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.op_Equality(FatturaElettronica.Core.BaseClass%2CFatturaElettronica.Core.BaseClass)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L162">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_op_Equality_" data-uid="FatturaElettronica.Core.BaseClass.op_Equality*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_op_Equality_FatturaElettronica_Core_BaseClass_FatturaElettronica_Core_BaseClass_" data-uid="FatturaElettronica.Core.BaseClass.op_Equality(FatturaElettronica.Core.BaseClass,FatturaElettronica.Core.BaseClass)">Equality(BaseClass, BaseClass)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(BaseClass o1, BaseClass o2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a></td>
+        <td><span class="parametername">o1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a></td>
+        <td><span class="parametername">o2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass_op_Inequality_FatturaElettronica_Core_BaseClass_FatturaElettronica_Core_BaseClass_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass.op_Inequality(FatturaElettronica.Core.BaseClass%2CFatturaElettronica.Core.BaseClass)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L170">View Source</a>
+  </span>
+  <a id="FatturaElettronica_Core_BaseClass_op_Inequality_" data-uid="FatturaElettronica.Core.BaseClass.op_Inequality*"></a>
+  <h4 id="FatturaElettronica_Core_BaseClass_op_Inequality_FatturaElettronica_Core_BaseClass_FatturaElettronica_Core_BaseClass_" data-uid="FatturaElettronica.Core.BaseClass.op_Inequality(FatturaElettronica.Core.BaseClass,FatturaElettronica.Core.BaseClass)">Inequality(BaseClass, BaseClass)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(BaseClass o1, BaseClass o2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a></td>
+        <td><span class="parametername">o1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a></td>
+        <td><span class="parametername">o2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Core_BaseClass.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Core/BaseClass.cs/#L21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright 2015-2019 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
