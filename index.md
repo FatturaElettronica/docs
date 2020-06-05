@@ -10,7 +10,7 @@ Fattura Elettronica è un progetto creato da [Nicola Iarocci][ni] per
 source][bsd]. Fattura Elettronica è libero, sviluppato in pubblico, ed aperto
 alla collaborazione di tutti.
 
-### Sponsorship
+### Supporta il progetto
 
 Se usi FatturaElettronica.NET o qualcun altro dei miei progetti in un
 prodotto che genera profitto, buon senso vorrebbe che tu sponsorizzassi la
@@ -20,24 +20,6 @@ inoltre, se lo desideri, un premio in visibilità per te o la tua azienda.
 Ogni singola sottoscrizione ha un impatto significante.
 
 Scopri come puoi partecipare sulla mia pagina [GitHub Sponsors][ghs].
-
-## Il contesto
-
-Il lavoro su questo progetto comincia nel 2014 e viene rilasciato in open
-source nel Febbraio del 2015. A quel tempo la fattura elettronica muoveva i
-primi passi ed era obbligatoria solo per i documenti emessi verso la
-pubblica amministrazione. Nell'[articolo di presentazione][1] scrivevamo:
-
-> L’adozione della fattura elettronica è in pieno svolgimento e non crediamo
-di sbagliarci immaginando un futuro non troppo remoto in cui questo formato
-verrà adottato (per imposizione, come ci pare probabile, o per comodità)
-anche dal settore privato, diventando di fatto lo standard di riferimento.
-
-Avanti veloce di qualche anno ed eccoci qua, con la fattura elettronica
-obbligatoria per (quasi) tutti. In questi anni il progetto è stato adottato
-da numerose aziende Italiane ed ha visto crescere il numero di sviluppatori
-che vi contribuiscono, continuando nel frattempo a espandersi fino a
-raggiungere la versione 3.0  che aggiunge supporto per le specifiche PA v1.6.
 
 ## I progetti di Fattura Elettronica per .NET
 
