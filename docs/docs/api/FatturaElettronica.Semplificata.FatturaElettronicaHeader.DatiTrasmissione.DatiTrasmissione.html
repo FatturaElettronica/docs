@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DatiTrasmissione
    | Fattura Elettronica Open Source per piattaforme .NET ">
-    <meta name="generator" content="docfx 2.48.1.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../images/logo.png">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -96,9 +96,8 @@ il formato in cui è stato trasmesso il documento, il soggetto destinatario.</p>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
-    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a>&gt;</div>
-    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a>&gt;</div>
+    <div><span class="xref">IXmlSerializable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -106,7 +105,7 @@ il formato in cui è stato trasmesso il documento, il soggetto destinatario.</p>
       <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_XmlOptions">BaseClassSerializable.XmlOptions</a>
     </div>
     <div>
-      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_FromJson_Newtonsoft_Json_JsonReader_">BaseClassSerializable.FromJson(JsonReader)</a>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_FromJson_JsonReader_">BaseClassSerializable.FromJson(JsonReader)</a>
     </div>
     <div>
       <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ToJson">BaseClassSerializable.ToJson()</a>
@@ -118,10 +117,10 @@ il formato in cui è stato trasmesso il documento, il soggetto destinatario.</p>
       <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_GetSchema">BaseClassSerializable.GetSchema()</a>
     </div>
     <div>
-      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_WriteXml_System_Xml_XmlWriter_">BaseClassSerializable.WriteXml(XmlWriter)</a>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_WriteXml_XmlWriter_">BaseClassSerializable.WriteXml(XmlWriter)</a>
     </div>
     <div>
-      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ReadXml_System_Xml_XmlReader_">BaseClassSerializable.ReadXml(XmlReader)</a>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ReadXml_XmlReader_">BaseClassSerializable.ReadXml(XmlReader)</a>
     </div>
     <div>
       <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_PropertyChanged">BaseClass.PropertyChanged</a>
@@ -147,36 +146,21 @@ il formato in cui è stato trasmesso il documento, il soggetto destinatario.</p>
     <div>
       <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetHashCode">BaseClass.GetHashCode()</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.html">FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione</a></h6>
   <h6><strong>Assembly</strong>: FatturaElettronica.dll</h6>
   <h5 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DatiTrasmissione : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class DatiTrasmissione : BaseClassSerializable, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/fae6394f4de861da3c7977949d533b131070c38f/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L18">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/fae6394f4de861da3c7977949d533b131070c38f/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L18">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor">DatiTrasmissione()</h4>
@@ -189,13 +173,13 @@ il formato in cui è stato trasmesso il documento, il soggetto destinatario.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_System_Xml_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.%23ctor(System.Xml.XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/fae6394f4de861da3c7977949d533b131070c38f/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_XmlReader_.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.%23ctor(XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L22">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/fae6394f4de861da3c7977949d533b131070c38f/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L22">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor*"></a>
-  <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(System.Xml.XmlReader)">DatiTrasmissione(XmlReader)</h4>
+  <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione__ctor_XmlReader_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.#ctor(XmlReader)">DatiTrasmissione(XmlReader)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -213,7 +197,7 @@ il formato in cui è stato trasmesso il documento, il soggetto destinatario.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="xref">XmlReader</span></td>
         <td><span class="parametername">r</span></td>
         <td></td>
       </tr>
@@ -223,10 +207,10 @@ il formato in cui è stato trasmesso il documento, il soggetto destinatario.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_CodiceDestinatario.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.CodiceDestinatario%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/fae6394f4de861da3c7977949d533b131070c38f/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_CodiceDestinatario.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.CodiceDestinatario%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L50">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/fae6394f4de861da3c7977949d533b131070c38f/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L50">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_CodiceDestinatario_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.CodiceDestinatario*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_CodiceDestinatario" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.CodiceDestinatario">CodiceDestinatario</h4>
@@ -236,8 +220,7 @@ di appartenenza come riportato nella rubrica &quot;Indice PA&quot;.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataProperty(50)]
-public string CodiceDestinatario { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CodiceDestinatario { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,10 +239,10 @@ public string CodiceDestinatario { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_FormatoTrasmissione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.FormatoTrasmissione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/fae6394f4de861da3c7977949d533b131070c38f/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_FormatoTrasmissione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.FormatoTrasmissione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L43">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/fae6394f4de861da3c7977949d533b131070c38f/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L43">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_FormatoTrasmissione_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.FormatoTrasmissione*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_FormatoTrasmissione" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.FormatoTrasmissione">FormatoTrasmissione</h4>
@@ -268,8 +251,7 @@ public string CodiceDestinatario { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataProperty(43)]
-public string FormatoTrasmissione { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string FormatoTrasmissione { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -288,10 +270,10 @@ public string FormatoTrasmissione { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_IdTrasmittente.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.IdTrasmittente%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/fae6394f4de861da3c7977949d533b131070c38f/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_IdTrasmittente.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.IdTrasmittente%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L31">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/fae6394f4de861da3c7977949d533b131070c38f/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L31">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_IdTrasmittente_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.IdTrasmittente*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_IdTrasmittente" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.IdTrasmittente">IdTrasmittente</h4>
@@ -300,8 +282,7 @@ public string FormatoTrasmissione { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataProperty(31)]
-public IdTrasmittente IdTrasmittente { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IdTrasmittente IdTrasmittente { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -320,10 +301,10 @@ public IdTrasmittente IdTrasmittente { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_PECDestinatario.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.PECDestinatario%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/fae6394f4de861da3c7977949d533b131070c38f/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_PECDestinatario.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.PECDestinatario%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L56">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/fae6394f4de861da3c7977949d533b131070c38f/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L56">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_PECDestinatario_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.PECDestinatario*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_PECDestinatario" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.PECDestinatario">PECDestinatario</h4>
@@ -332,8 +313,7 @@ public IdTrasmittente IdTrasmittente { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataProperty(56)]
-public string PECDestinatario { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string PECDestinatario { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -352,10 +332,10 @@ public string PECDestinatario { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_ProgressivoInvio.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.ProgressivoInvio%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/fae6394f4de861da3c7977949d533b131070c38f/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_ProgressivoInvio.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.ProgressivoInvio%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L37">View Source</a>
+    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/fae6394f4de861da3c7977949d533b131070c38f/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L37">View Source</a>
   </span>
   <a id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_ProgressivoInvio_" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.ProgressivoInvio*"></a>
   <h4 id="FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione_ProgressivoInvio" data-uid="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.ProgressivoInvio">ProgressivoInvio</h4>
@@ -364,8 +344,7 @@ public string PECDestinatario { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataProperty(37)]
-public string ProgressivoInvio { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ProgressivoInvio { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -384,17 +363,14 @@ public string ProgressivoInvio { get; set; }</code></pre>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+      <span class="xref">IEquatable&lt;&gt;</span>
   </div>
   <div>
-      <span class="xref">System.IEquatable&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+      <span class="xref">IXmlSerializable</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="FatturaElettronica.FatturaElettronicaExtensions.html#FatturaElettronica_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+      <a class="xref" href="FatturaElettronica.Extensions.FatturaElettronicaExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
   </div>
 </article>
           </div>
@@ -404,10 +380,10 @@ public string ProgressivoInvio { get; set; }</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/merge_dependencies/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/fae6394f4de861da3c7977949d533b131070c38f/apiSpec/new?filename=FatturaElettronica_Semplificata_FatturaElettronicaHeader_DatiTrasmissione_DatiTrasmissione.md&amp;value=---%0Auid%3A%20FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/merge_dependencies/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/fae6394f4de861da3c7977949d533b131070c38f/Semplificata/FatturaElettronicaHeader/DatiTrasmissione/DatiTrasmissione.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
