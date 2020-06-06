@@ -83,7 +83,7 @@ serializzazione/deserializzazione su file.
 - [![NuGet version](https://badge.fury.io/nu/Spesometro.svg)](https://badge.fury.io/nu/Spesometro)
 
 [1]: https://nicolaiarocci.com/fattura-elettronica-open-source/
-[2]: https://www.agenziaentrate.gov.it/wps/content/Nsilib/Nsi/Schede/Comunicazioni/Fatture+e+corrispettivi/Fatture+e+corrispettivi+ST/ST+invio+di+fatturazione+elettronica/?page=ivacomimp
+[2]: https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.6.1
 [ni]: https://nicolaiarocci.com
 [ga]: https://gestionaleamica.com
 [bsd]: http://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/LICENSE.txt
