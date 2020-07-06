@@ -27,7 +27,7 @@
           "**/*.yml"
         ],
         "cwd": "obj/api/FatturaElettronica",
-        "dest": "docs/api"
+        "dest": "/api"
       },
       {
         "files": [
