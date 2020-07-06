@@ -1,6 +1,3 @@
 [submodule "FatturaElettronica.NET"]
 	path = FatturaElettronica.NET
 	url = https://github.com/FatturaElettronica/FatturaElettronica.NET.git
-[submodule "FatturaElettronica.Extensions"]
-	path = FatturaElettronica.Extensions
-	url = https://github.com/FatturaElettronica/FatturaElettronica.Extensions.git
