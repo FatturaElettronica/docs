@@ -1,7 +1,7 @@
 ## Documentation for FatturaElettronica.NET
 
 - Make sure docfx is installed
-- Build with `make build`
+- Build with `make build-upload`
 
-`make build` will pull the latest updates from FatturaElettronica.NET
-submodule, then build the documentation.
+`make build-upload` will pull the latest updates from FatturaElettronica.NET
+submodule, then build the documentation, then commit and push the updates.
