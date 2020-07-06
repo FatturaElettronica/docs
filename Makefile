@@ -9,6 +9,3 @@ build: refresh
 build-upload: build
 	git cm "rebuild docs"
 	git push
-
-
-
