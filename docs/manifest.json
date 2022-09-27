@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/authors.html",
-          "hash": "gOsBZiNjjSC6TptR1I5zSg=="
+          "hash": "Amwu2odCBT97vU1DtL+b1w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/changelog.html",
-          "hash": "S20QPuxSGU/olcQPZS1/Cg=="
+          "hash": "itBXf/NUw2Dq5uLirGzo/w=="
         }
       },
       "is_incremental": false,
@@ -199,7 +199,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 9,
-          "skipped_file_count": 8
+          "skipped_file_count": 7
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
