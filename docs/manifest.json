@@ -148,6 +148,2239 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.Allegati.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.Allegati.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.Anagrafica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.Anagrafica.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.DatiAnagrafici.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.DatiAnagrafici.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.DatiDocumento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.DatiDocumento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.DenominazioneNomeCognome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.DenominazioneNomeCognome.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.IdFiscaleIVA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.IdFiscaleIVA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.Località.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.Località.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.RappresentanteFiscale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.RappresentanteFiscale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.ScontoMaggiorazione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.ScontoMaggiorazione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.StabileOrganizzazione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.StabileOrganizzazione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.BaseClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.BaseClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.BaseClassSerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.BaseClassSerializable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.DataProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.DataProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.IgnoreXmlDateFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.IgnoreXmlDateFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.JsonOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.JsonOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.JsonParseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.JsonParseException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.ObjectExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.TypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.TypeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.XmlOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.XmlOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Defaults.FormatoTrasmissione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Defaults.FormatoTrasmissione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Defaults.Instance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Defaults.Instance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Defaults.RootElement.XmlAttributeString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Defaults.RootElement.XmlAttributeString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Defaults.RootElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Defaults.RootElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Defaults.Versione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Defaults.Versione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Defaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Defaults.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.FatturaElettronicaExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.FatturaElettronicaExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.FatturaElettronicaFileNameExtensionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.FatturaElettronicaFileNameGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.HtmlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.HtmlExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.JsonExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.JsonExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.Resources.ErrorMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.Resources.ErrorMessages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.Resources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.SignatureException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.SignatureException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.SignedFileExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.SignedFileExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.XmlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.XmlExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.FatturaBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.FatturaBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiAnagraficiVettore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.IndirizzoResa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaBody.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.DatiAnagraficiCedentePrestatore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.DatiAnagraficiCessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.RappresentanteFiscale.RappresentanteFiscale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.RappresentanteFiscale.RappresentanteFiscale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.RappresentanteFiscale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.RappresentanteFiscale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.TerzoIntermediarioOSoggettoEmittente.TerzoIntermediarioOSoggettoEmittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.TerzoIntermediarioOSoggettoEmittente.TerzoIntermediarioOSoggettoEmittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.TerzoIntermediarioOSoggettoEmittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.TerzoIntermediarioOSoggettoEmittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaElettronicaHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.FatturaOrdinaria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.FatturaOrdinaria.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Ordinaria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Ordinaria.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaBody.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.SedeCedentePrestatore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.RappresentanteFiscaleCessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.SedeCessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.IdTrasmittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaElettronicaHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaElettronicaHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.FatturaSemplificata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.FatturaSemplificata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Semplificata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Semplificata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.CausalePagamento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.CausalePagamento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.CondizioniPagamento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.CondizioniPagamento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.Divisa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.Divisa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.EsigibilitaIVA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.EsigibilitaIVA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.FormatoTrasmissione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.FormatoTrasmissione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.IdPaese.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.IdPaese.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.ModalitaPagamento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.ModalitaPagamento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.Natura.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.Natura.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.NaturaSemplificata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.NaturaSemplificata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.Provincia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.Provincia.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.RegimeFiscale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.RegimeFiscale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.ScontoMaggiorazione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.ScontoMaggiorazione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.SocioUnico.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.SocioUnico.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.SoggettoEmittente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.SoggettoEmittente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.StatoLiquidazione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.StatoLiquidazione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.Tabella.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.Tabella.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.TipoCassa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.TipoCassa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.TipoCessionePrestazione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.TipoCessionePrestazione.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.TipoDocumento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.TipoDocumento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.TipoDocumentoSemplificata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.TipoDocumentoSemplificata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.TipoResa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.TipoResa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.TipoRitenuta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.TipoRitenuta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Tabelle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Tabelle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.AllegatiValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.AllegatiValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.AltriDatiGestionaliValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.AltriDatiGestionaliValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.AnagraficaValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.AnagraficaValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.BasicLatinValidator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.BasicLatinValidator-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.CausaleValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.CausaleValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.CedentePrestatoreValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.CedentePrestatoreValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.CessionarioCommittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.CessionarioCommittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Charsets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Charsets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.CodiceArticoloValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.CodiceArticoloValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.ContattiTrasmittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.ContattiTrasmittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.ContattiValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.ContattiValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiAnagraficiCedentePrestatoreValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiAnagraficiCedentePrestatoreValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiAnagraficiCessionarioCommittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiAnagraficiCessionarioCommittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiAnagraficiRappresentanteFiscaleValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiAnagraficiRappresentanteFiscaleValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiAnagraficiTerzoIntermediarioValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiAnagraficiTerzoIntermediarioValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiAnagraficiVettoreValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiAnagraficiVettoreValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiBeniServiziValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiBeniServiziValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiBolloValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiBolloValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiCassaPrevidenzialeValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiCassaPrevidenzialeValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiContrattoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiContrattoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiConvenzioneValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiConvenzioneValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiDDTValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiDDTValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiDocumentoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiDocumentoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiFattureCollegateValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiFattureCollegateValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiGeneraliDocumentoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiGeneraliDocumentoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiGeneraliValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiGeneraliValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiOrdineAcquistoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiOrdineAcquistoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiPagamentoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiPagamentoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiRicezioneValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiRicezioneValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiRiepilogoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiRiepilogoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiRitenutaValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiRitenutaValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiTrasmissioneValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiTrasmissioneValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiTrasportoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiTrasportoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DatiVeicoliValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DatiVeicoliValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DenominazioneNomeCognomeValidator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DenominazioneNomeCognomeValidator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DettaglioLineeValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DettaglioLineeValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.DettaglioPagamentoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.DettaglioPagamentoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.FatturaElettronicaBodyValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.FatturaElettronicaBodyValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.FatturaElettronicaHeaderValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.FatturaElettronicaHeaderValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.FatturaOrdinariaValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.FatturaOrdinariaValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.FatturaPrincipaleValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.FatturaPrincipaleValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.IdFiscaleIVAValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.IdFiscaleIVAValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.IdTrasmittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.IdTrasmittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.IndirizzoResaValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.IndirizzoResaValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.IsValidValidator-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.IsValidValidator-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.IscrizioneREAValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.IscrizioneREAValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Latin1SupplementValidator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Latin1SupplementValidator-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.LatinBaseValidator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.LatinBaseValidator-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.LocalitàBaseValidator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.LocalitàBaseValidator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.MyValidatorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.MyValidatorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.RappresentanteFiscaleCessionarioCommittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.RappresentanteFiscaleCessionarioCommittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.RappresentanteFiscaleValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.RappresentanteFiscaleValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.ScontoMaggiorazioneValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.ScontoMaggiorazioneValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.SedeCedentePrestatoreValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.SedeCedentePrestatoreValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.SedeCessionarioCommittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.SedeCessionarioCommittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.AllegatiValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.AllegatiValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.AltriDatiIdentificativiValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.AltriDatiIdentificativiValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.CedentePrestatoreValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.CedentePrestatoreValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.CessionarioCommittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.CessionarioCommittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.DatiBeniServiziValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.DatiBeniServiziValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.DatiFatturaRettificataValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.DatiFatturaRettificataValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.DatiGeneraliDocumentoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.DatiGeneraliDocumentoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.DatiGeneraliValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.DatiGeneraliValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.DatiIVAValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.DatiIVAValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.DatiTrasmissioneValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.DatiTrasmissioneValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.DenominazioneNomeCognomeValidator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.DenominazioneNomeCognomeValidator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.FatturaElettronicaBodyValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.FatturaElettronicaBodyValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.FatturaElettronicaHeaderValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.FatturaElettronicaHeaderValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.FatturaSemplificataValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.FatturaSemplificataValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.IdentificativiFiscaliValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.IdentificativiFiscaliValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.IscrizioneREAValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.IscrizioneREAValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.RappresentanteFiscaleCessionarioCommittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.RappresentanteFiscaleCessionarioCommittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.SedeCedentePrestatoreValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.SedeCedentePrestatoreValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.SedeCessionarioCommittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.SedeCessionarioCommittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.StabileOrganizzazioneValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.StabileOrganizzazioneValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.Semplificata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.Semplificata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.StabileOrganizzazioneValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.StabileOrganizzazioneValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.TerzoIntermediarioOSoggettoEmittenteValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.TerzoIntermediarioOSoggettoEmittenteValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FatturaElettronica/FatturaElettronica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FatturaElettronica.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/FatturaElettronica/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {

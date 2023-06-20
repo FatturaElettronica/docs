@@ -11,7 +11,7 @@
                         "**/bin/**",
                         "**/obj/**"
                     ],
-                    "cwd": "FatturaElettronica.NET/"
+                    "cwd": "FatturaElettronica.NET"
                 }
             ],
             "dest": "obj/api/FatturaElettronica",
@@ -27,7 +27,7 @@
                     "**/*.yml"
                 ],
                 "cwd": "obj/api/FatturaElettronica",
-                "dest": "docs/api"
+                "dest": "api"
             },
             {
                 "files": [

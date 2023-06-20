@@ -1,0 +1,632 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DatiGenerali
+ | Fattura Elettronica Open Source per piattaforme .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DatiGenerali
+ | Fattura Elettronica Open Source per piattaforme .NET ">
+      
+      <link rel="icon" href="../../images/logo.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/08bd06931029d102267f7b380efbc55be2e13e84/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali">
+
+
+
+  <h1 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali" class="text-break">
+    Class DatiGenerali
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="FatturaElettronica.html">FatturaElettronica</a>.<a class="xref" href="FatturaElettronica.Ordinaria.html">Ordinaria</a>.<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.html">FatturaElettronicaBody</a>.<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.html">DatiGenerali</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FatturaElettronica.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Dati generali del documento principale e dati dei documenti correlati.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DatiGenerali : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a></div>
+      <div><a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html">BaseClassSerializable</a></div>
+      <div><span class="xref">DatiGenerali</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.ixmlserializable">IXmlSerializable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_XmlOptions">BaseClassSerializable.XmlOptions</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_FromJson_System_Text_Json_Utf8JsonReader_">BaseClassSerializable.FromJson(Utf8JsonReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ToJson">BaseClassSerializable.ToJson()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ToJson_FatturaElettronica_Core_JsonOptions_">BaseClassSerializable.ToJson(JsonOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_GetSchema">BaseClassSerializable.GetSchema()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_WriteXml_System_Xml_XmlWriter_">BaseClassSerializable.WriteXml(XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ReadAndHandleXmlStartElement_System_Xml_XmlReader_">BaseClassSerializable.ReadAndHandleXmlStartElement(XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ReadXml_System_Xml_XmlReader_">BaseClassSerializable.ReadXml(XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_PropertyChanged">BaseClass.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_SetProperty__1___0____0_System_String_">BaseClass.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_CleanString_System_String_">BaseClass.CleanString(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_IsEmpty">BaseClass.IsEmpty()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetAllDataProperties">BaseClass.GetAllDataProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetKnownNonDataProperty_System_String_">BaseClass.GetKnownNonDataProperty(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_FatturaElettronica_Core_BaseClass_">BaseClass.Equals(BaseClass)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_System_Object_">BaseClass.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetHashCode">BaseClass.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="FatturaElettronica.Extensions.FatturaElettronicaExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor">
+  DatiGenerali()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dati generali del documento principale e dati dei documenti correlati.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatiGenerali()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.#ctor(System.Xml.XmlReader)">
+  DatiGenerali(XmlReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatiGenerali(XmlReader r)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlreader">XmlReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiContratto_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiContratto*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiContratto" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiContratto">
+  DatiContratto
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Informazioni relative ai contratti.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(49)]
+public List&lt;DatiContratto&gt; DatiContratto { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiContratto.html">DatiContratto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiConvenzione_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiConvenzione*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiConvenzione" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiConvenzione">
+  DatiConvenzione
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Informazioni relative alle convenzioni.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(55)]
+public List&lt;DatiConvenzione&gt; DatiConvenzione { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiConvenzione.html">DatiConvenzione</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiDDT_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiDDT*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiDDT" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiDDT">
+  DatiDDT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Da valorizzarei nei casi di fattura differita per indicare il documento con cui è stato consegnato il bene.
+I campi del blocco possono essere ripetuti se la fattura fa riferimento a più consegne e quindi a più documenti di trasporto.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(82)]
+public List&lt;DatiDDT&gt; DatiDDT { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.html">DatiDDT</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiFattureCollegate_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiFattureCollegate*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiFattureCollegate" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiFattureCollegate">
+  DatiFattureCollegate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Informazioni relative alle fatture precedentemente trasmesse e alle quali si collega il documento presente.
+Riguarda i casi di invio di nota di credito e/o di fatture di conguaglio a fronte di precedenti fatture di accounto.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(68)]
+public List&lt;DatiFattureCollegate&gt; DatiFattureCollegate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiFattureCollegate.html">DatiFattureCollegate</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiGeneraliDocumento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGeneraliDocumento*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiGeneraliDocumento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiGeneraliDocumento">
+  DatiGeneraliDocumento
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dati generali del documento principale.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(37)]
+public DatiGeneraliDocumento DatiGeneraliDocumento { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html">DatiGeneraliDocumento</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiOrdineAcquisto_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiOrdineAcquisto*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiOrdineAcquisto" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiOrdineAcquisto">
+  DatiOrdineAcquisto
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Informazioni relative agli ordini di acquisto.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(43)]
+public List&lt;DatiOrdineAcquisto&gt; DatiOrdineAcquisto { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiOrdineAcquisto.html">DatiOrdineAcquisto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiRicezione_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiRicezione*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiRicezione" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiRicezione">
+  DatiRicezione
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Informazioni relative ai dati presenti sul sistema gestionale in uso presso la PA (Agenzie Fiscali) riguardanti la fase di ricezione.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(61)]
+public List&lt;DatiRicezione&gt; DatiRicezione { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRicezione.html">DatiRicezione</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiSAL_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiSAL*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiSAL" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiSAL">
+  DatiSAL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Blocco da valorizzare nei casi di fattura per stato di avanzamento.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(74)]
+public List&lt;DatiSAL&gt; DatiSAL { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.html">DatiSAL</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiTrasporto_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiTrasporto*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_DatiTrasporto" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.DatiTrasporto">
+  DatiTrasporto
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Blocco da valorizzare nei casi di fattura accompagnatoria per inserire informazioni relative al trasporto.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(89)]
+public DatiTrasporto DatiTrasporto { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.html">DatiTrasporto</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_FatturaPrincipale_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.FatturaPrincipale*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiGenerali_DatiGenerali_FatturaPrincipale" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.FatturaPrincipale">
+  FatturaPrincipale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Da valorizzare nei casi di fatture per operazioni accessorie, emesse dagli autotrasportatori per usufruire delle
+agevolazioni in materia di registrazioni e pagamento dell'IVA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(96)]
+public FatturaPrincipale FatturaPrincipale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.html">FatturaPrincipale</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiGenerali/DatiGenerali.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © Copyright 2015-2023 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

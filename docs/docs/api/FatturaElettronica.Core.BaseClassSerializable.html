@@ -1,0 +1,607 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BaseClassSerializable
+ | Fattura Elettronica Open Source per piattaforme .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BaseClassSerializable
+ | Fattura Elettronica Open Source per piattaforme .NET ">
+      
+      <link rel="icon" href="../../images/logo.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/08bd06931029d102267f7b380efbc55be2e13e84/apiSpec/new?filename=FatturaElettronica_Core_BaseClassSerializable.md&amp;value=---%0Auid%3A%20FatturaElettronica.Core.BaseClassSerializable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="FatturaElettronica.Core.BaseClassSerializable">
+
+
+
+  <h1 id="FatturaElettronica_Core_BaseClassSerializable" data-uid="FatturaElettronica.Core.BaseClassSerializable" class="text-break">
+    Class BaseClassSerializable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="FatturaElettronica.html">FatturaElettronica</a>.<a class="xref" href="FatturaElettronica.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FatturaElettronica.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><ul>
+<li>XML (de)serialization;</li>
+<li>JSON (de)serialization.</li>
+</ul>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BaseClassSerializable : BaseClass, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a></div>
+      <div><span class="xref">BaseClassSerializable</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.ixmlserializable">IXmlSerializable</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="FatturaElettronica.Common.Allegati.html">Allegati</a></div>
+      <div><a class="xref" href="FatturaElettronica.Common.DatiAnagrafici.html">DatiAnagrafici</a></div>
+      <div><a class="xref" href="FatturaElettronica.Common.DatiDocumento.html">DatiDocumento</a></div>
+      <div><a class="xref" href="FatturaElettronica.Common.DenominazioneNomeCognome.html">DenominazioneNomeCognome</a></div>
+      <div><a class="xref" href="FatturaElettronica.Common.IdFiscaleIVA.html">IdFiscaleIVA</a></div>
+      <div><a class="xref" href="FatturaElettronica.Common.Localit%C3%A0.html">Localit&#224;</a></div>
+      <div><a class="xref" href="FatturaElettronica.Common.RappresentanteFiscale.html">RappresentanteFiscale</a></div>
+      <div><a class="xref" href="FatturaElettronica.Common.ScontoMaggiorazione.html">ScontoMaggiorazione</a></div>
+      <div><a class="xref" href="FatturaElettronica.FatturaBase.html">FatturaBase</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.AltriDatiGestionali.html">AltriDatiGestionali</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.CodiceArticolo.html">CodiceArticolo</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html">DatiBeniServizi</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DatiRiepilogo.html">DatiRiepilogo</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiBeniServizi.DettaglioLinee.html">DettaglioLinee</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiBollo.html">DatiBollo</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiCassaPrevidenziale.html">DatiCassaPrevidenziale</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiDDT.html">DatiDDT</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html">DatiGenerali</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html">DatiGeneraliDocumento</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiRitenuta.html">DatiRitenuta</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiSAL.html">DatiSAL</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.DatiTrasporto.html">DatiTrasporto</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiGenerali.FatturaPrincipale.html">FatturaPrincipale</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DatiPagamento.html">DatiPagamento</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.html">DettaglioPagamento</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiVeicoli.DatiVeicoli.html">DatiVeicoli</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.FatturaElettronicaBody.html">FatturaElettronicaBody</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html">CedentePrestatore</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.Contatti.html">Contatti</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html">IscrizioneREA</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html">CessionarioCommittente</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.ContattiTrasmittente.html">ContattiTrasmittente</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html">DatiTrasmissione</a></div>
+      <div><a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaHeader.FatturaElettronicaHeader.html">FatturaElettronicaHeader</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiBeniServizi.html">DatiBeniServizi</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiBeniServizi.DatiIVA.html">DatiIVA</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiFatturaRettificata.html">DatiFatturaRettificata</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGenerali.html">DatiGenerali</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaBody.DatiGenerali.DatiGeneraliDocumento.html">DatiGeneraliDocumento</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaBody.FatturaElettronicaBody.html">FatturaElettronicaBody</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.CedentePrestatore.html">CedentePrestatore</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CedentePrestatore.IscrizioneREA.html">IscrizioneREA</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.AltriDatiIdentificativi.html">AltriDatiIdentificativi</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.CessionarioCommittente.html">CessionarioCommittente</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.CessionarioCommittente.IdentificativiFiscali.html">IdentificativiFiscali</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.DatiTrasmissione.DatiTrasmissione.html">DatiTrasmissione</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.FatturaElettronicaHeader.html">FatturaElettronicaHeader</a></div>
+      <div><a class="xref" href="FatturaElettronica.Semplificata.FatturaElettronicaHeader.RappresentanteFiscale.html">RappresentanteFiscale</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_PropertyChanged">BaseClass.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_SetProperty__1___0____0_System_String_">BaseClass.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_CleanString_System_String_">BaseClass.CleanString(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_IsEmpty">BaseClass.IsEmpty()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetAllDataProperties">BaseClass.GetAllDataProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetKnownNonDataProperty_System_String_">BaseClass.GetKnownNonDataProperty(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_FatturaElettronica_Core_BaseClass_">BaseClass.Equals(BaseClass)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_System_Object_">BaseClass.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetHashCode">BaseClass.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="FatturaElettronica.Extensions.FatturaElettronicaExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable__ctor_" data-uid="FatturaElettronica.Core.BaseClassSerializable.#ctor*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable__ctor" data-uid="FatturaElettronica.Core.BaseClassSerializable.#ctor">
+  BaseClassSerializable()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BaseClassSerializable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable__ctor_" data-uid="FatturaElettronica.Core.BaseClassSerializable.#ctor*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Core.BaseClassSerializable.#ctor(System.Xml.XmlReader)">
+  BaseClassSerializable(XmlReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BaseClassSerializable(XmlReader r)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlreader">XmlReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable_XmlOptions_" data-uid="FatturaElettronica.Core.BaseClassSerializable.XmlOptions*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable_XmlOptions" data-uid="FatturaElettronica.Core.BaseClassSerializable.XmlOptions">
+  XmlOptions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected XmlOptions XmlOptions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FatturaElettronica.Core.XmlOptions.html">XmlOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable_FromJson_" data-uid="FatturaElettronica.Core.BaseClassSerializable.FromJson*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable_FromJson_System_Text_Json_Utf8JsonReader_" data-uid="FatturaElettronica.Core.BaseClassSerializable.FromJson(System.Text.Json.Utf8JsonReader)">
+  FromJson(Utf8JsonReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deserializes the current BusinessObject from a json stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void FromJson(Utf8JsonReader r)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonreader">Utf8JsonReader</a></dt>
+    <dd><p>Active json stream reader</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="FatturaElettronica_Core_BaseClassSerializable_FromJson_System_Text_Json_Utf8JsonReader__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Side effects on parse handling</p>
+</div>
+
+
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable_GetSchema_" data-uid="FatturaElettronica.Core.BaseClassSerializable.GetSchema*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable_GetSchema" data-uid="FatturaElettronica.Core.BaseClassSerializable.GetSchema">
+  GetSchema()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlSchema GetSchema()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema">XmlSchema</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable_ReadAndHandleXmlStartElement_" data-uid="FatturaElettronica.Core.BaseClassSerializable.ReadAndHandleXmlStartElement*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable_ReadAndHandleXmlStartElement_System_Xml_XmlReader_" data-uid="FatturaElettronica.Core.BaseClassSerializable.ReadAndHandleXmlStartElement(System.Xml.XmlReader)">
+  ReadAndHandleXmlStartElement(XmlReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L435"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ReadAndHandleXmlStartElement(XmlReader r)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlreader">XmlReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable_ReadXml_" data-uid="FatturaElettronica.Core.BaseClassSerializable.ReadXml*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable_ReadXml_System_Xml_XmlReader_" data-uid="FatturaElettronica.Core.BaseClassSerializable.ReadXml(System.Xml.XmlReader)">
+  ReadXml(XmlReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deserializes the current BusinessObject from a XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ReadXml(XmlReader r)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlreader">XmlReader</a></dt>
+    <dd><p>Active XML stream reader.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="FatturaElettronica_Core_BaseClassSerializable_ReadXml_System_Xml_XmlReader__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Reads the outer element. Leaves the reader at the same depth.</p>
+</div>
+
+
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable_ToJson_" data-uid="FatturaElettronica.Core.BaseClassSerializable.ToJson*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable_ToJson" data-uid="FatturaElettronica.Core.BaseClassSerializable.ToJson">
+  ToJson()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serializes the instance to JSON</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ToJson()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A JSON string representing the class instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable_ToJson_" data-uid="FatturaElettronica.Core.BaseClassSerializable.ToJson*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable_ToJson_FatturaElettronica_Core_JsonOptions_" data-uid="FatturaElettronica.Core.BaseClassSerializable.ToJson(FatturaElettronica.Core.JsonOptions)">
+  ToJson(JsonOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serializes the class to JSON.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ToJson(JsonOptions jsonOptions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>jsonOptions</code> <a class="xref" href="FatturaElettronica.Core.JsonOptions.html">JsonOptions</a></dt>
+    <dd><p>JSON formatting options.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A JSON string representing the class instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Core_BaseClassSerializable_WriteXml_" data-uid="FatturaElettronica.Core.BaseClassSerializable.WriteXml*"></a>
+
+  <h3 id="FatturaElettronica_Core_BaseClassSerializable_WriteXml_System_Xml_XmlWriter_" data-uid="FatturaElettronica.Core.BaseClassSerializable.WriteXml(System.Xml.XmlWriter)">
+  WriteXml(XmlWriter)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serializes the current BusinessObject instance to a XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void WriteXml(XmlWriter w)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>w</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter">XmlWriter</a></dt>
+    <dd><p>Active XML stream writer.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="FatturaElettronica_Core_BaseClassSerializable_WriteXml_System_Xml_XmlWriter__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Writes only its inner content, not the outer element. Leaves the writer at the same depth.</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Core/BaseClassSerializable.cs/#L18" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © Copyright 2015-2023 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

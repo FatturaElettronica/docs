@@ -1,0 +1,994 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DettaglioPagamento
+ | Fattura Elettronica Open Source per piattaforme .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DettaglioPagamento
+ | Fattura Elettronica Open Source per piattaforme .NET ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/new/08bd06931029d102267f7b380efbc55be2e13e84/apiSpec/new?filename=FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento.md&amp;value=---%0Auid%3A%20FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento">
+
+
+
+  <h1 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento" class="text-break">
+    Class DettaglioPagamento
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="FatturaElettronica.html">FatturaElettronica</a>.<a class="xref" href="FatturaElettronica.Ordinaria.html">Ordinaria</a>.<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.html">FatturaElettronicaBody</a>.<a class="xref" href="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.html">DatiPagamento</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FatturaElettronica.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Dati di dettaglio del pagamento.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DettaglioPagamento : BaseClassSerializable, INotifyPropertyChanged, IEquatable&lt;BaseClass&gt;, IXmlSerializable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a></div>
+      <div><a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html">BaseClassSerializable</a></div>
+      <div><span class="xref">DettaglioPagamento</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="FatturaElettronica.Core.BaseClass.html">BaseClass</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.ixmlserializable">IXmlSerializable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_XmlOptions">BaseClassSerializable.XmlOptions</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_FromJson_System_Text_Json_Utf8JsonReader_">BaseClassSerializable.FromJson(Utf8JsonReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ToJson">BaseClassSerializable.ToJson()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ToJson_FatturaElettronica_Core_JsonOptions_">BaseClassSerializable.ToJson(JsonOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_GetSchema">BaseClassSerializable.GetSchema()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_WriteXml_System_Xml_XmlWriter_">BaseClassSerializable.WriteXml(XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ReadAndHandleXmlStartElement_System_Xml_XmlReader_">BaseClassSerializable.ReadAndHandleXmlStartElement(XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClassSerializable.html#FatturaElettronica_Core_BaseClassSerializable_ReadXml_System_Xml_XmlReader_">BaseClassSerializable.ReadXml(XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_PropertyChanged">BaseClass.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_SetProperty__1___0____0_System_String_">BaseClass.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_CleanString_System_String_">BaseClass.CleanString(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_IsEmpty">BaseClass.IsEmpty()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetAllDataProperties">BaseClass.GetAllDataProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetKnownNonDataProperty_System_String_">BaseClass.GetKnownNonDataProperty(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_FatturaElettronica_Core_BaseClass_">BaseClass.Equals(BaseClass)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_Equals_System_Object_">BaseClass.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="FatturaElettronica.Core.BaseClass.html#FatturaElettronica_Core_BaseClass_GetHashCode">BaseClass.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="FatturaElettronica.Extensions.FatturaElettronicaExtensions.html#FatturaElettronica_Extensions_FatturaElettronicaExtensions_Validate__1___0_">FatturaElettronicaExtensions.Validate&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor">
+  DettaglioPagamento()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DettaglioPagamento()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento__ctor_System_Xml_XmlReader_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.#ctor(System.Xml.XmlReader)">
+  DettaglioPagamento(XmlReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DettaglioPagamento(XmlReader r)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlreader">XmlReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ABI_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ABI*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ABI" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ABI">
+  ABI
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Codice ABI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(101)]
+public string ABI { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_BIC_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.BIC*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_BIC" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.BIC">
+  BIC
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bank Identifier Code (codice che identifica la banca del destinatario).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(115)]
+public string BIC { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_Beneficiario_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.Beneficiario*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_Beneficiario" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.Beneficiario">
+  Beneficiario
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Beneficiario del pagamento (utilizzabile se si intende indicare un beneficiario diverso dal cedente/prestatore).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(18)]
+public string Beneficiario { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CAB_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CAB*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CAB" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CAB">
+  CAB
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Codice CAB.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(108)]
+public string CAB { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CFQuietanzante_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CFQuietanzante*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CFQuietanzante" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CFQuietanzante">
+  CFQuietanzante
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Codice fiscale del quietanziante (nel caso di campo ModalitaPagamento = MP04).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(74)]
+public string CFQuietanzante { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodUfficioPostale_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodUfficioPostale*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodUfficioPostale" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodUfficioPostale">
+  CodUfficioPostale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Nei casi di modalità di pagamento in cui ha senso l'indicazione dellìufficio postale.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(56)]
+public string CodUfficioPostale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodicePagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodicePagamento*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CodicePagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CodicePagamento">
+  CodicePagamento
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Codice per la riconciliazione degli incassi da parte del cedente/prestatore.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(146)]
+public string CodicePagamento { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CognomeQuietanzante_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CognomeQuietanzante*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_CognomeQuietanzante" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.CognomeQuietanzante">
+  CognomeQuietanzante
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cognome del quietanziante (nel caso di campo ModalitaPagamento = MP04).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(62)]
+public string CognomeQuietanzante { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataDecorrenzaPenale_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataDecorrenzaPenale*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataDecorrenzaPenale" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataDecorrenzaPenale">
+  DataDecorrenzaPenale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Data di decorrenza della penale.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(140)]
+public DateTime? DataDecorrenzaPenale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataLimitePagamentoAnticipato_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataLimitePagamentoAnticipato*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataLimitePagamentoAnticipato" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataLimitePagamentoAnticipato">
+  DataLimitePagamentoAnticipato
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Data limite stabilita per il pagamento anticipato.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(128)]
+public DateTime? DataLimitePagamentoAnticipato { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataRiferimentoTerminiPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataRiferimentoTerminiPagamento*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataRiferimentoTerminiPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataRiferimentoTerminiPagamento">
+  DataRiferimentoTerminiPagamento
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Data dalla quale decorrono i termini di pagamento.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(30)]
+public DateTime? DataRiferimentoTerminiPagamento { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataScadenzaPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataScadenzaPagamento*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_DataScadenzaPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.DataScadenzaPagamento">
+  DataScadenzaPagamento
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Data di scadenza del pagamento da indicare nei casi in cui ha senso sulla base delle condizioni di pagamento
+previste.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(44)]
+public DateTime? DataScadenzaPagamento { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_GiorniTerminiPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.GiorniTerminiPagamento*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_GiorniTerminiPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.GiorniTerminiPagamento">
+  GiorniTerminiPagamento
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Termini di pagamento espressi in giorni a partire dalla data di riferimento di cui al campo DataRiferimentoTerminiPagamento.
+Vale 0 per i gamenti a vista.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(37)]
+public int? GiorniTerminiPagamento { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IBAN_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IBAN*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IBAN" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IBAN">
+  IBAN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>International Bank Account Number (coordinata bancaria internazionale che consente di identificare, in maniera standard,
+il conto corrente del beneficiario).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(94)]
+public string IBAN { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ImportoPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ImportoPagamento*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ImportoPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ImportoPagamento">
+  ImportoPagamento
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Importo relativo al pagamento.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(50)]
+public decimal ImportoPagamento { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IstitutoFinanziario_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IstitutoFinanziario*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_IstitutoFinanziario" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.IstitutoFinanziario">
+  IstitutoFinanziario
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Nome dell'istituto finanziario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(87)]
+public string IstitutoFinanziario { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ModalitaPagamento_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ModalitaPagamento*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ModalitaPagamento" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ModalitaPagamento">
+  ModalitaPagamento
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modalità di pagamento.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(24)]
+public string ModalitaPagamento { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_NomeQuietanzante_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.NomeQuietanzante*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_NomeQuietanzante" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.NomeQuietanzante">
+  NomeQuietanzante
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Nome del quietanziante (nel caso di campo ModalitaPagamento = MP04).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(68)]
+public string NomeQuietanzante { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_PenalitaPagamentiRitardati_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.PenalitaPagamentiRitardati*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_PenalitaPagamentiRitardati" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.PenalitaPagamentiRitardati">
+  PenalitaPagamentiRitardati
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ammontare della penalità dovuta per pagamenti ritardati.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(134)]
+public decimal? PenalitaPagamentiRitardati { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ScontoPagamentoAnticipato_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ScontoPagamentoAnticipato*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_ScontoPagamentoAnticipato" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.ScontoPagamentoAnticipato">
+  ScontoPagamentoAnticipato
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ammontare dello sconto per pagamento anticipato.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(122)]
+public decimal? ScontoPagamentoAnticipato { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_TitoloQuietanzante_" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.TitoloQuietanzante*"></a>
+
+  <h3 id="FatturaElettronica_Ordinaria_FatturaElettronicaBody_DatiPagamento_DettaglioPagamento_TitoloQuietanzante" data-uid="FatturaElettronica.Ordinaria.FatturaElettronicaBody.DatiPagamento.DettaglioPagamento.TitoloQuietanzante">
+  TitoloQuietanzante
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Titolo del quietanziante (nel caso di campo ModalitaPagamento = MP04).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataProperty(81)]
+public string TitoloQuietanzante { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/Ordinaria/FatturaElettronicaBody/DatiPagamento/DettaglioPagamento.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © Copyright 2015-2023 <a href="https://nicolaiarocci.com">Nicola Iarocci</a> e <a href="https://gestionaleamica.com/">Gestionali Amica</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
