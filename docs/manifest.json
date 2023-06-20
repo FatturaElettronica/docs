@@ -5,6 +5,102 @@
   "files": [
     {
       "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "FatturaElettronica.NET/docs/authors.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/authors.html",
+          "hash": "NnZcXFN4vQHU2d4GmRorE32M4WK47qiAWYfwIXzxnYw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "FatturaElettronica.NET/docs/changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/changelog.html",
+          "hash": "Fnm2ji+V7Yl902bnWjB/3fS6IGz24Apfot/v0Wh9zmo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "FatturaElettronica.NET/docs/extensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/extensions.html",
+          "hash": "PmUeb1BEKiEnq7YiEjTzViQy398s5ANgQ1mXpyyBLUk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "FatturaElettronica.NET/docs/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/faq.html",
+          "hash": "kLiEY0HmKx/Beh1Uza/V2tWX55UplEutP87tZzxLSS0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "FatturaElettronica.NET/docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/index.html",
+          "hash": "S4SYyZdDC84nlb/jLZWSp9d1/W1UM22H1OEC5r4da48="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "FatturaElettronica.NET/docs/tutorial.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tutorial.html",
+          "hash": "+rewY1tF8W9/nMLTvsKfusBuMeuGECfIRyqixi+e6D4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "5+NZntUWV6iUgKndPxfW8RI0h9s/2gZdxMoc4/rf5cc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes/sHA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/logo.png",
       "output": {
         "resource": {
@@ -19,6 +115,17 @@
       "output": {
         "resource": {
           "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "PkCT3F7AHrVrNAf1ObcMonQYr+0UoVJLZ44U1mw6b+M="
         }
       },
       "version": ""
