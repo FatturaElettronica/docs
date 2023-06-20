@@ -88,8 +88,7 @@
         "fileMetadataFiles": [],
         "template": [
             "default",
-            "modern",
-            "templates/material"
+            "templates/material-classic"
         ],
         "postProcessors": [],
         "markdownEngineName": "markdig",
