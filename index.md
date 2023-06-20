@@ -34,7 +34,7 @@ formato XML che JSON.
 Dalla versione 3 FatturaElettronica.NET include il core e le  estensioni per il supporto 
 dei file con firma digitale ed altro.
 
-- [Documentazione](/docs/docs/)
+- [Documentazione](/docs/)
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.NET)
 - [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.svg)](https://badge.fury.io/nu/FatturaElettronica)
 
