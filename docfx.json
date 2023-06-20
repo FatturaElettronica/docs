@@ -79,7 +79,7 @@
         "dest": "docs",
         "globalMetadata": {
             "_appTitle": "Fattura Elettronica Open Source per piattaforme .NET",
-            "_appFooter": "© Copyright 2015-2019 <a href=https://nicolaiarocci.com>Nicola Iarocci</a> e <a href=https://gestionaleamica.com/>Gestionali Amica</a>",
+            "_appFooter": "© Copyright 2015-2023 <a href=https://nicolaiarocci.com>Nicola Iarocci</a> e <a href=https://gestionaleamica.com/>Gestionali Amica</a>",
             "_appLogoPath": "images/logo.svg",
             "_appFaviconPath": "images/logo.png",
             "_enableSearch": true
