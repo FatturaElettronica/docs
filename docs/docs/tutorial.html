@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/docs/tutorial.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/65e6d9790780f51c251c69ce170ffc2a7a135faf/docs/tutorial.md/#L1">
   </head>
 
   <script type="module">
@@ -108,10 +108,10 @@ a seconda dei contenuti del file:</p>
 <pre><code>    using var stream = new FileStream(&quot;IT02182030391_31.xml.p7m&quot;, FileMode.Open, FileAccess.Read);
     var fattura = FatturaBase.CreateInstanceFromXml(stream);
 
-    Console.WriteLine(fattura.GetFormatoTrasmissione())
+    Console.WriteLine(fattura.GetFormatoTrasmissione());
     // &quot;FSM10&quot;
 </code></pre>
-<p><code>CreateInstanceFromXml</code> supporta sia file XML puri (<em>.xml</em>) che firmati digitalment (<em>.p7m</em>), eventualmente anche
+<p><code>CreateInstanceFromXml</code> supporta sia file XML puri (<em>.xml</em>) che firmati digitalmente (<em>.p7m</em>), eventualmente anche
 codificati Base64. Questa comodità ha un costo, ovvero un leggero impatto sulle prestazioni in quanto è necessaria
 una pre-scasione dello stream per determinarne il formato e la tipologia di fattura.</p>
 <h2 id="consultare-la-fattura">Consultare la fattura</h2>
@@ -306,7 +306,7 @@ namespace DemoApp
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/08bd06931029d102267f7b380efbc55be2e13e84/docs/tutorial.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/65e6d9790780f51c251c69ce170ffc2a7a135faf/docs/tutorial.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
