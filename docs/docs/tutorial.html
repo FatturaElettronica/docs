@@ -108,10 +108,10 @@ a seconda dei contenuti del file:</p>
 <pre><code>    using var stream = new FileStream(&quot;IT02182030391_31.xml.p7m&quot;, FileMode.Open, FileAccess.Read);
     var fattura = FatturaBase.CreateInstanceFromXml(stream);
 
-    Console.WriteLine(fattura.GetFormatoTrasmissione())
+    Console.WriteLine(fattura.GetFormatoTrasmissione());
     // &quot;FSM10&quot;
 </code></pre>
-<p><code>CreateInstanceFromXml</code> supporta sia file XML puri (<em>.xml</em>) che firmati digitalment (<em>.p7m</em>), eventualmente anche
+<p><code>CreateInstanceFromXml</code> supporta sia file XML puri (<em>.xml</em>) che firmati digitalmente (<em>.p7m</em>), eventualmente anche
 codificati Base64. Questa comodità ha un costo, ovvero un leggero impatto sulle prestazioni in quanto è necessaria
 una pre-scasione dello stream per determinarne il formato e la tipologia di fattura.</p>
 <h2 id="consultare-la-fattura">Consultare la fattura</h2>
