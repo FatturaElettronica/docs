@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/6d6dfcb9041d9748e3772064c45ca9405c0e3223/docs/changelog.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/42fd311b13e8ba0f1f7173516f46ab861aa5d8dd/docs/changelog.md/#L1">
   </head>
 
   <script type="module">
@@ -80,27 +80,31 @@
 
 <h2 id="in-development">In Development</h2>
 <ul>
-<li><em>hic sunt leones</em></li>
+<li>hic sunt leones</li>
 </ul>
 <h2 id="stable">Stable</h2>
-<h2 id="v-3412">v 3.4.12</h2>
+<h3 id="v-3413">v 3.4.13</h3>
+<ul>
+<li>Fix: Controllo 00473: recepite novità introdotte dalle <a href="https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.8">specifiche v1.8</a> (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/407">#407</a>)</li>
+</ul>
+<h3 id="v-3412">v 3.4.12</h3>
 <p>Released on December 5, 2023</p>
 <ul>
 <li>Fix: Controllo validità campi Email e PEC (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/405">#405</a>)</li>
 <li>Fix: CI workflow file rilasciato col package nuget (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/404">#404</a>)</li>
 </ul>
-<h2 id="v-3411">v 3.4.11</h2>
+<h3 id="v-3411">v 3.4.11</h3>
 <p>Released on October 27, 2023</p>
 <ul>
 <li>Fix: DettaglioLinee.NumeroLinea deve consentire solo valori da 1 a 9999 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/403">#403</a>)</li>
 </ul>
-<h2 id="v-3410">v 3.4.10</h2>
+<h3 id="v-3410">v 3.4.10</h3>
 <p>Released on August 3, 2023</p>
 <ul>
 <li>Fix: Scarto Fattura se presenta uno sconto a 3+ cifre decimali (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/401">#401</a>)</li>
 <li>Fix: typos nella documentazione (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/pull/399">#399</a>)</li>
 </ul>
-<h2 id="v-349">v 3.4.9</h2>
+<h3 id="v-349">v 3.4.9</h3>
 <p>Released on June 19, 2023</p>
 <ul>
 <li>Fix: <a href="https://github.com/advisories/GHSA-555c-2p6r-68mm">Microsoft Security Advisory CVE-2023-29331: .NET Denial of Service vulnerability</a></li>
@@ -108,51 +112,51 @@
 <li>Fix: <a href="https://github.com/advisories/GHSA-7jgj-8wvc-jh57">.NET Core Information Disclosure</a></li>
 <li>Fix: <a href="https://github.com/advisories/GHSA-cmhx-cq75-c4mj">Regular Expression Denial of Service in System.Text.RegularExpressions</a></li>
 </ul>
-<h2 id="v-348">v 3.4.8</h2>
+<h3 id="v-348">v 3.4.8</h3>
 <p>Released on May 2, 2023</p>
 <ul>
 <li>Fix: Se IdFiscaleIva di Cessionario e Cedente corrispondono, la fattura deve convalidare anche se in Cessionario è assente il codice fiscale. (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/396">#396</a>)</li>
 </ul>
-<h2 id="v-347">v 3.4.7</h2>
+<h3 id="v-347">v 3.4.7</h3>
 <p>Released on April 5, 2023</p>
 <ul>
 <li>Fix: controlli 00423 e 00421: tolleranza di 1 centesimo deve essere 'larga' (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/394">#394</a>)</li>
 <li>Test suite ora gira su .NET 7</li>
 <li>CI: aggiornate GitHub actions per non usare più Node 12, ora obsoleto</li>
 </ul>
-<h2 id="v-346">v 3.4.6</h2>
+<h3 id="v-346">v 3.4.6</h3>
 <p>Released on October 28, 2022</p>
 <ul>
 <li>Fix: controllo 00472; supporto per ditta individuale che si fattura un prodotto (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/388">#388</a>)</li>
 </ul>
-<h2 id="v-345">v 3.4.5</h2>
+<h3 id="v-345">v 3.4.5</h3>
 <p>Released on October 14, 2022</p>
 <ul>
 <li>Fix: controllo 00471; recepite novità introdotte dalle <a href="https://www.fatturapa.gov.it/export/documenti/Elenco-Controlli-versione-1.8.pdf">specifiche v1.8</a> (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/387">#387</a>)</li>
 <li>Fix: controllo 00476; supporto per Cessionario.IdFiscaleIva non indicato (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/386">#386</a>)</li>
 <li>Fix: controllo 00473; TD28 può essere usato solo se IdPaese del cedente è uguale a &quot;SM&quot; (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/385">#385</a>)</li>
 </ul>
-<h2 id="v344">v3.4.4</h2>
+<h3 id="v344">v3.4.4</h3>
 <p>Released on October 1, 2022</p>
 <ul>
 <li>Fix: errore nella validazione dei controlli 00401 e 00430 introdotto in v3.4.3 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/384">#384</a>)</li>
 </ul>
-<h2 id="v343">v3.4.3</h2>
+<h3 id="v343">v3.4.3</h3>
 <p>Released on October 1, 2022</p>
 <ul>
 <li>Fix: aggiornati i controlli 00401 e 00430 affinchè escludano i documenti TD16 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/382">#382</a>)</li>
 </ul>
-<h2 id="v342">v3.4.2</h2>
+<h3 id="v342">v3.4.2</h3>
 <p>Released on September 27, 2022</p>
 <ul>
 <li>Fix: Aggiornato messaggio di errore per il controllo 00472 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/381">#381</a>)</li>
 </ul>
-<h2 id="v-341">v 3.4.1</h2>
+<h3 id="v-341">v 3.4.1</h3>
 <p>Released on September 26, 2022</p>
 <ul>
 <li>Fix: correzione segnalazioni Controlli 00471 e 00473 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/378">#378</a> e <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/379">#379</a>)</li>
 </ul>
-<h2 id="v-34">v 3.4</h2>
+<h3 id="v-34">v 3.4</h3>
 <p>Released on September 9, 2022</p>
 <p>Questa beta release recepisce le specifiche tecniche v1.7.1 che entreranno in vigore il 1 Ottobre 2022.
 Per maggiori informazioni vedi il ticket (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376">#376</a>).</p>
@@ -164,13 +168,13 @@ Per maggiori informazioni vedi il ticket (<a href="https://github.com/FatturaEle
 <li>Fix: aggiornata descrizione dei codici di errore 00401, 00430, 00473, 00475 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376">#376</a>).</li>
 <li>Fix: aggiornata descrizione della Natura N7 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376">#376</a>).</li>
 </ul>
-<h2 id="v-334">v 3.3.4</h2>
+<h3 id="v-334">v 3.3.4</h3>
 <p>Released on August 4, 2022</p>
 <ul>
 <li>'EL' (Grecia) aggiunto ai valori convalidati per IdPaese, in alternativa a 'GR' (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/374">#374</a>).</li>
 <li>'OO' (Campione d'Italia e Livigno) aggiunto ai valori convalidati per IdPaese (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/370">#370</a>).</li>
 </ul>
-<h2 id="v-333">v 3.3.3</h2>
+<h3 id="v-333">v 3.3.3</h3>
 <p>Released on July 11, 2022</p>
 <ul>
 <li>Fix: CodiceFiscale con caratteri minuscoli non deve passare la convalida (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/373">#373</a>)</li>
@@ -179,17 +183,17 @@ Per maggiori informazioni vedi il ticket (<a href="https://github.com/FatturaEle
 <li>Bump System.Security.Cryptography.Pkcs a v6.0.1</li>
 <li>Bump System.Text.Json a v6.0.5</li>
 </ul>
-<h2 id="v-332">v 3.3.2</h2>
+<h3 id="v-332">v 3.3.2</h3>
 <p>Released on May 24, 2022</p>
 <ul>
 <li>Fix: <code>WriteHtml</code> crea un file temporaneo che non viene eliminato in seguito (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/371">#371</a>)</li>
 </ul>
-<h2 id="v-331">v 3.3.1</h2>
+<h3 id="v-331">v 3.3.1</h3>
 <p>Released on April 6, 2022</p>
 <ul>
 <li>Fix: CodiceArticolo va convalidato come <code>LatinExtType</code> (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/368">#368</a>)</li>
 </ul>
-<h2 id="v-330">v 3.3.0</h2>
+<h3 id="v-330">v 3.3.0</h3>
 <p>Released on February 25, 2022</p>
 <ul>
 <li>New: supporto per tag 'Processing Instructions' in de-serializzazione XML (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/pull/367">#367</a>)</li>
@@ -197,8 +201,7 @@ Per maggiori informazioni vedi il ticket (<a href="https://github.com/FatturaEle
 <li>Migrazione a System.Text.Json (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/360">#360</a>)</li>
 <li>Rimosso badge dependabot dal README</li>
 </ul>
-<h2 id="released">Released</h2>
-<h2 id="v-320">v 3.2.0</h2>
+<h3 id="v-320">v 3.2.0</h3>
 <p>Released on November 25, 2021</p>
 <ul>
 <li>Questa versione si allinea alle regole di convalida in vigore dal 1 Gennaio 2022.</li>
@@ -213,35 +216,35 @@ Per maggiori informazioni vedi il ticket (<a href="https://github.com/FatturaEle
 <li>Aggiornata dipendenza System.Security.Cryptography.Pkcs to 6.0.0</li>
 <li>Aggiornata dipendenza Portable.BouncyCastle to 1.9.0</li>
 </ul>
-<h2 id="v-315">v 3.1.5</h2>
+<h3 id="v-315">v 3.1.5</h3>
 <p>Released on May 14, 2021</p>
 <ul>
 <li>Risolo problema deserializzazione Json per la classe <code>Allegati</code> (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/pull/344">#344</a>)</li>
 </ul>
-<h2 id="v-314">v 3.1.4</h2>
+<h3 id="v-314">v 3.1.4</h3>
 <p>Released on March 21, 2021 - Codename 'Spring'</p>
 <ul>
 <li>Fix: il codice per Irlanda del Nord è <code>XI</code>, non <code>IX</code> (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/314">#314</a>)</li>
 </ul>
-<h2 id="v-313">v 3.1.3</h2>
+<h3 id="v-313">v 3.1.3</h3>
 <p>Released on March 19, 2021</p>
 <ul>
 <li>Aggiunto supporto per il valore <code>IX</code> (Irlanda del Nord) al campo <code>IdPaese</code> (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/314">#314</a>)</li>
 </ul>
-<h2 id="v-312">v 3.1.2</h2>
+<h3 id="v-312">v 3.1.2</h3>
 <p>Released on February 20, 2021</p>
 <ul>
 <li>Rimosso warning di obsolescenza in preparazione per FluentValidation 10 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/321">#321</a>)</li>
 <li>Risolto problema di compatibilità con FluentValidation 9.5.1 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/320">#320</a>)</li>
 <li>Aggiornata dipendenza FluentValidation a 9.5.1</li>
 </ul>
-<h2 id="v-311">v 3.1.1</h2>
+<h3 id="v-311">v 3.1.1</h3>
 <p>Released on January 25, 2021</p>
 <ul>
 <li>Convalida <code>TipoResa</code> allineata a specifiche Incoterms 2020 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/313">#313</a>)</li>
 <li>Validazione <code>CAP</code>: deve contenere solo valori numerici (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/310">#310</a>)</li>
 </ul>
-<h2 id="v-310">v 3.1.0</h2>
+<h3 id="v-310">v 3.1.0</h3>
 <p>Released on December 30, 2020</p>
 <ul>
 <li>Questa versione si allinea alle regole di convalida in vigore dal 1 Gennaio 2021.</li>
@@ -256,13 +259,13 @@ Per maggiori informazioni vedi il ticket (<a href="https://github.com/FatturaEle
 <li>Aggiornata dipendenza FluentValidation a 9.3.0</li>
 <li>Aggiornata dipendenza System.Security.Cryptography.Pkcs a 5.0.1</li>
 </ul>
-<h2 id="v-305">v 3.0.5</h2>
+<h3 id="v-305">v 3.0.5</h3>
 <p>Released on November 26, 2020</p>
 <ul>
 <li>Fix: <code>SistemaEmittente</code> non va serializzato come elemento XML (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/294">#294</a>)</li>
 <li>Fix: rimossa convalida <code>DatiRiepilogo.RiferimentoNormativo</code> è richiesto quando <code>Natura</code> è valorizzato (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/284">#284</a>)</li>
 </ul>
-<h2 id="v-304">v 3.0.4</h2>
+<h3 id="v-304">v 3.0.4</h3>
 <p>Released on November 3, 2020</p>
 <ul>
 <li>Fix: Migliorata la validazione errore 00444 in <code>DatiRiepilogo</code> (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/pull/287">#287</a>)</li>
@@ -278,43 +281,43 @@ Per maggiori informazioni vedi il ticket (<a href="https://github.com/FatturaEle
 <li>Aggiornata dipendenza Microsoft.NET.Test.Sdk a 16.7.1</li>
 <li>Abbandonata dipendenza obsoleta da <code>System.Xml.XmlSerializer</code></li>
 </ul>
-<h2 id="v-303">v 3.0.3</h2>
+<h3 id="v-303">v 3.0.3</h3>
 <p>Released on August 25, 2020</p>
 <ul>
 <li>Fix: I tipi decimali dovrebbero essere convalidati per verificare che abbiano 2 o 11 decimali (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/pull/275">#275</a>)</li>
 <li>Fix: <code>CodiceDestinatario</code> dovrebbe essere maiuscolo e non contenere altri caratteri al di fuori di A-Z 0-9 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/272">#272</a>)</li>
 </ul>
-<h2 id="v-302">v 3.0.2</h2>
+<h3 id="v-302">v 3.0.2</h3>
 <p>Released on July 7, 2020</p>
 <ul>
 <li>Aggiornata dipendenza FluentValidation a 9.0 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/271">#271</a>)</li>
 </ul>
-<h2 id="v-301">v 3.0.1</h2>
+<h3 id="v-301">v 3.0.1</h3>
 <p>Released on July 6, 2020</p>
 <ul>
 <li>Fix: Validazione per errore 00444 dovrebbe tenere conto dei valori null (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/269">#269</a>)</li>
 </ul>
-<h2 id="v-30">v 3.0</h2>
+<h3 id="v-30">v 3.0</h3>
 <p>Released on June 5, 2020</p>
 <ul>
 <li>Fix: CessionarioCommittente.IdFiscaleIva va convalidato solo quando valorizzato (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/263">#263</a>)</li>
 </ul>
-<h2 id="v-30-beta6">v 3.0-beta.6</h2>
+<h3 id="v-30-beta6">v 3.0-beta.6</h3>
 <p>Released on May 21, 2020</p>
 <ul>
 <li>Passaggio a C# 8.0 e (piccolo) refactoring.</li>
 </ul>
-<h2 id="v-30-beta5">v 3.0-beta.5</h2>
+<h3 id="v-30-beta5">v 3.0-beta.5</h3>
 <p>Released on April 20, 2020</p>
 <ul>
 <li>Tabella <code>CausalePagamento</code> accetta valori Y,K,V2,Z durante il periodo di transizione (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/259">#259</a>)</li>
 </ul>
-<h2 id="v-30-beta4">v 3.0-beta.4</h2>
+<h3 id="v-30-beta4">v 3.0-beta.4</h3>
 <p>Released on April 15, 2020</p>
 <ul>
 <li><code>CreateInstanceFromXml</code> accetta argomento <code>validateSignature</code> con default a <code>false</code> (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/258">#258</a>)</li>
 </ul>
-<h2 id="v-30-beta3">v 3.0-beta.3</h2>
+<h3 id="v-30-beta3">v 3.0-beta.3</h3>
 <p>Released on April 9, 2020</p>
 <ul>
 <li><code>CreateInstanceFromXml</code> ora leggere anche file firmati digitalmente (.p7m) (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/256">#256</a>)</li>
@@ -327,13 +330,13 @@ FatturaElettronica.Core.</li>
 <li>La API di FatturaElettronica.Core, ora incorporata in questo package, è stata
 spostata dal namespace <code>FatturaElettronica.Common</code> a <code>FatturaElettronica.Core</code>.</li>
 </ul>
-<h2 id="v-30-beta2">v 3.0-beta.2</h2>
+<h3 id="v-30-beta2">v 3.0-beta.2</h3>
 <p>Released on April 6, 2020</p>
 <ul>
 <li>Fix: NullReferenceException nel metodo Equals (<a href="https://github.com/FatturaElettronica/FatturaElettronica.Core/issues/42">Core#42</a>)</li>
 <li>Aggiornata dipendenza FatturaElettronica.Core a 2.0.1.</li>
 </ul>
-<h2 id="v-30-beta1">v 3.0-beta.1</h2>
+<h3 id="v-30-beta1">v 3.0-beta.1</h3>
 <p>Released on March 20, 2020</p>
 <ul>
 <li><p>Supporto per le specifiche tecniche v1.6 aggiornate il 28.2.2020 e utilizzabili a partire dal 4 maggio 2020. Si veda:</p>
@@ -342,24 +345,24 @@ spostata dal namespace <code>FatturaElettronica.Common</code> a <code>FatturaEle
 </ul>
 </li>
 </ul>
-<h2 id="v-211">v 2.1.1</h2>
+<h3 id="v-211">v 2.1.1</h3>
 <p>Released on March 20, 2020</p>
 <ul>
 <li>Fix: Attributo <code>schemaLocation</code> causava problemi con alcuni client Java. (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/pull/250">#250</a>)</li>
 </ul>
-<h2 id="v-210">v 2.1.0</h2>
+<h3 id="v-210">v 2.1.0</h3>
 <p>Released on February 7, 2020</p>
 <ul>
 <li>New: <code>FatturaBase.CreateInstanceFromXml()</code> carica stream XML e restituisce una istanza di FatturaOrdinaria o FatturaSemplificata (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/240">#240</a>)</li>
 <li>Fix: Semplificata.DatiBeniServizi.DatiIVA: Aliquota o Importo obbligatori (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/238">#238</a>)</li>
 <li>Fix: Semplificata.CessionarioCommittente.IdFiscaleIva va convalidato se valorizzato (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/242">#242</a>)</li>
 </ul>
-<h2 id="v208">v2.0.8</h2>
+<h3 id="v208">v2.0.8</h3>
 <p>Released on December 2, 2019</p>
 <ul>
 <li>Fix: convalida fattura semplificata, importo massimo portato a 400 euro (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/233">#233</a>)</li>
 </ul>
-<h2 id="v207">v2.0.7</h2>
+<h3 id="v207">v2.0.7</h3>
 <p>Released on November 28, 2019</p>
 <ul>
 <li>Fix: errore nell'ordine dei campi CedentePrestatore in fattura semplificata (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/220">#220</a>)</li>
@@ -369,7 +372,7 @@ spostata dal namespace <code>FatturaElettronica.Common</code> a <code>FatturaEle
 <li>Tutorial: Aggiunto <code>IgnoreProcessingInstructions</code> a <code>XmlReaderSettings</code> per evitare crash quando
 nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono presenti nel XML. (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/209">#209</a>)</li>
 </ul>
-<h2 id="v206">v2.0.6</h2>
+<h3 id="v206">v2.0.6</h3>
 <p>Released on May 24, 2019</p>
 <ul>
 <li>Fix: FatturaSemplificata convalidata con TipoDocumento valido per Ordinaria (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/205">#205</a>)</li>
@@ -379,37 +382,37 @@ nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono 
 <li>Fix: DatiFatturaRettificata.DataFR dovrebe essere nullabile (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/200">#200</a>)</li>
 <li>Fix: CausalePagamento: ZO e M2 sostituiti rispettivamente da Z e M (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/191#issuecomment-493911791">#191</a>)</li>
 </ul>
-<h2 id="v205">v2.0.5</h2>
+<h3 id="v205">v2.0.5</h3>
 <p>Released on April 23, 2019</p>
 <ul>
 <li>Fix: validatore CausalePagamento da aggiornare per unico 2019 (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/191">#191</a>)</li>
 <li>Test refactoring and cleanup.</li>
 </ul>
-<h2 id="v204">v2.0.4</h2>
+<h3 id="v204">v2.0.4</h3>
 <p>Released on April 16, 2019</p>
 <ul>
 <li>Fix: falso errore 00418 &quot;Data antecedente a data fattura rettificata&quot; (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/190">#190</a>)</li>
 <li>Aggiunto badge NuGet al README (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/188">#188</a>)</li>
 <li><code>LatinBaseValidator</code> ora indica quali sono i caratteri non accettati (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/185">#185</a>)</li>
 </ul>
-<h2 id="v203">v2.0.3</h2>
+<h3 id="v203">v2.0.3</h3>
 <p>Released on April 8, 2019</p>
 <ul>
 <li>Fix: errore validazione DettaglioLinee.TotalPrice (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/181">#181</a>)</li>
 <li>Refactoring: classe Allegati spostata in FatturaElettronica.Common (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/179">#179</a>)</li>
 <li>Docs: aggiunto folder <code>docs</code> con documentazione progetto.</li>
 </ul>
-<h2 id="v202">v2.0.2</h2>
+<h3 id="v202">v2.0.2</h3>
 <p>Released on March 19, 2019</p>
 <ul>
 <li>Fix: il root node della fattura semplificata ha il namespace sbagliato. Addresses #176.</li>
 </ul>
-<h2 id="v201">v2.0.1</h2>
+<h3 id="v201">v2.0.1</h3>
 <p>Released on March 19, 2019</p>
 <ul>
 <li>Fix: il root node della fattura semplificata ha il nome sbagliato. Closes #176.</li>
 </ul>
-<h2 id="v20">v2.0</h2>
+<h3 id="v20">v2.0</h3>
 <p>Released on March 13, 2019</p>
 <ul>
 <li><p>New: Supporto per fattura semplificata (Gaetano Pizzol). Closes #137.</p>
@@ -439,19 +442,19 @@ nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono 
 <li><p>Switch CI da AppVeyor ad Azure Pipelines.</p>
 </li>
 </ul>
-<h2 id="v115">v1.1.5</h2>
+<h3 id="v115">v1.1.5</h3>
 <p>Released on February 2, 2019</p>
 <ul>
 <li>Fix: Tabella CausalePagamento aggiornata al 2019. Closes #151.</li>
 </ul>
-<h2 id="v114">v1.1.4</h2>
+<h3 id="v114">v1.1.4</h3>
 <p>Released on January 31, 2019</p>
 <ul>
 <li>Fix: ScontoMaggiorazione può accettare sia Importo che Percentuale. Closes #146.</li>
 <li>Fix: IdPaese.Irlanda è duplicato mentre Islanda è assente. Closes #144.</li>
 <li>README: aggiunto esempio di inserimento elemento Body. Addresses #141.</li>
 </ul>
-<h2 id="v113">v1.1.3</h2>
+<h3 id="v113">v1.1.3</h3>
 <p>Released on January 23, 2019</p>
 <ul>
 <li>New: nuovo logo per il progetto FatturaElettronica, by Roberto &quot;Kalamun&quot; Pasini. Closes 101.</li>
@@ -459,12 +462,12 @@ nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono 
 <li>Fix: ScontoMaggiorazione deve accettare Importo o Percentuale a 0. Addresses #136.</li>
 <li>Fix: ScontoMaggiorazione non deve accettare Importo e Percentuale entrambi valorizzati. Addresses #136.</li>
 </ul>
-<h2 id="v112">v1.1.2</h2>
+<h3 id="v112">v1.1.2</h3>
 <p>Released on January 21, 2019</p>
 <ul>
 <li>Fix: Validazione ScontoMaggiorazione dovrebbe accettare Importo o Percentuale a 0. Closes #136.</li>
 </ul>
-<h2 id="v111">v1.1.1</h2>
+<h3 id="v111">v1.1.1</h3>
 <p>Released on January 17, 2019</p>
 <ul>
 <li>Fix: Tabella CausalePagamento completata coi nomi di ogni pagamento (Michael Mairegger). Pull #127.</li>
@@ -473,7 +476,7 @@ nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono 
 <li>Fix: Supporto per 8 decimali nel PrezzoUnitario (Claudio Lepri). Pull #130; Closes #125.</li>
 <li>Bump FatturaElettronica.Core a 1.1.1.</li>
 </ul>
-<h2 id="v11">v1.1</h2>
+<h3 id="v11">v1.1</h3>
 <p>Released on January 6, 2019</p>
 <ul>
 <li>New: NetStandard 2.0 aggiunto ai target framework (Federico Dipuma). Closes #119.</li>
@@ -482,28 +485,28 @@ nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono 
 <li>Fix: Quantità non può assumere valore negativo. Closes #115.</li>
 <li>Fix: Small typos. Closes #116.</li>
 </ul>
-<h2 id="v104">v1.0.4</h2>
+<h3 id="v104">v1.0.4</h3>
 <p>Released on January 2, 2019</p>
 <ul>
 <li>Fix: Aggiunta &quot;Sud Sardegna&quot; alla lista provincie (Massimo Linossi). Pull #111.</li>
 </ul>
-<h2 id="v103">v1.0.3</h2>
+<h3 id="v103">v1.0.3</h3>
 <p>Released on December 30, 2018</p>
 <ul>
 <li>Fix: UnitaMisura è opzionale. Addresses #102.</li>
 </ul>
-<h2 id="v102">v1.0.2</h2>
+<h3 id="v102">v1.0.2</h3>
 <p>Released on December 20, 2018.</p>
 <ul>
 <li>Fix: Titolo e CodEORI ignorano ordinamento. Closes #103.</li>
 <li>Fix: controllo UnitaMisura consente campo vuoto. Closes #102.</li>
 </ul>
-<h2 id="v101">v1.0.1</h2>
+<h3 id="v101">v1.0.1</h3>
 <p>Released on November 9, 2018.</p>
 <ul>
 <li>Bump: FatturaElettronica.Core to 1.0.</li>
 </ul>
-<h2 id="v10">v1.0</h2>
+<h3 id="v10">v1.0</h3>
 <p>Released on November 9, 2018.</p>
 <ul>
 <li><p>BREAKING: proprietà Fattura.Header rinominata in FatturaElettronicaHeader. Closes #83.</p>
@@ -537,7 +540,7 @@ nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono 
 <li><p>Bump: Microsoft.NET.Test.Sdk to 15.9.0.</p>
 </li>
 </ul>
-<h2 id="v09">v0.9</h2>
+<h3 id="v09">v0.9</h3>
 <p>Released on October 26, 2018.</p>
 <ul>
 <li>New: FromJson() de-serializza stream JSON.</li>
@@ -546,35 +549,35 @@ nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono 
 <li>Fix: ToJson() serializza proprietà che non dovrebbero comparire nel JON.</li>
 <li>I test ora girano come app NetCore 2.1. Addresses FatturaElettronica/FatturaElettronica.Core#4.</li>
 </ul>
-<h2 id="v085">v0.8.5</h2>
+<h3 id="v085">v0.8.5</h3>
 <p>Released on October 16, 2018.</p>
 <ul>
 <li>New: Validazione errore 00426 per campo 1.1.6 PECDestinatario. Closes #74.</li>
 <li>Fix: errore descrizione in RegimeFiscale &quot;RF17&quot;. Closes #72.</li>
 <li>Fix: &quot;Nullable object must have a value&quot; in validazione di blocco ScontoMaggiorazione con Importo = 0. Closes #71.</li>
 </ul>
-<h2 id="v084">v0.8.4</h2>
+<h3 id="v084">v0.8.4</h3>
 <p>Released on October 4, 2018.</p>
 <ul>
 <li>Upgrade: FluentValidation to v8.0.100.</li>
 </ul>
-<h2 id="v083">v0.8.3</h2>
+<h3 id="v083">v0.8.3</h3>
 <p>Released on October 2, 2018.</p>
 <ul>
 <li>Fix: DettaglioLineeValidator: 00423 non supporta tolleranca di 1 centesimo. Closes #66.</li>
 </ul>
-<h2 id="v082">v0.8.2</h2>
+<h3 id="v082">v0.8.2</h3>
 <p>Released on October 1, 2018.</p>
 <ul>
 <li>FatturaElettronica.Core dependency bumped to v0.2.</li>
 <li>Cleanup and refactoring: use auto-properties; remove unnecessary usings.</li>
 </ul>
-<h2 id="v081">v0.8.1</h2>
+<h3 id="v081">v0.8.1</h3>
 <p>Rilasciata il 4.7.2018</p>
 <ul>
 <li>Fix: errore lunghezza PECDestinatario in v0.8. Closes #58.</li>
 </ul>
-<h2 id="v08">v0.8</h2>
+<h3 id="v08">v0.8</h3>
 <p>Rilasciata il 3.7.2018</p>
 <ul>
 <li>Recepite specifiche tecniche Allegato A del 22.6.2018. Closes #52.</li>
@@ -582,75 +585,75 @@ nodi &quot;processing instructions&quot; (es: <code>xml-stylesheet</code>) sono 
 <li>New: supporto per TipoDocumento TD020 autofattura. Addresses #52</li>
 <li>Passata la test suite da NET461 a NETCore. Closes #57.</li>
 </ul>
-<h2 id="v07">v0.7</h2>
+<h3 id="v07">v0.7</h3>
 <p>Rilasciata il 4.10.2017</p>
 <ul>
 <li>Spostata serializzazione su package indipendente FatturaElettronica.Core.</li>
 <li>Abbandonato il profilo PCL in favore di NetStandard 1.1.</li>
 </ul>
-<h2 id="v063">v0.6.3</h2>
+<h3 id="v063">v0.6.3</h3>
 <p>Rilasciata il 17.7.2017</p>
 <ul>
 <li>Fix: RappresentanteFiscale viene erroneamente serializzato come 'Rappresentante' causando errore convalida 200
 da parte del sistema PA. Closes #49.</li>
 <li>README: Aggiunta opzione IgnoreComments a XmlReader per evitare crash nel caso di commenti nel XML. Closes #45.</li>
 </ul>
-<h2 id="v062">v0.6.2</h2>
+<h3 id="v062">v0.6.2</h3>
 <p>Rilasciata il 23.5.2017.</p>
 <ul>
-<li>Fix: Falso errore di convalida 00423 quando PrezzoTotale � valorizzato con piu di due decimali. Closes #45.</li>
+<li>Fix: Falso errore di convalida 00423 quando PrezzoTotale è valorizzato con piu di due decimali. Closes #45.</li>
 </ul>
-<h2 id="v061">v0.6.1</h2>
+<h3 id="v061">v0.6.1</h3>
 <p>Rilasciata il 5.5.2017.</p>
 <ul>
-<li>Fix: Falso errore di convalida 00415 quando DatiCassaPrevidenziale � valorizzato ma non ha Ritenuta=&quot;SI&quot;. Closes #44.</li>
+<li>Fix: Falso errore di convalida 00415 quando DatiCassaPrevidenziale è valorizzato ma non ha Ritenuta=&quot;SI&quot;. Closes #44.</li>
 </ul>
-<h2 id="v060">v0.6.0</h2>
+<h3 id="v060">v0.6.0</h3>
 <p>Rilasciata il 27.4.2017.</p>
 <ul>
-<li>Assembly non pi� strong-named. Closes #41.</li>
+<li>Assembly non più strong-named. Closes #41.</li>
 <li>README: aggiunti esempi di introspezione e modifica degli elementi FatturaElettronicaBody. Closes #38.</li>
 </ul>
-<h2 id="v051">v0.5.1</h2>
+<h3 id="v051">v0.5.1</h3>
 <p>Rilasciata il 26.4.2017.</p>
 <ul>
 <li>Fix: Errore 00421 non tiene conto della tolleranza garantita di 0.01 centesimi. Closes #43.</li>
 </ul>
-<h2 id="v050">v0.5.0</h2>
+<h3 id="v050">v0.5.0</h3>
 <p>Rilasciata il 30.3.2017.</p>
 <p>Questa versione recepisce le modifiche introdotte con la v1.2.1 delle specifiche tecniche PA.</p>
 <ul>
-<li>Regime Fiscale RF03 � abrogato. Viene restituito errore 00459 se utilizzato.</li>
+<li>Regime Fiscale RF03 è abrogato. Viene restituito errore 00459 se utilizzato.</li>
 <li>Natura N5: descrizione aggiornata a &quot;regime del margine / IVA non esposta in fattura&quot;.</li>
-<li>Le propriet� Codice e Nome della classe astratta Tabella non sono pi� protette in scrittura.</li>
+<li>Le proprietà e Nome della classe astratta Tabella non sono più protette in scrittura.</li>
 </ul>
-<h2 id="v043">v0.4.3</h2>
+<h3 id="v043">v0.4.3</h3>
 <p>Rilasciata il 23.3.2017.</p>
 <ul>
-<li>Fix: Validazione conformit� ai gruppi IsBasicLatin e IsLatin-1Supplement. Closes #29.</li>
+<li>Fix: Validazione conformità gruppi IsBasicLatin e IsLatin-1Supplement. Closes #29.</li>
 <li>Fix: Non includere il folder Artwork nel package NuGet. Closes #37.</li>
 </ul>
-<h2 id="v042">v0.4.2</h2>
+<h3 id="v042">v0.4.2</h3>
 <p>Rilascata il 17.3.2017.</p>
 <ul>
 <li>Fix: Convalida DatiCassaPrevidenziale.Natura va fatta solo quando Aliquota uguale a
 zero. Closes #36.</li>
 </ul>
-<h2 id="v041">v0.4.1</h2>
+<h3 id="v041">v0.4.1</h3>
 <p>Rilasciata il 14.3.2017.</p>
 <ul>
 <li>Fix: Nomi delle nazioni ISO-3166 Alpha 2 sono in Inglese. Closes #35.</li>
 <li>Fix: Elementi FatturaElettronicaBody sono serializzati come 'Body'. Closes #34.</li>
 <li>Aggiunto file .editconfig</li>
 </ul>
-<h2 id="v040">v0.4.0</h2>
+<h3 id="v040">v0.4.0</h3>
 <p>Rilasciata il 9.3.2017.</p>
 <ul>
 <li>Rinominata classe FatturaElettronica in Fattura.</li>
 <li>Rinominata classe FatturaElettronicaHeader in Header.</li>
 <li>Rinominata classe FatturaElettronicaBody in Body.</li>
-<li>Rinominata propriet� Fattura.FatturaElettronicaHeader in Fattura.Header.</li>
-<li>Rinominata propriet� Fattura.FatturaElettronicaBody in Fattura.Body.</li>
+<li>Rinominata proprietà Fattura.FatturaElettronicaHeader in Fattura.Header.</li>
+<li>Rinominata proprietà Fattura.FatturaElettronicaBody in Fattura.Body.</li>
 <li>Alcune classi spostate da FatturaElettronica.Common a FatturaElettronica.Tabelle</li>
 <li>Classe BusinessObjects.BusinessObjectBase rinominata FatturaElettronica.BaseClass.</li>
 <li>Classe BusinessObjects.BusinessObject rinominata FatturaElettronica.BaseClassSerializable.</li>
@@ -659,18 +662,18 @@ zero. Closes #36.</li>
 <li>Acquisita dipendenza dal package FluentValidation.</li>
 <li>Aggiunto namespace FatturaElettronica.Validators.</li>
 <li>Aggiunta serie di classi dedicate alla convalida (FatturaValidator; HeaderValidator; ecc.)</li>
-<li>Rimosso metodo IsValid(). Al suo posto usare propriet� ValidationResult.IsValid.</li>
-<li>Rimossa propriet� Error. Al suo posto usare ValidationFailure.Errors.</li>
+<li>Rimosso metodo IsValid(). Al suo posto usare proprietà ValidationResult.IsValid.</li>
+<li>Rimossa proprietà Error. Al suo posto usare ValidationFailure.Errors.</li>
 <li>Nuovo extension method Fattura.Validate(). Equivalente a FatturaValidator.Validate() (shortcut).</li>
 <li>Consultare il README per esempi di codice aggiornati.</li>
 </ul>
-<h2 id="v037">v0.3.7</h2>
+<h3 id="v037">v0.3.7</h3>
 <p>Rilasciata il 7.3.2017.</p>
 <ul>
 <li>Fix: Errore in convalida del campo Riferimento Testo: sono consentiti fino
 a 60 caratteri. Closes #33.</li>
 </ul>
-<h2 id="v036">v0.3.6</h2>
+<h3 id="v036">v0.3.6</h3>
 <p>Rilasciata il 10.2.2017.</p>
 <ul>
 <li>Aggiunto supporto per .NET Core.</li>
@@ -678,51 +681,51 @@ a 60 caratteri. Closes #33.</li>
 <li>Fix: Falso negativo (errore 423) in convalida DettaglioLinee. Closes #31.</li>
 <li>Fix: Correzione messaggio di errore per Divisa non corretta (Fabio Calvigioni).</li>
 </ul>
-<h2 id="v035">v0.3.5</h2>
+<h3 id="v035">v0.3.5</h3>
 <p>Rilasciata il 2.2.2017.</p>
 <ul>
 <li>Fix: Crash con ScontoMaggiorazione.Importo non impostato (null). Closes #28.</li>
 </ul>
-<h2 id="v034">v0.3.4</h2>
+<h3 id="v034">v0.3.4</h3>
 <p>Rilasciata il 1.2.2017.</p>
 <ul>
 <li>Fix: Crash quando ScontoMaggiorazione.Importo ha valore negativo. Closes #27.</li>
 </ul>
-<h2 id="v033">v0.3.3</h2>
+<h3 id="v033">v0.3.3</h3>
 <p>Rilasciata il 18.1.2017.</p>
 <ul>
 <li>Fix: Consenti serializzazione di valori numerici fino a 5 decimali (minimo 2).</li>
 <li>Fix: Arrotonda valori numerici fino a 5 decimali (minimo 2).</li>
 </ul>
-<h2 id="v032">v0.3.2</h2>
+<h3 id="v032">v0.3.2</h3>
 <p>Rilasciata il 17.1.2017.</p>
 <ul>
 <li>Fix: Convalida errore 00415. Se almeno un DatiCassaPrevidenziale ha Ritenuta = &quot;SI&quot;, allora DatiRitenuta deve essere valorizzato. Closes #22.</li>
 <li>Fix: Convalida errore 00411. Se almeno un DettaglioLinee ha Ritenuta = &quot;SI&quot;, allora DatiRitenuta deve essere valorizzato. Closes #22.</li>
-<li>Fix: Convalida errore 00423 nel caso di campo Quantit� a null. Closes #20.</li>
+<li>Fix: Convalida errore 00423 nel caso di campo Quantità a null. Closes #20.</li>
 </ul>
-<h2 id="v031">v0.3.1</h2>
+<h3 id="v031">v0.3.1</h3>
 <p>Rilasciata il 16.1.2017.</p>
 <ul>
-<li>New: aggiunte propriet� Sigla e Sigle[] alla classe FormatoTrasmissione</li>
-<li>New: aggiunta propriet� Descrizione alla classe FormatoTrasmissione</li>
+<li>New: aggiunte proprietà Sigla e Sigle[] alla classe FormatoTrasmissione</li>
+<li>New: aggiunta proprietà Descrizione alla classe FormatoTrasmissione</li>
 </ul>
-<h2 id="v03">v0.3</h2>
+<h3 id="v03">v0.3</h3>
 <p>Rilasciata il 13.1.2017</p>
-<h2 id="breaking-changes">BREAKING CHANGES</h2>
+<h4 id="breaking-changes">BREAKING CHANGES</h4>
 <p>Questa release introduce una serie di cambianti importanti che rompono la
-compatibilit� con l'API precedente.</p>
+compatibilità con l'API precedente.</p>
 <ul>
 <li>Il package NuGet cambia nome. Ora si chiama FatturaElettronica (era FatturaElettronicaPA).</li>
 <li>Il namespace diventa FatturaElettronica (era FatturaElettronicaPA)</li>
-<li>Il package FatturaElettronicaPA verr� marcato come obsoleto su NuGet.</li>
-<li>Il costruttore della classe FatturaElettronica � ora protetto.</li>
+<li>Il package FatturaElettronicaPA verrà marcato come obsoleto su NuGet.</li>
+<li>Il costruttore della classe FatturaElettronica è ora protetto.</li>
 <li>Usare il factory method CreateInstance() per ottenere una istanza della classe.</li>
 <li>CreateInstance() consente di scegliere se ottenere una fattura tra soggetti privati o per la Pubblica Amministrazione.</li>
-<li>La fattura restituita da CreateInstance() ha gi� il campo FormatoTrasmissione correttamente impostato a FPA12 o FPR12.</li>
-<li>Nel caso di fattura tra privati, per default la fattura ha il CodiceDestinatario impostato a &quot;0000000&quot; (sar� cura del utente impostare in seguito il nuovo campo PECDestinatario o aggiornare il CodiceDestinatario col codice canale del destinatario)</li>
+<li>La fattura restituita da CreateInstance() ha già il campo FormatoTrasmissione correttamente impostato a FPA12 o FPR12.</li>
+<li>Nel caso di fattura tra privati, per default la fattura ha il CodiceDestinatario impostato a &quot;0000000&quot; (sarà cura del utente impostare in seguito il nuovo campo PECDestinatario o aggiornare il CodiceDestinatario col codice canale del destinatario)</li>
 </ul>
-<h2 id="altre-modifiche">Altre modifiche</h2>
+<h4 id="altre-modifiche">Altre modifiche</h4>
 <ul>
 <li>New: attributo xmlns:ds nel root elemento del documento xml.</li>
 <li>New: attributo xmlns:xsi nel root elemento del documento xml.</li>
@@ -737,42 +740,42 @@ compatibilit� con l'API precedente.</p>
 <li>Fix: campo 1.1.4 CodiceDestinatario, adeguate le convalide per tenere conto del FormatoTrasmissione impostato.</li>
 <li>Aggiunta la test suite. Mancano test delle convalide implementate prima della v0.3.</li>
 </ul>
-<h2 id="v026">v0.2.6</h2>
+<h3 id="v026">v0.2.6</h3>
 <p>Rilasciata il 13.1.2017</p>
 <ul>
-<li>Questa release serve solo a segnalare su NuGet che FatturaElettronicaPA � obsoleto.</li>
+<li>Questa release serve solo a segnalare su NuGet che FatturaElettronicaPA è obsoleto.</li>
 <li>Scaricare e installare il package FatturaElettronica v0.3 e successivi da ora in poi.</li>
 </ul>
-<h2 id="v025">v0.2.5</h2>
+<h3 id="v025">v0.2.5</h3>
 <p>Rilasciata il 17.6.2016</p>
 <ul>
 <li>Fix: PrezzoTotale ora prevede tolleranza &quot;accettabile&quot; su seconda cifra
 decimale. Closes #19.</li>
 </ul>
-<h2 id="v024">v0.2.4</h2>
+<h3 id="v024">v0.2.4</h3>
 <p>Rilasciata il 25.5.2016</p>
 <ul>
 <li>Fix: Validazione 00423: calcolo in base a percentuale sconto. Closes #18.</li>
 </ul>
-<h2 id="v023">v0.2.3</h2>
+<h3 id="v023">v0.2.3</h3>
 <p>Rilasciata il 24.5.2016</p>
 <ul>
 <li>Fix: Serializzare valori decimali con piu' di 2 decimali.</li>
 </ul>
-<h2 id="v022">v0.2.2</h2>
+<h3 id="v022">v0.2.2</h3>
 <p>Rilasciata il 24.5.2016</p>
 <ul>
 <li>New: Errore 00400 aggiunto alla convalida.</li>
 <li>New: Errore 00401 aggiunto alla convalida.</li>
 <li>Fix: Errore 00424 non consente aliquota IVA impostata al valore 1.</li>
 </ul>
-<h2 id="v021">v0.2.1</h2>
+<h3 id="v021">v0.2.1</h3>
 <p>Rilasciata il 23.5.2016</p>
 <ul>
 <li>New: Errore 00422, aggiunta tolleranza di 1 Euro come da specifiche PA
 aggiornate.</li>
 </ul>
-<h2 id="v02">v0.2</h2>
+<h3 id="v02">v0.2</h3>
 <p>Rilasciata il 20.5.2016</p>
 <ul>
 <li>New: Errore 00418 aggiunto alla convalida. Addresses #16.</li>
@@ -784,19 +787,19 @@ aggiornate.</li>
 <li>New: Errore 00424 aggiunto alla convalida. Addresses #16.</li>
 <li>New: Errore 00425 aggiunto alla convalida. Addresses #16.</li>
 </ul>
-<h2 id="v018">v0.1.8</h2>
+<h3 id="v018">v0.1.8</h3>
 <p>Rilasciata il 24.8.2015</p>
 <ul>
 <li>Fix: 2.1.8.3 RiferimentoNumeroLinea in deserializzazione manda applicazione in loop. Closes #14.</li>
 </ul>
-<h2 id="v017">v0.1.7</h2>
+<h3 id="v017">v0.1.7</h3>
 <p>Rilasciata il 7.8.2015</p>
 <ul>
 <li>Fix: 2.1.9.4 NumeroColli in deserializzazione si ha errore conversione Nullable. Closes #12.</li>
 <li>Fix: 2.4.2.4 GiorniTerminiPagamento in deserializzazione si ha errore conversione Nullable. Closes #12.</li>
 <li>Upgrade to BusinessObjects v0.1.4</li>
 </ul>
-<h2 id="v016">v0.1.6</h2>
+<h3 id="v016">v0.1.6</h3>
 <p>Rilasciata il 31.7.2015</p>
 <ul>
 <li>Upgrade to BusinessObjects v0.1.3</li>
@@ -808,40 +811,40 @@ aggiornate.</li>
 <li>Fix: 2.1.9.13 DataOraConsegna serializza a MinValue quando non valorizzato. Closes #10.</li>
 <li>Fix: 2.2.1.16.4 RiferimentoData serializza a MinValue quando non valorizzato.</li>
 <li>Fix: 2.4.2.5 DataScadenzaPagamento serializza a MinValue quando non valorizzato. Closes #10.</li>
-<li>Fix: 2.4.2.18 DataLimitePagamentoAnticipato � di tipo errato (decimal? invece di DateTime?).</li>
+<li>Fix: 2.4.2.18 DataLimitePagamentoAnticipato è di tipo errato (decimal? invece di DateTime?).</li>
 </ul>
-<h2 id="v015">v0.1.5</h2>
+<h3 id="v015">v0.1.5</h3>
 <p>Rilasciata il 15.7.2015</p>
 <ul>
 <li>Fix: 2.2.1.10.1 ScontoMaggiorazione.Tipo: convalida valori corretti SC e MG.</li>
 <li>Fix: 2.4.2.2 ModalitaPagamento: non veniva convalidato valore MP05.</li>
 </ul>
-<h2 id="v014">v0.1.4</h2>
+<h3 id="v014">v0.1.4</h3>
 <p>Rilasciata il 14.7.2015</p>
 <ul>
 <li>Upgrade to BusinessObject v0.1.2</li>
 <li>Fix: Convalida di FatturaElettronicaBody. Chiude #4.</li>
 </ul>
-<h2 id="v013">v0.1.3</h2>
+<h3 id="v013">v0.1.3</h3>
 <p>Rilasciata il 7.4.2015</p>
 <ul>
 <li>Upgrade to BusinessObject v0.1.1</li>
 <li>Upgrade to Json.NET v6.0.8</li>
 <li>Fix: ReadXML crash su valori Decimal?</li>
 </ul>
-<h2 id="v012">v0.1.2</h2>
+<h3 id="v012">v0.1.2</h3>
 <p>Rilasciata il 16.2.2015</p>
 <ul>
 <li>Supporto per valori L1, M1, O1, V1 per DatiRitenuta.CausalePagamento.</li>
 <li>Risolto problema col validatore di DatiRitenuta.CausalePagamento.</li>
 <li>Supporto per valore RF19 per campo RegimeFiscale.</li>
 </ul>
-<h2 id="v011">v0.1.1</h2>
+<h3 id="v011">v0.1.1</h3>
 <p>Rilasciata il 16.2.2015</p>
 <ul>
 <li>Supporto per Split Payment.</li>
 </ul>
-<h2 id="v01">v0.1</h2>
+<h3 id="v01">v0.1</h3>
 <p>Rilasciata il 9.2.2015</p>
 <ul>
 <li>Release iniziale.</li>
@@ -849,7 +852,7 @@ aggiornate.</li>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/6d6dfcb9041d9748e3772064c45ca9405c0e3223/docs/changelog.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/42fd311b13e8ba0f1f7173516f46ab861aa5d8dd/docs/changelog.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

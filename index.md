@@ -47,7 +47,7 @@ che per la convalida e il salvataggio della fattura elettronica.
 - [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Forms.svg)](https://badge.fury.io/nu/FatturaElettronica.Forms)
 
 [1]: https://nicolaiarocci.com/fattura-elettronica-open-source/
-[2]: https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.7.1
+[2]: https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.8
 [ni]: https://nicolaiarocci.com
 [ga]: https://gestionaleamica.com
 [bsd]: http://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/LICENSE.txt
