@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/032818bd113f031a44e3961960be4e601a88d071/docs/tutorial.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/9bbcb30c9cf4a0348e8c125481850357772f5936/docs/tutorial.md/#L1">
   </head>
 
   <script type="module">
@@ -302,11 +302,13 @@ namespace DemoApp
 }
 </code></pre>
 <h2 id="limitazioni">Limitazioni</h2>
-<p>In convalida non sono supportati gli errori di tipo <code>3xx</code> in quanto risultato dei riscontri fatti da PA sui propri server.</p>
+<p>In convalida non sono supportati gli errori di tipo <code>3xx</code> in quanto risultato dei riscontri fatti da PA sui propri server.
+In lettura di file firmati, non è possibile leggere con successo file la cui firma digitale o il contenuto siano stati alterati, e si riceverà un SignatureException,
+indipendentemente dall'impostazione del parametro validate nei metodi ReadXMLSigned e CreateInstanceFromXml</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/032818bd113f031a44e3961960be4e601a88d071/docs/tutorial.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/9bbcb30c9cf4a0348e8c125481850357772f5936/docs/tutorial.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
