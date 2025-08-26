@@ -52,9 +52,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "FatturaElettronica.NET/docs/index.md",
       "output": {
