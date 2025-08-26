@@ -35,11 +35,9 @@ che per la convalida e il salvataggio della fattura elettronica.
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.Forms)
 - [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Forms.svg)](https://badge.fury.io/nu/FatturaElettronica.Forms)
 
-## Powered by
-
+## Invoicetronic API
 [<img src="https://raw.githubusercontent.com/FatturaElettronica/FatturaElettronica.NET/master/Artwork/invoicetronic.svg" alt="Invoicetornic logo." width="298">](https://invoicetronic.com)
 
-## Invoicetronic API
 La REST API di riferimento per la fatturazione elettronica in Italia.
 
 Dagli stessi autori di FatturaElettronica.NET, [__Invoicetronic API__][it] ti consente di integrare facilmente app l'intero ciclo di gestione della fattura elettronica: invio, ricezione, applicazione di firme digitali, validazione preventiva, notifiche via webhook, log degli eventi, varie opzioni di upload, integrazione LLM via MCP server e altro, il tutto su una piattaforma moderna che astrae le complessità di SDI/FatturaPA.
