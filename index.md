@@ -6,20 +6,9 @@ le [specifiche del sistema di interscambio][2] della Pubblica Amministrazione
 Italiana.
 
 Fattura Elettronica è un progetto creato da [Nicola Iarocci][ni] per
-[Gestionali Amica][ga] che lo ha rilasciato al pubblico con licenza [open
+[__Invoicetronic__][it] che lo ha rilasciato al pubblico con licenza [open
 source][bsd]. Fattura Elettronica è libero, sviluppato in pubblico, ed aperto
 alla collaborazione di tutti.
-
-### Supporta il progetto
-
-Se usi FatturaElettronica.NET o qualcun altro dei miei progetti in un
-prodotto che genera profitto, buon senso vorrebbe che tu sponsorizzassi la
-mia attività open source. Contribuiresti a far sì che il progetto su cui si
-basa il tuo prodotto rimanga sano, attivo, e mantenuto nel tempo. Avresti
-inoltre, se lo desideri, un premio in visibilità per te o la tua azienda.
-Ogni singola sottoscrizione ha un impatto significante.
-
-Scopri come puoi partecipare sulla mia pagina [GitHub Sponsors][ghs].
 
 ## I progetti di Fattura Elettronica per .NET
 
@@ -46,9 +35,22 @@ che per la convalida e il salvataggio della fattura elettronica.
 - [GitHub (sviluppo, tickets)](https://github.com/FatturaElettronica/FatturaElettronica.Forms)
 - [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Forms.svg)](https://badge.fury.io/nu/FatturaElettronica.Forms)
 
+## Powered by
+
+[<img src="https://raw.githubusercontent.com/FatturaElettronica/FatturaElettronica.NET/master/Artwork/invoicetronic.svg" alt="Invoicetornic logo." width="298">](https://invoicetronic.com)
+
+## Invoicetronic API
+La REST API di riferimento per la fatturazione elettronica in Italia.
+
+Dagli stessi autori di FatturaElettronica.NET, [__Invoicetronic API__][it] ti consente di integrare facilmente app l'intero ciclo di gestione della fattura elettronica: invio, ricezione, applicazione di firme digitali, validazione preventiva, notifiche via webhook, log degli eventi, varie opzioni di upload, integrazione LLM via MCP server e altro, il tutto su una piattaforma moderna che astrae le complessità di SDI/FatturaPA.
+
+Invoicetronic include client SDK open-source per i linguaggi di programmazione più diffusi, comandi CLI per lo scripting, una completa documentazione OpenAPI e un ambiente Sandbox gratuito.
+
+Visita il sito [__Invoicetronic__][it] per saperne di più.
+
 [1]: https://nicolaiarocci.com/fattura-elettronica-open-source/
 [2]: https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.8
 [ni]: https://nicolaiarocci.com
-[ga]: https://gestionaleamica.com
+[it]: https://invoicetronic.com
 [bsd]: http://github.com/FatturaElettronica/FatturaElettronica.NET/blob/master/LICENSE.txt
 [ghs]: https://github.com/sponsors/nicolaiarocci
