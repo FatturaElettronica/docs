@@ -36,7 +36,6 @@ che per la convalida e il salvataggio della fattura elettronica.
 - [![NuGet version](https://badge.fury.io/nu/FatturaElettronica.Forms.svg)](https://badge.fury.io/nu/FatturaElettronica.Forms)
 
 ## Invoicetronic API
-[<img src="https://raw.githubusercontent.com/FatturaElettronica/FatturaElettronica.NET/master/Artwork/invoicetronic.svg" alt="Invoicetornic logo." width="298">](https://invoicetronic.com)
 
 La REST API di riferimento per la fatturazione elettronica in Italia.
 
