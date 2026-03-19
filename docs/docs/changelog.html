@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/145ee7deb9e254f2a036b4856bccda37035e7ed3/docs/changelog.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/e33dbff9fc8bc8c87ec2e9f4cb4700a6fee669d2/docs/changelog.md/#L1">
   </head>
 
   <script type="module">
@@ -79,11 +79,13 @@
 <h1 id="changelog">Changelog</h1>
 
 <h2 id="in-development">In Development</h2>
-<ul>
-<li><em>hic sunt leones</em></li>
-<li></li>
-</ul>
 <h2 id="stable">Stable</h2>
+<h3 id="v-405">v 4.0.5</h3>
+<p>Released on March 19, 2026</p>
+<ul>
+<li>fix: supporto file P7M con ASN.1 UniversalString nei certificati (<a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/442">#442</a>). Quando <code>SignedCms.Decode()</code> fallisce e la validazione firma non è richiesta, il contenuto viene estratto tramite parsing ASN.1 diretto.</li>
+<li>new: test suite migrata a .NET 10.</li>
+</ul>
 <h3 id="v-404">v 4.0.4</h3>
 <p>Released on September 17, 2025</p>
 <ul>
@@ -942,7 +944,7 @@ aggiornate.</li>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/145ee7deb9e254f2a036b4856bccda37035e7ed3/docs/changelog.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/blob/e33dbff9fc8bc8c87ec2e9f4cb4700a6fee669d2/docs/changelog.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
